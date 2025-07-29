@@ -6,7 +6,8 @@ body {
 
 /* Optional: Reduce post title size */
 .page__title {
-  font-size: 1.75rem !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem;
 }
 
 /* Optional: Reduce paragraph text inside posts */
