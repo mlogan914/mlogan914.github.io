@@ -55,6 +55,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Icons here: https://fontawesome.com/search
 author:
   name   : "Melanie Logan"
   avatar : "/assets/images/bio-photo.jpg"
@@ -63,31 +64,19 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/mlogan914/"
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-    #  url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mlogan914"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/"
     - label: "Medium"
-      icon: "fas fa-fw fa-link"
+      icon: "fa-brands fa-medium"
       url: "https://medium.com/@mlogan914"
 
 footer:
   links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-    #  url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/"
-
+      
 defaults:
   # _posts
   - scope:
