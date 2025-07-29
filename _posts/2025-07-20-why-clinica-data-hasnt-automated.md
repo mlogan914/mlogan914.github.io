@@ -10,8 +10,6 @@ tags:
   - Data Engineering
   - Platform Engineering
   - Innovation
-layout: single
-custom_css: "/assets/css/custom.css"
 ---
 
 <div class="notice--info">
