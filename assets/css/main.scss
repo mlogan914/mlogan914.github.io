@@ -28,9 +28,20 @@ $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
-$quote-blue-color           : #1da1f2;
-$primary-cream              : #b2d9f1;
-$cream-color                : #f4f4f4;
+// $quote-blue-color           : #1da1f2;
+// $primary-cream              : #b2d9f1;
+// $cream-color                : #f4f4f4;
+
+$background-color     : #121212;
+$text-color           : #e0e0e0;
+$muted-text-color     : #aaaaaa;
+$header-color         : #ffffff;
+$link-color           : #64b5f6;
+$link-hover-color     : #90caf9;
+$brand-color          : #ffab40;
+
+$quote-blue-color     : #64b5f6;
+$cream-color          : #1e1e1e;
 
 // https://stackoverflow.com/questions/73789719/how-to-override-theme-defaults-for-minimal-mistakes-theme
 // $info-color                 : $quote-blue-color;
@@ -53,6 +64,7 @@ $h-size-3: 1.125em !default;
 $h-size-4: 1.0625em !default;
 $h-size-5: 1.03125em !default;
 $h-size-6: 1em !default;
+
 
 // *************************************************************
 // !! ALL VARIABLE DECLARATIONS MUST BE BEFORE THIS STATEMENT !!
