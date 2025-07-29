@@ -39,6 +39,12 @@ search: true
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
