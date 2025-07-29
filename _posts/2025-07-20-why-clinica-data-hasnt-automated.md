@@ -148,4 +148,4 @@ If we’re thoughtful, we can finally bridge the gap between what’s possible a
 > **Disclaimer:** This article reflects my personal views only and is for informational purposes. It does not represent professional advice or the positions of any past or current employer. No confidential or proprietary information is shared, and I disclaim all liability for how you use its content. Third-party links or tool mentions are not endorsements.
 
 ## Glossary of Acronyms
-https://gist.github.com/mlogan914/f81e616779a5cde4d46644dce24393ae
+<script src="https://gist.github.com/mlogan914/f81e616779a5cde4d46644dce24393ae.js"></script>
