@@ -6,10 +6,11 @@ categories:
 tags:
   - CDISC
   - Clinical Trials
-  - Pharmaceuticlas
-  - Data Enginering
+  - Pharmaceuticals
+  - Data Engineering
   - Platform Engineering
   - Innovation
+layout: single
 custom_css: "/assets/css/custom.css"
 ---
 
