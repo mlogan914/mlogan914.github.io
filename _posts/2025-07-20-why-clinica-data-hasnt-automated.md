@@ -10,6 +10,7 @@ tags:
   - Data Enginering
   - Platform Engineering
   - Innovation
+custom_css: "/assets/css/custom.css"
 ---
 
 ![article image 5](/assets/images/article_image_5.png)
