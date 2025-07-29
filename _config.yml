@@ -87,6 +87,9 @@ author:
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fas fa-fw fa-link"
+      url: "https://medium.com/@mlogan914"
 
 footer:
   links:
