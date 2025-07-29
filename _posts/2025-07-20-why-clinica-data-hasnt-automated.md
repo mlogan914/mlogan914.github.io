@@ -1,12 +1,15 @@
 ---
-title: "Post: Standard"
+title: "We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automated (Yet)"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - CDISC
+  - Clinical Trials
+  - Pharmaceuticlas
+  - Data Enginering
+  - Platform Engineering
+  - Innovation
 ---
 
 ## We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automated (Yet)
