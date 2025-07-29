@@ -1,16 +1,5 @@
-/* Make site-wide font slightly smaller */
-body {
-  font-size: 14px !important;
+body,
+.page__content {
+  font-size: 0.95rem !important; /* Or try 0.9rem for smaller */
   line-height: 1.6;
-}
-
-/* Optional: Reduce post title size */
-.page__title {
-  font-size: 1.5rem !important;
-  margin-bottom: 0.5rem;
-}
-
-/* Optional: Reduce paragraph text inside posts */
-.page__content p {
-  font-size: 0.95em !important;
 }
