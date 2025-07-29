@@ -78,7 +78,7 @@ plugins:
 
 author:
   name   : "Melanie Logan"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/headshot.jpg"
   bio    : "Metadata, automation, and systems thinking at the intersection of clinical research and modern engineering."
   links:
     - label: "Website"
