@@ -14,8 +14,14 @@ layout: single
 custom_css: "/assets/css/custom.css"
 ---
 
-![article image 5](/assets/images/article_image_5.png)
+<div class="notice--info">
+  This article explores how the CDISC Operational Data Model (ODM) — often underutilized — could be the missing infrastructure layer in clinical data automation.
+</div>
 
+---
+
+![article image 5](/assets/images/article_image_5.png)
+<p align="center">Image created by the author</p>
 
 > In clinical data workflows, the technical potential has always outpaced organizational readiness.
 
@@ -28,6 +34,8 @@ And yet, here we are: still copying SDTM specs into Excel, writing thousands of 
 It’s not because we’re lazy. It’s because the people doing the work are under-resourced, overburdened, and deeply siloed — and the systems that support them were never designed for modern workflows.
 
 But now, I think we have an opportubity to change that.
+
+> **NOTE:** For definitions of any unfamiliar terms (e.g., CDISC, SDTM etc.), see the Glossary of Acronyms at the end of this article.
 
 ## The ODM: More Than Metadata, It's Infrastructure
 
@@ -111,6 +119,8 @@ By parsing ODM and pairing it with a reference model (e.g., SDTMIG or CDISC Libr
 - Generate compliant scaffolding for standard domains
 - Allow for lightweight custom overrides where needed
 
+---
+
 ## What I’m Building
 
 I’ve been working on a Blueprint-as-a-Service (BaaS) framework that:
@@ -131,4 +141,11 @@ We can start small. Build modularly. Use the standards we already have.
 
 If we’re thoughtful, we can finally bridge the gap between what’s possible and what’s actually happening.
 
-If you're enjoying the ideas here and want to stay connected, feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/mlogan914/). I’d love to stay in touch with others thinking about the future of clinical data and systems design.
+💬 If you're enjoying the ideas here and want to stay connected, feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/mlogan914/). I’d love to stay in touch with others thinking about the future of clinical data and systems design.
+
+---
+
+> **Disclaimer:** This article reflects my personal views only and is for informational purposes. It does not represent professional advice or the positions of any past or current employer. No confidential or proprietary information is shared, and I disclaim all liability for how you use its content. Third-party links or tool mentions are not endorsements.
+
+## Glossary of Acronyms
+https://gist.github.com/mlogan914/f81e616779a5cde4d46644dce24393ae
