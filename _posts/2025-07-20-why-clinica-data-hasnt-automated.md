@@ -12,7 +12,8 @@ tags:
   - Innovation
 ---
 
-## We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automated (Yet)
+![article image 5](/assets/images/article_image_5.png)
+
 
 > In clinical data workflows, the technical potential has always outpaced organizational readiness.
 
