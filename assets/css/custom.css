@@ -1,5 +1,19 @@
+/* .page__content {
+  max-width: 800px !important;
+  margin: 0 auto;
+}
+
 body,
-.page__content {
-  font-size: 0.95rem !important; /* Or try 0.9rem for smaller */
+.page__content,
+.page__content p {
+  font-size: 16px !important;
   line-height: 1.6;
+} */
+
+body,
+.page__content,
+.page__content p,
+.page__content li {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
 }
