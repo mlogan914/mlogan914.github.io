@@ -18,7 +18,8 @@ tags:
 
 ---
 
-![article image 5](/assets/images/article_image_5.png)
+<img src="/assets/images/article_image_5.png" alt="article image 5" class="center-image" />
+
 <p align="center">Image created by the author</p>
 
 > In clinical data workflows, the technical potential has always outpaced organizational readiness.
