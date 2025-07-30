@@ -4,7 +4,7 @@ title: "About"
 layout: single
 ---
 
-<img src="/assets/images/blocks.jpg" alt="blocks" class="center-image" />
+<img src="/assets/images/blocks.png" alt="blocks" class="center-image" />
 
 I’m Melanie Logan — a data platform engineer building systems for clinical research that reflect not just what’s required, but what’s *possible*.
 
