@@ -33,9 +33,9 @@ And yet, here we are: still copying SDTM specs into Excel, writing thousands of 
 
 It’s not because we’re lazy. It’s because the people doing the work are under-resourced, overburdened, and deeply siloed — and the systems that support them were never designed for modern workflows.
 
-But now, There is opportunity to change that.
+But now, there is opportunity to change that.
 
-> **NOTE:** For definitions of any unfamiliar terms (e.g., CDISC, SDTM etc.), see the Glossary of Acronyms at the end of this article.
+> **NOTE:** For definitions of any unfamiliar terms, see the Glossary of Acronyms at the end of this article.
 
 ## The ODM: More Than Metadata — It’s Infrastructure
 
@@ -43,19 +43,19 @@ Let’s start with the basics.
 
 The CDISC Operational Data Model (ODM-XML) is a standardized format for representing:
 
-- Study design  
-- Case report forms  
-- Item definitions (with datatypes, labels, units, etc.)  
-- Codelists and value-level metadata  
-- Audit trails, versioning, and relationships  
+- Study design.  
+- Case report forms.  
+- Item definitions (with datatypes, labels, units, etc.).  
+- Codelists and value-level metadata.  
+- Audit trails, versioning, and relationships.  
 
-It’s verbose, yes. But it’s also deeply rich — and if we treat it as the source of truth, it can do more than describe a study. It can become the foundation for:
+It’s verbose, yes, but it’s also deeply rich — and if we treat it as the source of truth, it can do more than describe a study. It can become the foundation for:
 
-- Automated SDTM scaffolding  
-- Study-agnostic data transformations  
-- Real-time metadata traceability  
-- Spec-to-code pipelines with overrides  
-- AI-assisted mapping and validation  
+- Automated SDTM scaffolding.  
+- Study-agnostic data transformations.  
+- Real-time metadata traceability.  
+- Spec-to-code pipelines with overrides.  
+- AI-assisted mapping and validation.  
 
 ODM often goes underutilized — not because it lacks depth, but because we’ve never been encouraged to treat it as a functional tool.
 
@@ -79,7 +79,7 @@ From just this, a system could:
 - Scaffold the QS domain’s QSSTRESC variable with appropriate mapping
 - Validate data values against the codelist
 
-But instead of using this directly, we often retype this same information into a spec spreadsheet… and then again into SAS code.
+Instead of using this directly, we often retype this same information into a spec spreadsheet… and then again into SAS code.
 
 ## Why Haven’t We Used the Specs CDISC Gave Us?
 
