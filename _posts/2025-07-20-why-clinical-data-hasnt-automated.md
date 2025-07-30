@@ -33,7 +33,7 @@ And yet, here we are: still copying SDTM specs into Excel, writing thousands of 
 
 It’s not because we’re lazy. It’s because the people doing the work are under-resourced, overburdened, and deeply siloed — and the systems that support them were never designed for modern workflows.
 
-But now, I think we have an opportunity to change that.
+But now, There is opportunity to change that.
 
 > **NOTE:** For definitions of any unfamiliar terms (e.g., CDISC, SDTM etc.), see the Glossary of Acronyms at the end of this article.
 
@@ -57,7 +57,7 @@ It’s verbose, yes. But it’s also deeply rich — and if we treat it as the s
 - Spec-to-code pipelines with overrides  
 - AI-assisted mapping and validation  
 
-Most teams don’t realize how much information is already embedded in an ODM file — simply because we’ve never been encouraged to use it that way.
+ODM often goes underutilized — not because it lacks depth, but because we’ve never been encouraged to treat it as a functional tool.
 
 ##  Example: What’s Actually in an ODM File?
 Here’s a simplified snippet of what you might find in a real-world ODM file:
