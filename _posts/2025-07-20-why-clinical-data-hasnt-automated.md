@@ -103,16 +103,7 @@ Even with ODM in place, many orgs still create and pass around Excel/Word-based 
 The industry sees ODM as a recordkeeping format — something to store, not something to build with. But it was always meant to be both.
 
 ## What If We Used ODM as Intended?
-
-
-| Current State           | Future State (ODM-Driven)          |
-| ----------------------- | ---------------------------------- |
-| Manual SDTM programming | Auto-scaffolded SDTM SQL           |
-| Excel-based specs       | Machine-readable mappings          |
-| Per-study derivations   | Modular overrides                  |
-| No lineage              | Full traceability from CRF to SDTM |
-| Rework across studies   | Reuse with metadata versioning     |
-
+<script src="https://gist.github.com/mlogan914/b73fa337f982f697fa4f55e58279fd72.js"></script>
 
 By parsing ODM and pairing it with a reference model (e.g., SDTMIG or CDISC Library), we can:
 - Automatically match ItemOIDs to SDTM targets
