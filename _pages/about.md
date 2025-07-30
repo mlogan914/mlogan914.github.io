@@ -4,6 +4,8 @@ title: "About"
 layout: single
 ---
 
+<img src="/assets/images/blocks.jpg" alt="blocks" class="center-image" />
+
 I’m Melanie Logan — a data platform engineer building systems for clinical research that reflect not just what’s required, but what’s *possible*.
 
 My work isn’t about automation for the sake of speed. It’s about **reimagining the architecture** that underpins how clinical data is defined, transformed, and delivered — especially in regulated environments that have historically deprioritized reuse, transparency, and modern engineering.
