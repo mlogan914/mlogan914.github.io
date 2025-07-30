@@ -104,6 +104,7 @@ The industry sees ODM as a recordkeeping format — something to store, not some
 
 ## What If We Used ODM as Intended?
 
+
 | Current State           | Future State (ODM-Driven)          |
 | ----------------------- | ---------------------------------- |
 | Manual SDTM programming | Auto-scaffolded SDTM SQL           |
