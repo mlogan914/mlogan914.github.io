@@ -13,8 +13,9 @@ tags:
 ---
 
 <div class="notice--info">
-  Bridging the Gap Between Innovation and Regulation
+  This article explores the challenges of working at the intersection of highly regulated clinical research and fast-moving modern technology. It dives into why innovation often stalls, the realities of vendor lock-in, and why a small group of “bridge builders” are essential for meaningful progress.
 </div>
+
 
 ---
 
@@ -97,7 +98,7 @@ These systems are often *painful* to use: clunky interfaces, rigid workflows, li
 
 > *We pay huge sums for “customizable” tools only to find that customization is priced so high it’s essentially off-limits.*  
 
-And then there’s vendor lock-in — the quiet trap that keeps the cycle going. I’ve seen systems that violate the most basic IT principles — like one database platform that defaulted every new user role to the *highest privilege level* and gave us no way to change it. That’s security 101: least privilege. The “solution”? Require every user to manually downgrade their own access **every** single time they logged in.  
+And then there’s vendor lock-in — the quiet trap that keeps the cycle going. I’ve seen systems that violate the most basic IT principles — like one software vendor's database system that defaulted every new user role to the *highest privilege level* and gave us no way to change it. That’s security 101: least privilege. The “solution”? Require every user to manually downgrade their own access **every** single time they logged in.  
 
 From a security and data integrity perspective, this is a disaster waiting to happen. It guarantees privilege creep, makes audit trails meaningless, and turns basic access control into a gamble on whether someone remembers an extra step.  
 
