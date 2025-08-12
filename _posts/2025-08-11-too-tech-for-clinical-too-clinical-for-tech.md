@@ -13,8 +13,9 @@ tags:
 ---
 
 <div class="notice--info">
-  This article explores the challenges of working at the intersection of highly regulated clinical research and fast-moving modern technology. It dives into why innovation often stalls, the realities of vendor lock-in, and why a small group of “bridge builders” are essential for meaningful progress.
+  This article examines the challenges of working at the intersection of highly regulated clinical research and fast-moving modern technology. It explores why innovation often stalls, the realities of vendor lock-in, and why a small group of “bridge builders” is essential for meaningful progress.
 </div>
+
 
 
 ---
