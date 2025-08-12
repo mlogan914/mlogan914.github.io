@@ -24,9 +24,9 @@ tags:
 
 <p align="center">Image created by the author</p>
 
-I work in a strange in-between place. On one side: the highly regulated, cautiously paced world of clinical research — pharmaceuticals, medical devices, health organizations — where systems like Electronic Data Capture (EDC) keep trials running and regulators happy.
+I work in a strange gray area; on one side: the highly regulated, cautiously paced world of clinical research — pharmaceuticals, medical devices, health organizations — where systems like Electronic Data Capture (EDC) keep trials running and regulators happy;
 
-On the other side: modern tech engineering — cloud platforms, automation, DevOps, platform engineering — where the expectation is rapid iteration, frequent deployment, and “if it’s not automated by next week, what are we even doing?”
+on the other side: modern tech engineering — cloud platforms, automation, DevOps, platform engineering — where the expectation is rapid iteration, frequent deployment, and “if it’s not automated by next week, what are we even doing?”
 
 Somehow, I’m *too tech for clinical* and *too clinical for tech*. And it’s… a little like being bilingual in two dialects that don’t think they need translators.
 
@@ -38,7 +38,7 @@ The clinical research world isn’t opposed to innovation — it’s just heavil
 - Every process must meet regulatory expectations.  
 - The stakes aren’t just uptime and user retention; they’re patient safety and data integrity.  
 
-These are valid reasons. But they also mean that a lot of innovation falls into the “someday, maybe” pile. If your system still works and still passes audits, the incentive to replace it is often very low.
+These are valid reasons. But they also mean that a lot of innovation falls into the “maybe someday” pile. If your system still works and still passes audits, the incentive to replace it is often very low.
 
 ---
 
@@ -54,15 +54,15 @@ When a tech team looks at clinical systems, they often underestimate:
 
 ---
 
-## Why the Middle Matters
-Working in this middle space means understanding two very different sets of priorities — and being able to explain them to each other without either side glazing over.
+## Why the Gray Area Matters
+Working in this gray area means understanding two very different sets of priorities and being able to explain them to each other without either side glazing over.
 
 It’s about:  
 - Translating *“this is how it’s always been done”* into *“here’s how it could work better — without breaking the rules.”*  
 - Showing fast-moving engineers that not all obstacles are “technical debt” — some are guardrails that exist for a reason.  
 - Finding solutions that feel like progress to both sides, even if they define progress differently.  
 
-> *The bridge doesn’t just connect two sides — it’s what keeps progress alive.*  
+> *The bridge doesn’t just connect two sides — it’s what keeps progress alive.* ∞  
 
 The bridge is the only thing that keeps them moving forward.
 
@@ -73,9 +73,10 @@ The bridge is the only thing that keeps them moving forward.
 <img src="/assets/images/void.png" alt="void" class="center-image" />
 
 <p align="center">Image created by the author</p>
+
 Here's the point: being in the middle feels like speaking into the void.  
 
-The clinical side has the power to change but not the will — their incentives are tied to compliance, not transformation. The engineering side has the skills to change things but not the desire — the complexity is too messy, the regulations too restrictive, and the work too far removed from what they know.  
+The clinical side has the power to change but not the will — their incentives are tied to compliance, not transformation. The engineering side has the skills to change things but not the desire, since the complexity is too messy, the regulations too restrictive, and the work is too far removed from what they know.  
 
 That leaves a very small group of people — people like me — who *both* understand the potential and care enough to try.  
 
@@ -86,7 +87,7 @@ It’s a strange kind of isolation. You can see the path forward, but most of th
 ---
 
 ## Why We Keep Choosing Pain Over Progress
-Here’s the truth: many of the problems we face in clinical research already have elegant, battle-tested solutions in the wider tech world. Data ingestion, workflow automation, secure audit trails — these are not unsolved problems. Modern engineering has been tackling them for years, often with open-source or cloud-native tools that are more secure, scalable, and maintainable than what we’re using now.  
+Here’s the truth: many of the problems we face in clinical research already have elegant, battle-tested solutions in the wider tech world. Data ingestion, workflow automation, secure audit trails — these are not unsolved problems. Modern engineering has been tackling them for years, if not decades, often with open-source or cloud-native tools that are more secure, scalable, and maintainable than what we’re using now.  
 
 So why don’t we use them?  
 
@@ -99,9 +100,9 @@ These systems are often *painful* to use: clunky interfaces, rigid workflows, li
 
 > *We pay huge sums for “customizable” tools only to find that customization is priced so high it’s essentially off-limits.*  
 
-And then there’s vendor lock-in — the quiet trap that keeps the cycle going. I’ve seen systems that violate the most basic IT principles — like one software vendor's database system that defaulted every new user role to the *highest privilege level* and gave us no way to change it. That’s security 101: least privilege. The “solution”? Require every user to manually downgrade their own access **every** single time they logged in.  
+And then there’s vendor lock-in — the quiet trap that keeps the cycle going. I’ve seen systems that violate the most basic IT principles — like one software vendor's database system that defaulted every new user role to the *highest privilege level* and gave us no way to change it. That’s security 101: least privilege. The “solution?" Require every user to manually downgrade their own access **every** single time they logged in.  
 
-From a security and data integrity perspective, this is a disaster waiting to happen. It guarantees privilege creep, makes audit trails meaningless, and turns basic access control into a gamble on whether someone remembers an extra step.  
+This is a disaster waiting to happen from a security and data integrity perspective. It guarantees privilege creep, makes audit trails meaningless, and turns basic access control into a gamble on whether someone remembers an extra step.  
 
 > *Does that sound like a solution to you?*  
 
@@ -117,19 +118,19 @@ Until we do that, we’re choosing the comfort of the familiar over the possibil
 
 ---
 
-## The Real Challenge — And Opportunity
-This middle space can be frustrating, but it’s also where the most meaningful change happens. Progress here isn’t about grand overhauls — it’s about finding small, strategic shifts that work for teams.
+## The Real Challenge... And Opportunity
+This gray area can be frustrating, but it’s also where the most meaningful change happens. Progress here isn’t about grand overhauls — it’s about finding small, strategic incramental shifts that work for teams.
 
 It’s where you can:  
 - Spot opportunities to simplify without oversimplifying.  
 - Introduce improvements in a way that feels safe to adopt.  
 - Build trust so that when bigger changes are needed, both sides are ready for them.  
 
-It’s not about moving fast — it’s about moving smart, earning buy-in, and fixing the right things.
+It’s not about moving fast — it’s about moving smart, earning buy-in, and fixing the right things in a secure and compliant manner.
 
 ---
 
-If you’re in this space too, you know the tension — and the silence. But you also know that the people who can bridge these worlds are rare, and necessary.  
+If you’re in this space too, you know the tension — and the silence, but you also know that the people who can bridge these worlds are rare, and necessary.  
 
 We may be few, but we’re the ones who show what’s possible.  
 
