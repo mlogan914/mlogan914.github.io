@@ -60,21 +60,58 @@ It’s about:
 - Showing fast-moving engineers that not all obstacles are “technical debt” — some are guardrails that exist for a reason.  
 - Finding solutions that feel like progress to both sides, even if they define progress differently.  
 
-Without people in this role, projects either stall in endless debates or crash into reality halfway through. The bridge in the middle is what keeps forward motion possible.
+> *The bridge doesn’t just connect two sides — it’s what keeps progress alive.*  
+
+The bridge is the only thing that keeps them moving forward.
 
 ---
 
 ## The Part No One Talks About
-<img src="/assets/images/void.png" alt="void" class="center-image" />
-<p align="center">Image created by the author</p>
 
-Being in the middle often feels like speaking into the void.  
+<img src="/assets/images/void.png" alt="void" class="center-image" />
+
+<p align="center">Image created by the author</p>
+Here's the point: being in the middle feels like speaking into the void.  
 
 The clinical side has the power to change but not the will — their incentives are tied to compliance, not transformation. The engineering side has the skills to change things but not the desire — the complexity is too messy, the regulations too restrictive, and the work too far removed from what they know.  
 
-That leaves a very small group of people — people like me — who *both* understand the potential and *care enough* to try.  
+That leaves a very small group of people — people like me — who *both* understand the potential and care enough to try.  
 
-It’s a strange kind of isolation. You can see the path forward, but most of the audience you’re trying to reach is either uninterested, overwhelmed, or incentivized to keep things exactly as they are. And yet… if you don’t try to bridge the gap, nothing changes at all.
+It’s a strange kind of isolation. You can see the path forward, but most of the audience you’re trying to reach is either uninterested, overwhelmed, or incentivized to keep things exactly as they are.  
+
+> *If you don’t try to bridge the gap, nothing changes at all.*
+
+---
+
+## Why We Keep Choosing Pain Over Progress
+Here’s the truth: many of the problems we face in clinical research already have elegant, battle-tested solutions in the wider tech world. Data ingestion, workflow automation, secure audit trails — these are not unsolved problems. Modern engineering has been tackling them for years, often with open-source or cloud-native tools that are more secure, scalable, and maintainable than what we’re using now.  
+
+So why don’t we use them?  
+
+Partly because the vendor ecosystem around pharma and regulated healthcare is built for one primary goal: meeting regulatory requirements. That’s important — critical, even — but it’s not the same as building with modern engineering or security best practices in mind. The result is software that passes audits but feels like it was designed in another decade… because it was.  
+
+These systems are often *painful* to use: clunky interfaces, rigid workflows, limited integration capabilities, and an overall sense that the user experience was an afterthought. And yet, they stay entrenched because:  
+- They already “work” for compliance.  
+- Switching is seen as high risk.  
+- The culture rewards stability over experimentation.  
+
+> *We pay huge sums for “customizable” tools only to find that customization is priced so high it’s essentially off-limits.*  
+
+And then there’s vendor lock-in — the quiet trap that keeps the cycle going. I’ve seen systems that violate the most basic IT principles — like one database platform that defaulted every new user role to the *highest privilege level* and gave us no way to change it. That’s security 101: least privilege. The “solution”? Require every user to manually downgrade their own access **every** single time they logged in.  
+
+From a security and data integrity perspective, this is a disaster waiting to happen. It guarantees privilege creep, makes audit trails meaningless, and turns basic access control into a gamble on whether someone remembers an extra step.  
+
+> *Does that sound like a solution to you?*  
+
+So instead of getting the flexible, industry-specific tool we paid for, we’re left paying extra for workarounds just to make it usable at all.  
+
+> *Are we paying for a solution, or for the privilege of staying stuck?*  
+
+The irony is that the safest path forward may not be to reinvent from scratch, but to **adapt proven, modern systems** — the ones already used successfully in other industries — and apply them with the same rigor we use to validate any new clinical technology.  
+
+Until we do that, we’re choosing the comfort of the familiar over the possibility of the better.  
+
+> *That choice has a cost, even if it’s not measured in revenue or patient safety — it’s measured in the day-to-day frustration of the people trying to actually get the work done.*
 
 ---
 
@@ -84,13 +121,18 @@ This middle space can be frustrating, but it’s also where the most meaningful 
 It’s where you can:  
 - Spot opportunities to simplify without oversimplifying.  
 - Introduce improvements in a way that feels safe to adopt.  
-- Build trust so that when bigger changes are needed, teams are ready for them.  
+- Build trust so that when bigger changes are needed, both sides are ready for them.  
 
-It’s not about moving fast — it’s about moving smart, earning buy-in, and fixing the right things.
+It’s not about moving fast and breaking things — it’s about moving smart, earning buy-in, and fixing the right things at the right time.
 
 ---
 
 If you’re in this space too, you know the tension — and the silence. But you also know that the people who can bridge these worlds are rare, and necessary.  
+
+We may be few, but we’re the ones who show what’s possible.  
+
+> *That’s what being too tech for clinical and too clinical for tech is all about.*
+
 
 We may be few, but we’re the ones who show what’s possible. And if you ask me, that’s what being *too tech for clinical and too clinical for tech* is all about.
 
@@ -99,6 +141,3 @@ We may be few, but we’re the ones who show what’s possible. And if you ask m
 ---
 
 > **Disclaimer:** This article reflects my personal views only and is for informational purposes. It does not represent professional advice or the positions of any past or current employer. No confidential or proprietary information is shared, and I disclaim all liability for how you use its content. Third-party links or tool mentions are not endorsements.
-
-## Glossary of Acronyms
-<script src="https://gist.github.com/mlogan914/f81e616779a5cde4d46644dce24393ae.js"></script>
