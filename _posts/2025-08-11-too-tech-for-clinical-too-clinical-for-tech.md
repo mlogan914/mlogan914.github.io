@@ -4,9 +4,11 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - CDISC
+  - Clinical Data
   - Clinical Trials
   - Pharmaceuticals
+  - Medical Devices
+  - Life Sceinces
   - Data Engineering
   - Platform Engineering
   - Innovation
