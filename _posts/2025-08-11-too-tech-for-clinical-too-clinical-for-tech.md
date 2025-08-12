@@ -118,14 +118,14 @@ Until we do that, we’re choosing the comfort of the familiar over the possibil
 ---
 
 ## The Real Challenge — And Opportunity
-This middle space can be frustrating, but it’s also where the most meaningful change happens. Progress here isn’t about grand overhauls — it’s about finding small, strategic shifts that work for *both* sides.
+This middle space can be frustrating, but it’s also where the most meaningful change happens. Progress here isn’t about grand overhauls — it’s about finding small, strategic shifts that work for teams.
 
 It’s where you can:  
 - Spot opportunities to simplify without oversimplifying.  
 - Introduce improvements in a way that feels safe to adopt.  
 - Build trust so that when bigger changes are needed, both sides are ready for them.  
 
-It’s not about moving fast and breaking things — it’s about moving smart, earning buy-in, and fixing the right things at the right time.
+It’s not about moving fast — it’s about moving smart, earning buy-in, and fixing the right things.
 
 ---
 
@@ -134,9 +134,6 @@ If you’re in this space too, you know the tension — and the silence. But you
 We may be few, but we’re the ones who show what’s possible.  
 
 > *That’s what being too tech for clinical and too clinical for tech is all about.*
-
-
-We may be few, but we’re the ones who show what’s possible. And if you ask me, that’s what being *too tech for clinical and too clinical for tech* is all about.
 
 💬 If you're enjoying the ideas here and want to stay connected, feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/mlogan914/). I’d love to stay in touch with others thinking about the future of clinical data and systems design.
 
