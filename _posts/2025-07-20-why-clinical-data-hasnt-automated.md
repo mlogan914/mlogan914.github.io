@@ -2,16 +2,13 @@
 title: "We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automated (Yet)"
 excerpt_separator: "<!--more-->"
 categories:
-  - Thought Leadership
   - Clinical Data Modernization
-  - Platform Engineering
 tags:
   - metadata-as-infrastructure
   - automation
   - CDISC
   - SDTM
   - ODM
-  - platform-engineering
   - industry-perspectives
   - systems-thinking
 

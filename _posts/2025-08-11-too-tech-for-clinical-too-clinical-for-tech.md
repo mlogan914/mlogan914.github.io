@@ -7,7 +7,6 @@ categories:
 tags:
   - industry-perspectives
   - modernization
-  - platform-engineering
   - industry-culture
   - systems-thinking
 
