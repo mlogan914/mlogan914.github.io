@@ -2,16 +2,15 @@
 title: "Too Tech for Clinical, Too Clinical for Tech"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Thought Leadership
+  - Clinical Data Modernization
 tags:
-  - Clinical Data
-  - Clinical Trials
-  - Pharmaceuticals
-  - Medical Devices
-  - Life Sceinces
-  - Data Engineering
-  - Platform Engineering
-  - Innovation
+  - industry-perspectives
+  - modernization
+  - platform-engineering
+  - industry-culture
+  - systems-thinking
+
 ---
 
 <div class="notice--info">

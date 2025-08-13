@@ -2,14 +2,19 @@
 title: "We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automated (Yet)"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
-  - CDISC
-  - Clinical Trials
-  - Pharmaceuticals
-  - Data Engineering
+  - Thought Leadership
+  - Clinical Data Modernization
   - Platform Engineering
-  - Innovation
+tags:
+  - metadata-as-infrastructure
+  - automation
+  - CDISC
+  - SDTM
+  - ODM
+  - platform-engineering
+  - industry-perspectives
+  - systems-thinking
+
 ---
 
 <div class="notice--info">
