@@ -15,6 +15,10 @@ tags:
     Many regulated data teams still work without true pipelines, relying on manual, study-by-study transformations. Learn how combining data engineering with platform engineering can create scalable, compliant, and reusable workflows across studies and indications.
 </div>
 
+<img src="/assets/images/data_platform.png" alt="data platform" class="center-image" />
+
+<p align="center">Image created by the author</p>
+
 ---
 If you work in a regulated data environment — pharma, med devices, clinical research — chances are you’ve heard a version of this sentence:
 
