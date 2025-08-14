@@ -63,10 +63,10 @@ In most pharma organizations today, this kind of end-to-end pipeline doesn’t e
 Platform engineering is the practice of designing and maintaining shared tools, services, and infrastructure so that teams can deliver value **reliably, securely, and at scale**. In the context of data teams, that means creating the **systems and automation** that turn one-off pipelines into **reusable, self-service workflows**.  
 
 Instead of building a study-specific ETL flow from scratch every time, platform engineering provides the **foundation**:  
-- Standardized, compliant environments for development and execution  
-- Orchestrated workflows that connect ingestion, transformation, and delivery  
-- Automated testing so changes are safe and repeatable  
-- Centralized logging, monitoring, and audit trails for transparency  
+- Standardized, compliant environments for development and execution.  
+- Orchestrated workflows that connect ingestion, transformation, and delivery.  
+- Automated testing so changes are safe and repeatable.  
+- Centralized logging, monitoring, and audit trails for transparency.  
 
 💡 Example: If Snowflake were your data warehouse, Infrastructure as Code could provision RAW, DEV, and PROD environments from the same template — each with consistent security, access controls, and monitoring.
 
