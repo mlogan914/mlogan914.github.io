@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Melanie Logan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data Platform Engineer | Systems Thinker. Architect. Optimizer."
+  bio    : "Data Platform Engineer. Systems Thinker. Architect. Optimizer."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
