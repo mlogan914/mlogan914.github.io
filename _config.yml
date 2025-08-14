@@ -16,7 +16,7 @@
 title: melanie.module
 email: melanie.module@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Data Platform Engineer | Engineer. Architect. Optimizer.
+  Metadata, automation, and systems thinking at the intersection of clinical research and modern engineering.
 #twitter_username: username
 github_username: mlogan914
 minimal_mistakes_skin: neon
@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Melanie Logan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Metadata, automation, and systems thinking at the intersection of clinical research and modern engineering."
+  bio    : "Data Platform Engineer | Systems Thinker. Architect. Optimizer."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
