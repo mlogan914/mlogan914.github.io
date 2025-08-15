@@ -150,6 +150,7 @@ A platform approach can:
 ## Why now?
 
 Platform engineering is still taking shape — even in mainstream software.  
+
 For data teams in regulated industries, it’s almost uncharted territory.
 
 That’s exactly why the timing matters.  
@@ -160,7 +161,9 @@ If we keep designing systems to match how things were done yesterday, we’ll ne
 
 ## Closing thought  
 
-Platform engineering shifts your focus from delivering a single project to building the capability to deliver any project well. If you’ve ever thought, “There has to be a better way,” you’re probably right — and the first step might be thinking like a platform engineer.
+While platform engineering varies by industry, platform thinking shifts the focus from delivering a single project to building the capability to deliver any project well.  
+
+If you’ve ever thought, “There has to be a better way” — you’re probably right. The first step might be to start thinking like a platform engineer.
 
 ---
 
