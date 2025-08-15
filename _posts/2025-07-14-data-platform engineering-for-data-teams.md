@@ -53,6 +53,24 @@ In a true data engineering model, all three ETL steps — ingestion, transformat
 
 In most pharma organizations today, this kind of end-to-end pipeline doesn’t exist. Instead, we rebuild the transform logic for every study and rely on manual, disconnected processes for ingestion and delivery.
 
+
+>💡 **Example**  
+Imagine your organization uses **Snowflake** as its central data warehouse.  
+>
+> <img src="/assets/diagrams/pipeline_example.png" alt="pipeline example" class="center-image" />
+> <p align="center">Image created by the author</p>
+>
+> 1. A data manager exports cleaned EDC data and loads it into the **RAW** schema in Snowflake - This can be manual or batch automated.
+> 2. That load event **automatically** triggers a dbt (data build tool) pipeline that applies SDTM and ADaM transformations.  
+> 3. Once the transformations pass **automated** compliance checks, the outputs are written to a **PROD** schema in Snowflake.  
+>
+> From there, authorized teams can connect directly to the PROD datasets:  
+> - **Statisticians** run analyses without waiting for manual dataset deliveries.  
+> - **Medical monitors** can view custom dashboards showing patient progress, safety metrics, and study KPIs.  
+> - **Other stakeholders** can access the same trusted, validated data for their own tools and reporting needs.  
+>
+> In this model:  
+> - **Data engineering** builds the automated flow from RAW → dbt → PROD, plus the connections to analytics tools + dashboards.
 ---
 
 ## What is platform engineering?
@@ -60,21 +78,37 @@ In most pharma organizations today, this kind of end-to-end pipeline doesn’t e
 
 <p align="center">Image created by the author</p>
 
-Platform engineering is the practice of designing and maintaining shared tools, services, and infrastructure so that teams can deliver value **reliably, securely, and at scale**. In the context of data teams, that means creating the **systems and automation** that turn one-off pipelines into **reusable, self-service workflows**.  
+> *"In a platform engineering approach, one or more teams—often referred to as the platform engineering team or the platform team—build a comprehensive set of shared tools and services (aka “the platform”) to help development teams develop, deploy, and operate cloud infrastructure on a self-service basis. This includes cloud infrastructure, container orchestration platforms, databases, networking, monitoring, code repositories, and deployment pipelines."* — Pulumi
 
 Instead of building a study-specific ETL flow from scratch every time, platform engineering provides the **foundation**:  
-- Standardized, compliant environments for development and execution.  
-- Orchestrated workflows that connect ingestion, transformation, and delivery.  
-- Automated testing so changes are safe and repeatable.  
-- Centralized logging, monitoring, and audit trails for transparency.  
+- Standardized, compliant environments for development and execution  
+- Orchestrated workflows that connect ingestion, transformation, and delivery  
+- Automated testing so changes are safe and repeatable  
+- Centralized logging, monitoring, and audit trails for transparency  
 
-💡 Example: If Snowflake were your data warehouse, Infrastructure as Code could provision RAW, DEV, and PROD environments from the same template — each with consistent security, access controls, and monitoring.
+💡 **Example**: The platform team manages the infrastructure that makes the work possible — IaC templates to provision RAW, DEV, and PROD schemas in Snowflake, standardized access controls, logging, monitoring, and compliance settings.
 
-Think of it like this: data engineering defines *what* to move and transform; platform engineering provides the operating model and tooling to make it consistent, compliant, and scalable across studies.  
+### How this changes the statistical programmer’s role
 
-It’s not the end product — it’s the framework for how the work gets done. In regulated industries, that framework enables both governance and agility.  
+In a traditional setup, statistical programmers often write study-specific SAS programs to transform raw EDC data into SDTM, building much of the process from scratch each time.  
 
-> Platform engineering isn’t a single system to buy or install — it’s a deliberate way of working.
+In a platform-enabled pipeline, SDTM creation is no longer a one-off SAS exercise. Instead, the domain-specific transformation logic lives in **maintainable, version-controlled models** (e.g., dbt models) that programmers refine and reuse across studies.  
+
+The shift looks like this:  
+- **Before**: Procedural programming in SAS to generate SDTM datasets for each study.  
+- **Now**: Maintaining and improving standardized transformation models that automatically produce SDTM datasets when new data lands — while still applying deep clinical data expertise to ensure accuracy and compliance.  
+
+SAS may still be used, especially for regulatory deliverables or when required by sponsors, but the focus moves upstream. Programmers spend more time ensuring the transformation layer is correct and less time reinventing the wheel for each study.  
+
+TFL (Tables, Figures, Listings) creation remains a core deliverable, so statistical programmers continue to work closely with biostatistics — now with more reliable, reusable SDTM inputs feeding their analysis work.  
+
+Think of it like this:  
+- **Data engineering** defines *what* to move and transform.  
+- **Platform engineering** defines *how* it gets done — providing the operating model and **blueprints** to make it consistent, compliant, and scalable across studies.  
+
+> **Note:** A “platform” here isn’t a single system to buy or install. It’s a deliberate way of working — an internal, self-service workflow.  
+>
+> For example, when starting a new study, a statistical programmer might request a Snowflake pipeline environment setup (RAW, DEV, PROD) so the data manager can begin loading data from the EDC into RAW. This would be deployed using the IaC managed by the platform team.
 
 ---
 
@@ -89,6 +123,7 @@ In regulated industries, this intersection is where the real transformation happ
 - Platform engineering ensures those flows are consistent, governed, and repeatable across studies and therapeutic areas.  
 
 When combined, the result is an **orchestrated, self-service data platform** where ingestion, transformation, and delivery are connected into a single, automated process.  
+
 Instead of manually rebuilding the same logic for each study, teams can focus on solving new problems — confident that the platform handles compliance, quality, and delivery.
 
 ---
@@ -109,118 +144,13 @@ A platform approach can:
 
 ---
 
-## A practical example
-
-It’s one thing to talk about data and platform engineering in theory — but what does it actually look like in practice?  
-
-Here’s a simplified end-to-end flow using a pharma-friendly example inspired by my own **Blueprint-as-a-Service (BaaS)** project.
-
----
-
-### Before vs. After
-
-<script src="https://gist.github.com/mlogan914/23076832dcbf5cf1b4923a6749c52c3c.js"></script>
-
----
-
-### Future-State Example: EDC → Warehouse → Submission-Ready Data
-
-1. **Ingestion (Extract)**  
-   - Clinical trial data is automatically pulled from the EDC at scheduled intervals.  
-   - Data lands in a **central RAW data warehouse**, organized by indication and study.  
-
-2. **Metadata-Driven Transformation (Transform)**  
-   - A **metadata scaffolding service** (like the BaaS project) reads trial metadata from the RAW warehouse.  
-   - It auto-generates standardized SDTM transformation templates based on controlled terminology and mapping rules.  
-   - Any custom derivations or study-specific rules are injected automatically from a central library.  
-
-3. **Continuous Compliance**  
-   - As data flows through transformation jobs, automated checks run to validate SDTM compliance and internal data quality rules.  
-   - Errors are flagged immediately, not weeks later.  
-
-4. **Delivery (Load)**  
-   - Finalized SDTM and ADaM datasets are written to a secure **PROD warehouse**.  
-   - Access controls ensure that only authorized users (e.g., statisticians, regulators, study teams) can retrieve them.  
-   - Downstream consumers — from analysis tools to submission systems — can connect directly to this trusted PROD source.  
-
----
-
-### Why it works
-
-This model replaces fragmented, study-specific processes with a **reusable, orchestrated, and governed pipeline**. 
-
-Instead of re-coding transformations for every study and moving files manually, teams get:  
-
-- **Faster delivery** through automation  
-- **Higher quality** thanks to built-in compliance checks  
-- **Better reuse** by centralizing transformation logic and metadata  
-- **Greater transparency** with shared, version-controlled workflows  
-
----
-
-Here’s how that future-state model could look in practice.
-
-*Diagram placeholder:*  
-```
-DETAILED FLOW (EDC → RAW → BaaS → SDTM/ADaM → PROD → Consumers)
-
-            ┌──────────────────────┐
-            │  EDC (source system) │
-            └──────────┬───────────┘
-                       │ 1) Scheduled extract (API/flat files)
-                       │
-               ┌───────▼────────────────────────────────────────────┐
-               │           RAW DATA WAREHOUSE (secure)              │
-               │  • Organized by therapeutic area / study           │
-               │  • Immutable, auditable landing zone               │
-               └───────┬────────────────────────────────────────────┘
-                       │ 2) Ingestion complete → event/cron triggers pipeline
-                       │
-        ┌──────────────▼────────────────┐
-        │   METADATA SCAFFOLDING (BaaS) │
-        │   • Read ODM/CDISC metadata   │
-        │   • Generate dbt/Jinja models │
-        │   • Inject standard derivs    │
-        └──────────────┬────────────────┘
-                       │ 3) Orchestrated transform jobs (ETL-T)
-                       │
-     ┌─────────────────▼───────────────────┐
-     │ TRANSFORMATION & VALIDATION LAYER   │
-     │ • Run SDTM mappings (dbt/SQL)       │
-     │ • Apply custom overrides            │
-     │ • Continuous compliance checks:     │
-     │   - SDTM IG rules                   │
-     │   - Terminology checks              │
-     │   - Data quality tests              │
-     └─────────────────┬───────────────────┘
-                       │ 4) Publish validated outputs
-                       │
-            ┌──────────▼───────────┐
-            │   PROD DATA WAREHOUSE│
-            │   • SDTM / ADaM      │
-            │   • Versioned, ACLs  │
-            └──────────┬───────────┘
-                       │ 5) Role-based access (RBAC)
-                       │
-  ┌──────────────┬─────▼────────┬───────────────┬───────────────┐
-  │ Statisticians│ Med Monitors │ Submissions   │ BI/Analytics  │
-  │ (analysis)   │ (review)     │ (regulatory)  │ (dashboards)  │
-  └──────────────┴──────────────┴───────────────┴───────────────┘
-```
-
-Notes:
-- Orchestration (Airflow, Dagster, etc.) coordinates steps 2–4.
-- Logging/monitoring trace each run for auditability.
-- Same framework reused across studies; only metadata/configs change.
-
----
-
 ## Why now?
 
 Platform engineering is still taking shape — even in mainstream software.  
 For data teams in regulated industries, it’s almost uncharted territory.
 
 That’s exactly why the timing matters.  
+
 If we keep designing systems to match how things were done yesterday, we’ll never be ready for tomorrow — whether that’s real-time submissions, AI-assisted compliance, or simply giving teams tools that remove the busywork and let them focus on higher-value work.
 
 ---
