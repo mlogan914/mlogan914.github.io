@@ -58,11 +58,13 @@ In most pharma organizations today, this kind of end-to-end pipeline doesn’t e
 Imagine your organization uses **Snowflake** as its central data warehouse.  
 
 <img src="/assets/diagrams/pipeline_example.png" alt="pipeline example" class="center-image" />
- <p align="center">Example ETL pipeline example using Snowflake and dbt (data build tool) </p>
+ <p align="center">Example ETL pipeline using Snowflake and dbt (data build tool) </p>
 
-1. A data manager exports cleaned EDC data and loads it into the **RAW** schema in Snowflake - This can be manual or batch automated.
-2. That load event **automatically** triggers a dbt (data build tool) pipeline that applies SDTM and ADaM transformations.  
-3. Once the transformations pass **automated** compliance checks, the outputs are written to a **PROD** schema in Snowflake.  
+**STEP 1**. A data manager exports cleaned EDC data and loads it into the **RAW** schema in Snowflake - This can be manual or batch automated.
+
+**STEP 2**. That load event **automatically** triggers a dbt (data build tool) pipeline that applies SDTM and ADaM transformations.  
+
+**STEP 3**. Once the transformations pass **automated** compliance checks, the outputs are written to a **PROD** schema in Snowflake.  
 
 From there, authorized teams can connect directly to the PROD datasets:  
 - **Statisticians** run analyses without waiting for manual dataset deliveries.  
