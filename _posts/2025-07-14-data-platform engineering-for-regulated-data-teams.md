@@ -25,9 +25,9 @@ If you work in a regulated data environment — pharma, med devices, clinical re
 > “That’s just how it’s always been done.”
 
 In practice, that often means:  
-- Data ingestion, transformation, and delivery handled separately by different teams using different tools — with no central data warehouse or shared infrastructure  
-- Manual handoffs between roles that slow delivery and increase risk  
-- Compliance checks treated as a separate, end-of-process chore instead of something built into the workflow  
+- Data ingestion, transformation, and delivery handled separately by different teams using different tools — with no central data warehouse or shared infrastructure. 
+- Manual handoffs between roles that slow delivery and increase risk.  
+- Compliance checks treated as a separate, end-of-process chore instead of something built into the workflow.  
 
 Automation has helped in some areas, but the underlying patterns haven’t changed. Teams are still solving the same problems repeatedly, often in isolation and with little code reuse or standardization. When code is reused, it’s often copied manually from one study to the next.
 
