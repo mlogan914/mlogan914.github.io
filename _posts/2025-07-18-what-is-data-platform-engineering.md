@@ -19,7 +19,7 @@ tags:
 <p align="center">Image created by the author</p>
 
 
-Technology loves its buzzwords, and sometimes the lines between them blur. **“Data engineering,” “platform engineering,” and now “data platform engineering”** are three terms you’ll see everywhere — often used interchangeably. But they’re not the same thing.  
+Technology loves its buzzwords, and sometimes the lines between them blur. **“Data engineering,” “platform engineering,” and now “data platform engineering”** are three terms you’ll see everywhere — often used interchangeably, but they’re not the same thing.  
 
 Here’s a simple breakdown.  
 
