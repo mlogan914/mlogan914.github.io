@@ -136,6 +136,10 @@ When combined, the result is an **orchestrated, self-service data platform** whe
 
 Instead of manually rebuilding the same logic for each study, teams can focus on solving new problems — confident that the platform handles compliance, quality, and delivery.
 
+If you’re still unclear on these concepts, refer to my explainer:  
+👉 [What Is Data Platform Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/)
+
+
 ---
 
 ## Why this matters in regulated industries
