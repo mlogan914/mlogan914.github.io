@@ -2,8 +2,7 @@
 title: "From Pipelines to Platforms: Modern Engineering for Regulated Data Teams"
 excerpt_separator: "<!--more-->"
 categories:
-  - Data Engineering
-  - Platform Engineering
+  - Data & Platform Engineering
 tags:
   - data-engineering
   - platform-engineering
@@ -60,11 +59,11 @@ Imagine your organization uses **Snowflake** as its central data warehouse.
 <img src="/assets/diagrams/pipeline_example.png" alt="pipeline example" class="center-image" />
  <p align="center">Example ETL pipeline using Snowflake and dbt (data build tool) </p>
 
-**STEP 1**. A data manager exports cleaned EDC data and loads it into the **RAW** schema in Snowflake - This can be manual or batch automated.
+**1. EXTRACT:** A data manager exports cleaned EDC data and loads it into the **RAW** schema in Snowflake - This can be manual or batch automated.
 
-**STEP 2**. That load event **automatically** triggers a dbt (data build tool) pipeline that applies SDTM and ADaM transformations.  
+**2. TRANSFORM:** That load event **automatically** triggers a dbt (data build tool) pipeline that applies SDTM and ADaM transformations.  
 
-**STEP 3**. Once the transformations pass **automated** compliance checks, the outputs are written to a **PROD** schema in Snowflake.  
+**3. LOAD:** Once the transformations pass **automated** compliance checks, the outputs are written to a **PROD** schema in Snowflake.  
 
 From there, authorized teams can connect directly to the PROD datasets:  
 - **Statisticians** run analyses without waiting for manual dataset deliveries.  
@@ -83,35 +82,43 @@ In this model:
 
 > *"In a platform engineering approach, one or more teams—often referred to as the platform engineering team or the platform team—build a comprehensive set of shared tools and services (aka “the platform”) to help development teams develop, deploy, and operate cloud infrastructure on a self-service basis. This includes cloud infrastructure, container orchestration platforms, databases, networking, monitoring, code repositories, and deployment pipelines."* — Pulumi
 
-Instead of building a study-specific ETL flow from scratch every time, platform engineering provides the **foundation**:  
-- Standardized, compliant environments for development and execution  
-- Orchestrated workflows that connect ingestion, transformation, and delivery  
-- Automated testing so changes are safe and repeatable  
-- Centralized logging, monitoring, and audit trails for transparency  
+At this point, you might be thinking: *“Cloud infrastructure won’t work here.”*  
 
-💡 **Example**: The platform team manages the infrastructure that makes the work possible — IaC templates to provision RAW, DEV, and PROD schemas in Snowflake, standardized access controls, logging, monitoring, and compliance settings.
+That concern is common in clinical research, regulated pharma, and medical devices — and it’s exactly the kind of mindset I addressed in [this earlier article](https://medium.com/@mlogan914/that-wont-work-here-the-excuses-holding-back-clinical-data-innovation-b01f71495670).  
 
-### How this changes the statistical programmer’s role
 
-In a traditional setup, statistical programmers often write study-specific SAS programs to transform raw EDC data into SDTM, building much of the process from scratch each time.  
+**Platform engineering for data teams** is about *building the foundations that let data work scale safely and consistently.*  
 
-In a platform-enabled pipeline, SDTM creation is no longer a one-off SAS exercise. Instead, the domain-specific transformation logic lives in **maintainable, version-controlled models** (e.g., dbt models) that programmers refine and reuse across studies.  
+Rather than every team adapting tools differently for each study, the platform team provides standardized, self-service building blocks:
+
+- **Infrastructure as Code (IaC)** to provision environments (e.g., RAW, DEV, PROD schemas in Snowflake).  
+- **Guardrails** like access controls, logging, monitoring, and compliance baked in from the start.  
+- **Reusable workflows** that handle repetitive steps (e.g., data ingestion, testing, transformation pipelines).  
+
+> 💡 **Note:** A "*platform*" in this case, isn’t a product you buy — it’s a **deliberate way of working**.  
+
+For example, when starting a new study, a statistical programmer might self-service request a Snowflake environment setup (RAW/DEV/PROD), allowing the data manager to begin loading data from the EDC into RAW.  
+
+Instead of opening tickets, the programmer triggers an automated workflow (via portal, CLI, or API) that provisions the schemas with access controls and compliance baked in.  
+
+All of this is deployed through the IaC templates managed by the platform team — ensuring consistency, compliance, and speed without extra manual setup.  
+
+### How This Changes the Statistical Programmer’s Role
+
+Traditionally, statistical programmers wrote **study-specific SAS programs** to transform raw EDC data into SDTM — rebuilding much of the process from scratch for every study.  
+
+With a **platform-enabled pipeline**, SDTM creation is no longer a one-off coding exercise. The domain-specific transformation logic now lives in **maintainable, version-controlled models** (e.g., dbt models) that can be refined and reused across studies.  
 
 The shift looks like this:  
-- **Before**: Procedural programming in SAS to generate SDTM datasets for each study.  
-- **Now**: Maintaining and improving standardized transformation models that automatically produce SDTM datasets when new data lands — while still applying deep clinical data expertise to ensure accuracy and compliance.  
+- **Before:** Procedural SAS code written study by study to generate SDTM datasets.  
+- **Now:** Stewarding standardized transformation models that automatically produce SDTM datasets when new data lands — while focusing their time on high-value work such as creating TFLs (Tables, Figures, Listings) and delivering custom or ad-hoc outputs for study teams and biostatistics.  
 
-SAS may still be used, especially for regulatory deliverables or when required by sponsors, but the focus moves upstream. Programmers spend more time ensuring the transformation layer is correct and less time reinventing the wheel for each study.  
+SAS still plays a role, especially for regulatory deliverables or sponsor requirements. But the emphasis shifts: programmers now spend less time on re-coding transformations and more time on TFLs, exploratory analyses and reports, and domain-driven data requests.  
 
-TFL (Tables, Figures, Listings) creation remains a core deliverable, so statistical programmers continue to work closely with biostatistics — now with more reliable, reusable SDTM inputs feeding their analysis work.  
-
-Think of it like this:  
-- **Data engineering** defines *what* to move and transform.  
-- **Platform engineering** defines *how* it gets done — providing the operating model and **blueprints** to make it consistent, compliant, and scalable across studies.  
-
-> **Note:** A “platform” here isn’t a single system to buy or install. It’s a deliberate way of working — an internal, self-service workflow.  
->
-> For example, when starting a new study, a statistical programmer might request a Snowflake pipeline environment setup (RAW, DEV, PROD) so the data manager can begin loading data from the EDC into RAW. This would be deployed using the IaC managed by the platform team.
+> 💡 **Think of it like this:**  
+> - **Data engineering** defines *what* to move and transform.  
+> - **Platform engineering** defines *how* it gets done — providing the operating model and blueprints.  
+> - **Analytics engineering** (the direction programmers move in with this model) ensures *the transformation layer is reliable*, so programmers can devote more time to **analysis-ready deliverables like TFLs and custom outputs**.  
 
 ---
 

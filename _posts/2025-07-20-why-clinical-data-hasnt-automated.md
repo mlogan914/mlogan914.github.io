@@ -2,7 +2,7 @@
 title: "We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automated (Yet)"
 excerpt_separator: "<!--more-->"
 categories:
-  - Clinical Data Modernization
+  - Modernization in Pharma & Clinical Data
 tags:
   - metadata-as-infrastructure
   - automation

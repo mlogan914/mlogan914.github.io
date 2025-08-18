@@ -2,8 +2,7 @@
 title: "Too Tech for Clinical, Too Clinical for Tech"
 excerpt_separator: "<!--more-->"
 categories:
-  - Thought Leadership
-  - Clinical Data Modernization
+  - Modernization in Pharma & Clinical Data
 tags:
   - industry-perspectives
   - modernization
