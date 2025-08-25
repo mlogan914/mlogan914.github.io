@@ -9,21 +9,22 @@ layout: single
 
 ## About Me
 
-I’m **Melanie Logan** — a data platform engineer building systems for clinical research that reflect not just what’s required, but what’s *possible*.  
+I’m **Melanie Logan** — a Data Platform Engineer and former Statistical Programmer with deep experience modernizing how regulated, complex data is defined, transformed, and delivered.  
 
-I began my career in **statistical programming for clinical trials**, working with compliance-heavy datasets. Over time, I saw the same pattern: teams working *around* their systems instead of with them — manually, repeatedly, and often invisibly.  
+I help organizations apply modern engineering practices to highly regulated data environments. My work spans industries where compliance, traceability, and reproducibility are non-negotiable — including pharmaceuticals, biotechnology, and medical devices. I help organizations move from manual, siloed processes to metadata-driven, reusable workflows with compliance and quality built in from the start.  
 
-Now, I focus on **modernizing regulated data ecosystems** by combining:  
-- **Deep domain expertise** in clinical research standards  
-- **Platform engineering principles** like modular architecture, CI/CD, and self-service patterns  
-- **Metadata-driven automation** that adapts instead of breaking  
+Over the years, I’ve developed a reputation for:  
+- **Deep domain understanding** of regulated data and governance requirements.  
+- **Modern engineering mindset** that brings proven patterns from platform engineering, data engineering, and DevOps into high-stakes environments.  
+- **System design expertise** for building scalable, adaptable, and compliance-ready infrastructure.  
+- **End-to-end perspective** that ensures every stage of the data lifecycle — from raw input to standardized outputs — is efficient, transparent, and reliable.  
 
-One of my core projects, **Blueprint-as-a-Service (BaaS)**, turns CDISC ODM-XML metadata into working SDTM pipelines using Python, dbt, Jinja, and SQL — treating **metadata as infrastructure**, not just documentation. The goal isn’t speed for speed’s sake, but to design pipelines that are **resilient, transparent, and able to evolve**.  
+I’m passionate about applying modern engineering principles in contexts where quality and governance can’t be compromised, and about creating workflows that are both technically robust and operationally sustainable.
 
 ---
 
 ### ⧉ What You’ll Find Here
-- **Project updates** on BaaS and other metadata-driven frameworks.  
+- **Project updates** on blueprint-style and other metadata-driven frameworks.  
 - **Industry perspectives** on bridging legacy workflows with modern engineering.  
 - **Practical insights** for designing high-stakes pipelines that meet compliance while staying adaptable.  
 
@@ -33,13 +34,13 @@ If you’ve ever heard *“it’s always been done this way”* and wanted to pr
 
 ### ∴ Why It Matters
 
-I don’t expect an overnight industry shift,  but I do believe someone needs to **show what’s possible**.
+I don’t expect the industry to change overnight, but I do believe someone needs to **show what’s possible**.
 
 Because if we keep designing for the past, we’ll never be ready for what’s next — whether that’s real-time submissions, intelligent automation, or simply teams who deserve better tooling.
 
 This work is my contribution to that future:  
 
-A proof-of-concept for what regulated data infrastructure *could* be — if we let it grow.
+A proof-of-concept for what regulated data infrastructure *could* be — if we’re willing to build it.
 
 ---
 
@@ -47,7 +48,6 @@ A proof-of-concept for what regulated data infrastructure *could* be — if we l
 
 If this resonates — or if you’re building something similar in another corner of the world — I’d love to connect and share ideas.
 
+- [LinkedIn](https://www.linkedin.com/in/melanie-logan/)
 - [GitHub](https://github.com/mlogan914)  
 - [Medium](https://medium.com/@mlogan914)  
-- [LinkedIn](https://www.linkedin.com/in/melanie-logan/)
-
