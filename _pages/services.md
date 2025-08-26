@@ -72,11 +72,6 @@ This audit is especially valuable for:
 
 ---
 
-## Why work with me
-I bridge the gap between day-to-day operations and long-term strategy. My experience in both highly regulated and fast-paced industries means I can cut through complexity and deliver solutions that are practical, actionable, and built for lasting impact. 
-
----
-
 ## Why it works
 - **No tech overhaul** — This is advisory, not an implementation project  
 - **Approachable & visual** — Plain-language explanations and diagrams anyone can follow  
@@ -85,9 +80,7 @@ I bridge the gap between day-to-day operations and long-term strategy. My experi
 ---
 
 ## About me
-I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Programmer).  
-
-I help teams cut through data chaos by uncovering how their data truly moves across systems, then guiding them toward smarter, more scalable decisions. My experience spans both highly regulated environments and fast-paced industries, giving me the ability to adapt recommendations to your specific context.  
+I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Programmer) who bridges the gap between day-to-day operations and long-term strategy. With experience in both highly regulated and fast-paced industries, I cut through complexity to deliver solutions that are practical, actionable, and built for lasting impact. I help teams uncover how their data truly moves across systems and guide them toward smarter, more scalable decisions.
 
 ---
 
