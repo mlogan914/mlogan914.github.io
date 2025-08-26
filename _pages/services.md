@@ -37,12 +37,7 @@ A short, fixed-scope **advisory engagement (2–3 weeks)** that delivers:
 
 ## Engagement at a glance
 
-| Item | Details |
-|---|---|
-| Duration | 2–3 weeks |
-| Format | 3–4 working sessions + remote analysis |
-| Deliverables | PDF report, visual data map, prioritized improvement plan |
-| Commitment | Fixed-scope, fixed-fee advisory (no implementation required) |
+<script src="https://gist.github.com/mlogan914/d7a7583bb228c16d439ec4c1c5f48ffe.js"></script>
 
 ---
 
