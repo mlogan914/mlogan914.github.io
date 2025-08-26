@@ -15,7 +15,7 @@ layout: single
 ---
 
 ## Why teams call me
-Many organizations — from complex regulated industries to fast-moving startups — are overwhelmed by data coming from too many places:
+Many organizations — from complex regulated environments to fast-moving startups — are overwhelmed by data coming from too many places:
 - Different systems and vendors
 - Spreadsheets from multiple teams
 - Numbers that don’t match depending on where they’re pulled
@@ -26,12 +26,14 @@ They know there’s a problem, but they don’t know:
 - How it connects (or doesn’t)  
 - Which issues to fix first (and why)  
 
+**Without clarity, teams lose time, duplicate effort, and base decisions on unreliable information.**
+
 ---
 
 ## What you get
 A short, fixed-scope **advisory engagement (2–3 weeks)** that delivers:
 
-1. **Current-State Data Map** — Clear visual of sources, systems, and handoffs  
+1. **Current-State Data Map** — Clear visual of sources, systems, and handoffs *(Illustrative example available — not based on any current or past client work)*  
 2. **Issue & Risk Report** — Where delays, duplication, and errors occur  
 3. **Prioritized “Top 5”** — What to address first for maximum impact  
 4. **Future-State Blueprint** — A high-level concept for a cleaner, more usable data flow  
@@ -51,15 +53,27 @@ You’ll get the most value if you:
 - Want a clear, unbiased view **before** buying tools or hiring more staff  
 
 This audit is especially valuable for:
-- Teams in complex, highly regulated environments (e.g., healthcare, life sciences, manufacturing)  
+- Teams in complex, highly regulated environments (e.g., healthcare, manufacturing, technology)  
 - Organizations with cross-team data flows spanning multiple systems, vendors, or locations  
 
 ---
 
+## Who it’s not for
+- Teams looking solely for a software purchase recommendation  
+- Organizations expecting hands-on implementation as part of the initial engagement  
+
+---
+
 ## Outcomes (examples)
-- Identified **40% duplicate effort** in recurring reporting and removed it  
-- Uncovered hidden dependencies delaying project milestones  
-- Gave leadership a clear focus for **highest-ROI** process improvements  
+- Reduced duplicate reporting work by **40%**, saving dozens of staff hours each month  
+- Shortened decision-making cycles from weeks to days  
+- Identified bottlenecks delaying project milestones by **3+ months**  
+- Uncovered hidden dependencies that risked compliance deadlines  
+
+---
+
+## Why work with me
+I’ve been on both sides — hands-on in the data trenches and designing the systems to make that work scalable. That means you get practical recommendations you can actually implement, not a binder of theory.  
 
 ---
 
@@ -84,7 +98,7 @@ I help teams cut through data chaos by uncovering how their data truly moves acr
 
 ---
 
-> *All services are offered independently, using my own time, tools, and resources, and are not performed on behalf of or in affiliation with my current employer.*
+> *All services are offered independently, using my own time, tools, and resources, and are not performed on behalf of or in affiliation with my current employer. No proprietary information, methods, or logic from my current or former employers is used. I do not engage with my current employer’s customers, potential customers, or competitors as part of these services.*
 
 ---
 
