@@ -36,6 +36,7 @@ A short, fixed-scope **advisory engagement (2–3 weeks)** that delivers:
 ---
 
 ## Engagement at a glance
+
 | Item | Details |
 |---|---|
 | Duration | 2–3 weeks |
