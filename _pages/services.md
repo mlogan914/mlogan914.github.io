@@ -1,10 +1,7 @@
 ---
-title: "Services"
-layout: page
 permalink: /services/
-author_profile: false
-toc: false
-description: "A short, fixed-scope advisory to map your data landscape, surface bottlenecks, and give you a prioritized path forward."
+title: "Services"
+layout: single
 ---
 
 # Data Clarity Audit
