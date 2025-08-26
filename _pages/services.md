@@ -80,7 +80,7 @@ This audit is especially valuable for:
 ---
 
 ## About me
-I’m Melanie Logan — a Data Platform Engineer (and former Statistical Programmer) who bridges the gap between day-to-day operations and long-term strategy. My background in both highly regulated and fast-paced industries means I can cut through complexity and help you get to solutions that are practical, actionable, and built for lasting impact. I work with teams to map how their data truly moves across systems and create a clear path toward smarter, more scalable decisions.
+I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Programmer) who bridges the gap between day-to-day operations and long-term strategy. My background in both highly regulated and fast-paced industries means I can cut through complexity and help you get to solutions that are practical, actionable, and built for lasting impact. I work with teams to map how their data truly moves across systems and create a clear path toward smarter, more scalable decisions.
 
 ---
 
