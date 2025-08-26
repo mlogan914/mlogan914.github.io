@@ -5,7 +5,11 @@ layout: single
 ---
 
 # Data Clarity Audit
-**See exactly how your data moves — and where it’s getting stuck — before you make your next move.**
+<div class="notice--info">
+  See exactly how your data moves — and where it’s getting stuck — before you make your next move.
+</div>
+
+<img src="/assets/images/data_clarity_audit.png" alt="data clarity audit" class="center-image" />
 
 ---
 
