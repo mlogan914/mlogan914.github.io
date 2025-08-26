@@ -73,7 +73,7 @@ This audit is especially valuable for:
 ---
 
 ## Why work with me
-I’ve been on both sides — hands-on in the data trenches and designing the systems to make that work scalable. That means you get practical recommendations you can actually implement, not a binder of theory.  
+I bridge the gap between day-to-day operations and long-term strategy. My experience in both highly regulated and fast-paced industries means I can cut through complexity and deliver solutions that are practical, actionable, and built for lasting impact. 
 
 ---
 
