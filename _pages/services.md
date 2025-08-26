@@ -1,7 +1,7 @@
 ---
 permalink: /services/
 title: "Services"
-layout: single
+layout: splash
 ---
 
 # Data Clarity Audit
