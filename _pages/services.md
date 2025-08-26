@@ -79,10 +79,12 @@ I help teams cut through data chaos by uncovering how their data truly moves acr
 - 📅 Book a free 30-minute consultation  
 - 📄 Receive a fixed-fee proposal with clear scope and deliverables
 
+---
+
 <details>
 <summary><strong>FAQ</strong></summary>
 
----
+<br>
 
 **Is this only for regulated teams?**
 No. While I have deep regulated experience, this audit benefits any team with data scattered across systems.
