@@ -82,11 +82,11 @@ I help teams cut through data chaos by uncovering how their data truly moves acr
 ---
 
 <details>
-<summary><strong>FAQ</strong></summary>
+  <summary><strong>FAQ</strong></summary>
 
-<br>
+  <div markdown="1">
 
-**Is this only for regulated teams?**
+**Is this only for regulated teams?**  
 No. While I have deep regulated experience, this audit benefits any team with data scattered across systems.
 
 **Will you implement the recommendations?**  
@@ -95,4 +95,6 @@ Implementation is outside this audit’s scope. If helpful, I can support vendor
 **Do we need to share sensitive data?**  
 No raw data access is required for the audit. We focus on flows, systems, handoffs, and existing outputs.
 
+  </div>
 </details>
+
