@@ -4,7 +4,6 @@ title: "Services"
 layout: single
 ---
 
-# Data Clarity Audit
 <div class="notice--info">
   See exactly how your data moves — and where it’s getting stuck — before you make your next move.
 </div>
@@ -14,7 +13,7 @@ layout: single
 ---
 
 ## Why teams call me
-In many organizations, data is scattered across systems, teams, and vendors. Reports don’t match. Key numbers take days to reconcile. People spend more time moving data around than using it to make decisions.
+In many organizations, data is scattered across systems, teams, and vendors. Reports don’t match. Key metrics take days to reconcile. People spend more time moving data around than using it to make decisions.
 
 This happens in:
 - Complex, regulated environments (like healthcare, life sciences, manufacturing)
@@ -65,10 +64,10 @@ Especially valuable for:
 ---
 
 ## How it helps
-- **Faster decisions** — Remove bottlenecks and conflicting numbers  
-- **Less waste** — Eliminate duplicate processes and reporting work  
+- **Faster, more confident decisions** — Resolve upstream disconnects so reports and metrics align the first time  
+- **Less waste** — Eliminate redundant processes and manual reconciliations  
 - **Stronger foundations** — Make smarter choices about systems, vendors, and staffing  
-- **Clear priorities** — Focus on fixes that matter most  
+- **Clear priorities** — Focus on fixes that deliver the biggest impact quickly  
 
 ---
 
@@ -92,4 +91,3 @@ I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Pro
 ---
 
 > *All services are offered independently, using my own time, tools, and resources, and are not performed on behalf of or in affiliation with my current employer. No proprietary information, methods, or logic from my current or former employers is used. I do not engage with my current employer’s customers, potential customers, or competitors as part of these services.*
-
