@@ -208,15 +208,15 @@ flowchart LR
 The table below explains each major change from the current state to the governed, repeatable pipelines in the future state. It includes plain-language descriptions and examples so the improvements are easier to understand.
 
 | **Current State** (Removed/Changed) | **Future State** (Added/Standardized) | **What it is** | **Examples** | **Why it’s better** |
-|--------------------------------------|----------------------------------------|----------------|--------------|---------------------|
-| SFTP drops from vendors              | Managed connectors / change feeds     | Direct, governed integrations that pull or stream data automatically from source systems | Salesforce connector, HL7 feed, Snowflake Data Share | Reduces manual steps, ensures timeliness, and eliminates missed/duplicated files |
-| API pulls (custom scripts)           | Managed connectors                    | Built-in, monitored connections to source APIs | FHIR API, REST API connector | No need for fragile, one-off scripts; easier to maintain and scale |
-| Shared drive intake (NAS)            | Controlled intake (templates, validation) | Standard process for uploading data with built-in checks | Secure upload portal, governed S3 bucket | Prevents uncontrolled or incomplete data from entering the environment |
-| Legacy jobs                          | Versioned processing                   | Processing logic stored in code with version control | dbt, SQL scripts in Git | Increases reproducibility, auditability, and collaboration |
-| Ad-hoc scripts                       | Standardized transforms                | Reusable, documented transformation logic | dbt models, reusable SQL macros | Reduces risk of inconsistencies between teams |
-| On-prem DW as “truth”                 | Single analytical store                | One authoritative store for curated data | Snowflake, Databricks, Redshift | Avoids “two sources of truth” and speeds decision-making |
-| No early quality checks               | Automated quality checks (DQ)          | Rules and tests applied when data first enters | Great Expectations, dbt tests | Catches errors early before they spread |
-| No layered storage                    | Bronze / Silver / Gold layers          | Raw, refined, and curated stages | Bronze (raw files), Silver (cleaned tables), Gold (business-ready views) | Clear separation of data states; makes lineage and trust easier | separation of data states; makes lineage and trust easier |
+|---|---|---|---|---|
+| SFTP drops from vendors | Managed connectors / change feeds | Direct, governed integrations that pull or stream data automatically from source systems | Salesforce connector, HL7 feed, Snowflake Data Share | Reduces manual steps, ensures timeliness, and eliminates missed/duplicated files |
+| API pulls (custom scripts) | Managed connectors | Built-in, monitored connections to source APIs | FHIR API, REST API connector | No need for fragile, one-off scripts; easier to maintain and scale |
+| Shared drive intake (NAS) | Controlled intake (templates, validation) | Standard process for uploading data with built-in checks | Secure upload portal, governed S3 bucket | Prevents uncontrolled or incomplete data from entering the environment |
+| Legacy jobs | Versioned processing | Processing logic stored in code with version control | dbt, SQL scripts in Git | Increases reproducibility, auditability, and collaboration |
+| Ad-hoc scripts | Standardized transforms | Reusable, documented transformation logic | dbt models, reusable SQL macros | Reduces risk of inconsistencies between teams |
+| On-prem DW as “truth” | Single analytical store | One authoritative store for curated data | Snowflake, Databricks, Redshift | Avoids “two sources of truth” and speeds decision-making |
+| No early quality checks | Automated quality checks (DQ) | Rules and tests applied when data first enters | Great Expectations, dbt tests | Catches errors early before they spread |
+| No layered storage | Bronze / Silver / Gold layers | Raw (Bronze), refined (Silver), curated (Gold) stages | Bronze (raw files), Silver (cleaned tables), Gold (business-ready views) | Clear separation of data states; improves lineage and trust |
 
 ---
 
