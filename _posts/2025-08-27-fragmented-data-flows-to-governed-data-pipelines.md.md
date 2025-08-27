@@ -186,18 +186,8 @@ flowchart LR
   classDef retire fill:#ffeceb,stroke:#e5484d,stroke-dasharray:5 3,stroke-width:2px,color:#5a1a1d;
   classDef add fill:#e9f8ef,stroke:#2bb673,stroke-width:2px,color:#0f3d2c;
   classDef migrate fill:#e8f1ff,stroke:#3a7afe,stroke-width:2px,color:#0e2a64;
-
-  %% Legend (self-contained so screenshots still make sense)
-  subgraph LEGEND[Legend]
-    L1[Red: Remove/retire]
-    L2[Green: Add]
-    L3[Blue: Standardize or migrate]
-  end
-  L1:::retire
-  L2:::add
-  L3:::migrate
 ```
-> Delta map highlighting removal of shared-drive intake/legacy jobs/on-prem truth; addition of Bronze/Silver/Gold, early quality checks, shared definitions; and standardization via managed connectors, scheduled batch, and a single analytical store.
+> *Delta Map highlighting the removal of shared-drive intake, legacy jobs, and on-prem as the primary source of truth; the addition of Bronze/Silver/Gold layers, early automated quality checks, and shared definitions; and the standardization of data entry through managed connectors, scheduled batch intake, and a single analytical store*.
 
 ---
 
