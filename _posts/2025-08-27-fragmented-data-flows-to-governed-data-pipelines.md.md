@@ -48,30 +48,35 @@ Here’s a fictional example to make it concrete.
 
 ```mermaid
 flowchart LR
+  %% Sources
   subgraph SRC[Sources]
-    CRM[(CRM)]
+    CRM[(CRM System)]
     EHR[(Clinical App)]
     LIMS[(Lab System)]
-    Sheets[(Spreadsheets)]
+    Sheets[(Spreadsheets – uncontrolled)]
   end
 
+  %% Ingestion & Landing
   subgraph ING[Ingestion & Landing]
     SFTP[(SFTP Drop)]
     API[[API Pull]]
-    NAS[(Shared Drive)]
-    Intake[(Cloud Landing)]
+    NAS[(Shared Drive – uncontrolled)]:::problem
+    Intake[(Cloud Landing Area)]
   end
 
+  %% Processing
   subgraph PROC[Processing]
-    Legacy[[Legacy Jobs]]
-    Scripts[[Ad-hoc Scripts]]
+    Legacy[[Legacy Jobs]]:::problem
+    Scripts[[Ad-hoc Scripts]]:::problem
   end
 
+  %% Storage
   subgraph STORE[Storage]
-    OnDW[(On-Prem DW)]
+    OnDW[(On-Prem DW)]:::problem
     Cloud[(Cloud DW)]
   end
 
+  %% Flows
   CRM --> SFTP --> Intake
   EHR --> API --> Intake
   LIMS --> SFTP --> NAS
@@ -79,6 +84,9 @@ flowchart LR
 
   Intake --> Scripts --> Cloud
   NAS --> Legacy --> OnDW
+
+  %% Styling
+  classDef problem stroke-dasharray:5 3,stroke:#e5484d,stroke-width:2px;
 ```
 
 **Key characteristics**:
@@ -91,43 +99,48 @@ flowchart LR
 ### Future state: governed and repeatable
 ```mermaid
 flowchart LR
+  %% Sources
   subgraph SRC[Sources]
-    CRM[(CRM)]
+    CRM[(CRM System)]
     EHR[(Clinical App)]
     LIMS[(Lab System)]
-    Sheets[(Spreadsheets)]
+    Sheets[(Spreadsheets – controlled intake)]
   end
 
+  %% Ingestion
   subgraph ING[Ingestion]
     CDC[[Managed Connectors]]
     Batch[[Scheduled Batch]]
-    Bronze[(Landing / Bronze)]
+    Bronze[(Landing / Bronze – Raw)]
   end
 
+  %% Core Environment
   subgraph CORE[Core Environment]
     DQ{{Automated Quality Checks}}
     Transforms[[Versioned Processing]]
-    Silver[(Refined / Silver)]
-    Gold[(Curated / Gold)]
+    Silver[(Refined / Silver – Cleaned)]
+    Gold[(Curated / Gold – Ready for Use)]
   end
 
+  %% Flows
   CRM --> CDC --> Bronze
   EHR --> CDC --> Bronze
   LIMS --> Batch --> Bronze
-  Sheets -. controlled intake .-> Bronze
+  Sheets -. template/validation .-> Bronze
 
   Bronze --> DQ --> Transforms --> Silver --> Transforms --> Gold
+
 ```
 
 **Key characteristics**:
 - One governed front door for all sources.
 - Automated checks ensure issues are caught before they spread.
-- Layered structure provides clear separation between raw, refined, and curated data.
+- Layered structure (Raw → Refined → Curated) for clarity and trust.
 - Repeatable processing patterns replace scattered, one-off scripts.
 
 ---
 
-### “What Changed: A Delta View
+### What Changed: A Delta View
 - Red (dashed) = remove/retire
 - Green = add
 - Blue = standardize or migrate into the governed flow
@@ -186,7 +199,7 @@ flowchart LR
   classDef add fill:#e9f8ef,stroke:#2bb673,stroke-width:2px,color:#0f3d2c;
   classDef migrate fill:#e8f1ff,stroke:#3a7afe,stroke-width:2px,color:#0e2a64;
 ```
-> *Delta Map highlighting the removal of shared-drive intake, legacy jobs, and on-prem as the primary source of truth; the addition of Bronze/Silver/Gold layers, early automated quality checks, and shared definitions; and the standardization of data entry through managed connectors, scheduled batch intake, and a single analytical store*.
+> *Delta Map highlighting the removal of shared-drive intake, legacy jobs, and on-prem as the primary source of truth. It also shows the addition of Bronze/Silver/Gold layers, early automated quality checks, and shared definitions, along with the standardization of data entry through managed connectors, scheduled batch intake, and a single analytical store.*.
 
 ---
 
