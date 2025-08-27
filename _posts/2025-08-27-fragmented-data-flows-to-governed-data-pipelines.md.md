@@ -129,16 +129,16 @@ flowchart LR
 
 # “What Changed: A Delta View
 
-- Red (dashed) = remove/retire
-- Green = add
-- Blue = standardize or migrate into the governed flow
+> - Red (dashed) = remove/retire
+> - Green = add
+> - Blue = standardize or migrate into the governed flow
 
 ```mermaid
 flowchart LR
   %% DELTA MAP: Red=retire, Green=add, Blue=standardize/migrate
 
   %% Sources (unchanged)
-  subgraph SRC[Sources (unchanged)]
+  subgraph SRC[Sources]
     CRM[(CRM)]
     EHR[(Clinical App)]
     LIMS[(Lab System)]
@@ -158,7 +158,7 @@ flowchart LR
     DQ{{Early Automated Quality Checks}}:::add
     Silver[(Refined / Silver)]:::add
     Gold[(Curated / Gold)]:::add
-    Semantic[[Shared Definitions (Semantic/Metric Rules)]]:::add
+    Semantic[[Shared Definitions]]:::add
   end
 
   %% Standardize / Migrate (BLUE)
@@ -189,7 +189,7 @@ flowchart LR
 
   %% Legend (self-contained so screenshots still make sense)
   subgraph LEGEND[Legend]
-    L1[Red (dashed): Remove/retire]
+    L1[Red: Remove/retire]
     L2[Green: Add]
     L3[Blue: Standardize or migrate]
   end
@@ -198,6 +198,8 @@ flowchart LR
   L3:::migrate
 ```
 > Delta map highlighting removal of shared-drive intake/legacy jobs/on-prem truth; addition of Bronze/Silver/Gold, early quality checks, shared definitions; and standardization via managed connectors, scheduled batch, and a single analytical store.
+
+---
 
 ## Why this matters
 
