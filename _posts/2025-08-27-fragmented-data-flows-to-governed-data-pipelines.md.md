@@ -205,10 +205,6 @@ flowchart LR
 
 ## From–To: What Changed and Why
 
-The table below explains each major change from the current state to the governed, repeatable pipelines in the future state. It includes what the component is, examples, and why the change is beneficial.
-
-## From–To: What Changed and Why
-
 The table below explains each major change from the current state to the governed, repeatable pipelines in the future state. It includes plain-language descriptions and examples so the improvements are easier to understand.
 
 | **Current State** (Removed/Changed) | **Future State** (Added/Standardized) | **What it is** | **Examples** | **Why it’s better** |

@@ -66,6 +66,18 @@ $h-size-5: 1.03125em !default;
 $h-size-6: 1em !default;
 
 
+// #Added to fix markdown rendered table header colors
+/* ---- Table colors tuned for dark background ---- */
+$table-text-color:        $text-color;        // inherits your #e0e0e0
+$table-background-color:  #0b0f14;            // tbody background
+$table-header-background: #1f2937;            // thead background (slate-800)
+$table-header-text-color: #e5e7eb;            // thead text (slate-200)
+$table-border-color:      #374151;            // borders (slate-700)
+$table-stripe-color:      rgba(255,255,255,0.03);
+$table-hover-color:       rgba(255,255,255,0.06);
+
+
+
 // *************************************************************
 // !! ALL VARIABLE DECLARATIONS MUST BE BEFORE THIS STATEMENT !!
 // *************************************************************
