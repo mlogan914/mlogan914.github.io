@@ -216,8 +216,7 @@ The table below explains each major change from the current state to the governe
 | Ad-hoc scripts                       | Standardized transforms                | Reusable, documented transformation logic | dbt models, reusable SQL macros | Reduces risk of inconsistencies between teams |
 | On-prem DW as “truth”                 | Single analytical store                | One authoritative store for curated data | Snowflake, Databricks, Redshift | Avoids “two sources of truth” and speeds decision-making |
 | No early quality checks               | Automated quality checks (DQ)          | Rules and tests applied when data first enters | Great Expectations, dbt tests | Catches errors early before they spread |
-| No layered storage                    | Bronze / Silver / Gold layers          | Raw, refined, and curated stages | Bronze (raw files), Silver (cleaned tables), Gold (business-ready views) | Clear separation of data states; makes lineage and trust easier |
-separation of data states; makes lineage and trust easier |
+| No layered storage                    | Bronze / Silver / Gold layers          | Raw, refined, and curated stages | Bronze (raw files), Silver (cleaned tables), Gold (business-ready views) | Clear separation of data states; makes lineage and trust easier | separation of data states; makes lineage and trust easier |
 
 ---
 

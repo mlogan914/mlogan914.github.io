@@ -65,19 +65,6 @@ $h-size-4: 1.0625em !default;
 $h-size-5: 1.03125em !default;
 $h-size-6: 1em !default;
 
-
-// #Added to fix markdown rendered table header colors
-/* ---- Table colors tuned for dark background ---- */
-$table-text-color:        $text-color;        // inherits your #e0e0e0
-$table-background-color:  #0b0f14;            // tbody background
-$table-header-background: #1f2937;            // thead background (slate-800)
-$table-header-text-color: #e5e7eb;            // thead text (slate-200)
-$table-border-color:      #374151;            // borders (slate-700)
-$table-stripe-color:      rgba(255,255,255,0.03);
-$table-hover-color:       rgba(255,255,255,0.06);
-
-
-
 // *************************************************************
 // !! ALL VARIABLE DECLARATIONS MUST BE BEFORE THIS STATEMENT !!
 // *************************************************************
@@ -168,4 +155,31 @@ blockquote {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+// #Added to override markdown rendered table header colors
+/* Dark-mode table overrides */
+.page__content table {
+  background: #0b0f14;
+  border-color: #374151;
+}
+
+.page__content table thead th {
+  background: #1f2937;
+  color: #e5e7eb;
+  border-color: #374151;
+}
+
+.page__content table tbody td,
+.page__content table tbody th {
+  color: #e0e0e0;
+  border-color: #374151;
+}
+
+.page__content table tbody tr:nth-child(odd) {
+  background: rgba(255,255,255,0.03);
+}
+
+.page__content table tbody tr:hover {
+  background: rgba(255,255,255,0.06);
 }
