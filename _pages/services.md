@@ -92,3 +92,4 @@ I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Pro
 ---
 
 > *All services are offered independently, using my own time, tools, and resources, and are not performed on behalf of or in affiliation with my current employer. No proprietary information, methods, or logic from my current or former employers is used. I do not engage with my current employer’s customers, potential customers, or competitors as part of these services.*
+

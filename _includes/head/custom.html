@@ -1,0 +1,13 @@
+<!-- Mermaid JS -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  // Render mermaid code blocks on page load
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.mermaid) {
+      mermaid.initialize({
+        startOnLoad: true,
+        securityLevel: "loose"   // allows links/tooltips; safe on your own site
+      });
+    }
+  });
+</script>
