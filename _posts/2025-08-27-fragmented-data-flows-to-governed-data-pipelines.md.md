@@ -127,11 +127,10 @@ flowchart LR
 
 ---
 
-# “What Changed: A Delta View
-
-> - Red (dashed) = remove/retire
-> - Green = add
-> - Blue = standardize or migrate into the governed flow
+### “What Changed: A Delta View
+- Red (dashed) = remove/retire
+- Green = add
+- Blue = standardize or migrate into the governed flow
 
 ```mermaid
 flowchart LR
