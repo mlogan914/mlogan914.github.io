@@ -1,5 +1,5 @@
 ---
-title: "From Fragmented Data Flows to a Governed Data Pipelines"
+title: "From Fragmented Data Flows to a Governed Data Pipeline"
 excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering
@@ -13,7 +13,7 @@ classes: wide
 ---
 
 <div class="notice--info">
-    Many organizations focus on fixing individual data issues but overlook the bigger picture: how data enters, moves, and is governed across the entire environment. This article shows a practical before-and-after example of moving from fragmented data flows to governed, versioned pipelines — an approach that supports scalability, trust, and repeatability without relying on tool-first thinking.
+    Many organizations focus on fixing individual data issues but overlook the bigger picture: how data enters, moves, and is governed across the entire environment. This article shows a practical before-and-after example of moving from fragmented data flows to governed, versioned pipeline — an approach that supports scalability, trust, and repeatability without relying on tool-first thinking.
 </div>
 
 <img src="/assets/images/governed_data_pipelines.png" alt="governed data pipelines" class="center-image" />
