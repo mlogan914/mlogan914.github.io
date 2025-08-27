@@ -127,6 +127,78 @@ flowchart LR
 
 ---
 
+# “What Changed: A Delta View
+
+- Red (dashed) = remove/retire
+- Green = add
+- Blue = standardize or migrate into the governed flow
+
+```mermaid
+flowchart LR
+  %% DELTA MAP: Red=retire, Green=add, Blue=standardize/migrate
+
+  %% Sources (unchanged)
+  subgraph SRC[Sources (unchanged)]
+    CRM[(CRM)]
+    EHR[(Clinical App)]
+    LIMS[(Lab System)]
+    Sheets[(Spreadsheets)]
+  end
+
+  %% Retire / Remove (RED)
+  subgraph RET[Remove]
+    NAS[(Shared Drive Intake)]:::retire
+    Legacy[[Legacy Jobs / One-off Scripts]]:::retire
+    OnDW[(On-Prem Warehouse as “truth”)]:::retire
+  end
+
+  %% Add (GREEN)
+  subgraph ADD[Add]
+    Bronze[(Landing / Bronze)]:::add
+    DQ{{Early Automated Quality Checks}}:::add
+    Silver[(Refined / Silver)]:::add
+    Gold[(Curated / Gold)]:::add
+    Semantic[[Shared Definitions (Semantic/Metric Rules)]]:::add
+  end
+
+  %% Standardize / Migrate (BLUE)
+  subgraph STD[Standardize / Migrate]
+    CDC[[Managed Connectors / Change Feeds]]:::migrate
+    Batch[[Scheduled Batch Intake]]:::migrate
+    Cloud[(Primary Analytical Store)]:::migrate
+  end
+
+  %% Flows into the governed entry points
+  CRM --> CDC --> Bronze
+  EHR --> CDC --> Bronze
+  LIMS --> Batch --> Bronze
+  Sheets -. controlled templates/validation .-> Bronze
+
+  %% Old/retiring paths (fading)
+  Sheets -. ad-hoc .-> NAS
+  NAS --> Legacy --> OnDW
+
+  %% New governed flow
+  Bronze --> DQ --> Silver --> Gold
+  Gold --> Semantic
+
+  %% Styling
+  classDef retire fill:#ffeceb,stroke:#e5484d,stroke-dasharray:5 3,stroke-width:2px,color:#5a1a1d;
+  classDef add fill:#e9f8ef,stroke:#2bb673,stroke-width:2px,color:#0f3d2c;
+  classDef migrate fill:#e8f1ff,stroke:#3a7afe,stroke-width:2px,color:#0e2a64;
+
+  %% Legend (self-contained so screenshots still make sense)
+  subgraph LEGEND[Legend]
+    L1[Red (dashed): Remove/retire]
+    L2[Green: Add]
+    L3[Blue: Standardize or migrate]
+  end
+  L1:::retire
+  L2:::add
+  L3:::migrate
+```
+> Delta map highlighting removal of shared-drive intake/legacy jobs/on-prem truth; addition of Bronze/Silver/Gold, early quality checks, shared definitions; and standardization via managed connectors, scheduled batch, and a single analytical store.
+
 ## Why this matters
 
 This isn’t about chasing the latest software. It’s about setting up an engineering approach that:
