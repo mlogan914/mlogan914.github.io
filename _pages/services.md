@@ -13,12 +13,18 @@ layout: single
 ---
 
 ## Why teams call me
-In many organizations, data is scattered across systems, teams, and vendors. Reports don’t match. Key metrics take days to reconcile. People spend more time moving data around than using it to make decisions.
+In many organizations, data is scattered across systems, teams, and vendors. People spend more time moving data than using it.
+
+**Common signs:**
+- **Conflicting reports or metrics**
+- **Slow handoffs and rework** between teams/vendors
+- **Manual reconciliations** and spreadsheet glue
+- **Unclear ownership** and “hidden” upstream dependencies
 
 This happens in:
-- Complex, regulated environments (like healthcare, life sciences, manufacturing)
-- Fast-moving teams adding tools and processes without a central plan
-- Any organization with cross-team dependencies and multiple data owners
+- Complex, regulated environments (like healthcare, life sciences, manufacturing, finance)
+- Distributed teams with multiple vendors or complex reporting requirements
+- Fast-moving orgs adding tools without a central plan
 
 Leaders know there’s a problem — but not:
 - What data they actually have  
@@ -31,12 +37,99 @@ Without clarity, teams waste time, duplicate work, and make decisions on unrelia
 ---
 
 ## What you get
-A focused, fixed-scope **advisory engagement (2–3 weeks)** that delivers:
+A short, focused **advisory engagement (2–3 weeks)** designed to give you clarity fast.  
 
-1. **Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs *(example available — fictional and anonymized)*  
-2. **Issues & Risks Report** — Where delays, duplication, and errors occur, and why they happen  
-3. **Prioritized “Top 5”** — The changes that will have the biggest immediate impact  
-4. **Future-State Blueprint** — A high-level target flow for cleaner, more reliable data operations  
+You’ll walk away with:
+
+1. **Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs.
+
+*Example (fictional & anonymized)*:
+
+``` mermaid
+flowchart TD
+  %% Layout
+  classDef bad fill:#fef2f2,stroke:#ef4444,color:#7f1d1d
+  classDef neutral fill:#f3f4f6,stroke:#4b5563,color:#111827
+  classDef store fill:#e5e7eb,stroke:#374151,color:#111827
+  classDef pain fill:#fff7ed,stroke:#fb923c,color:#7c2d12
+
+  subgraph Vendors/Teams
+    V1[Vendor A Files]:::neutral
+    V2[Vendor B Files]:::neutral
+    T1[Team Spreadsheets]:::neutral
+  end
+
+  SD[(Shared Drive Intake)]:::bad
+  LJ[[Legacy Jobs / Scripts]]:::bad
+  OP[(On-Prem DB)]:::store
+
+  V1 --> SD
+  V2 --> SD
+  T1 --> SD
+  SD --> LJ
+  LJ --> OP
+
+  %% Pain points - anchored so they render near related node
+  P1([Duplicate versions]):::pain
+  P2([Undocumented deps]):::pain
+  P3([Stale data 3–5 days]):::pain
+
+  SD -.-> P1
+  LJ -.-> P2
+  OP -.-> P3
+```
+2. **Issues & Risks Report** — Where delays, duplication, and errors occur, and why they happen.  
+3. **Prioritized “Top 5”** — The changes that will have the biggest immediate impact.  
+4. **Future-State Blueprint** — A high-level target flow for cleaner, more reliable data operations.
+
+*Example (fictional & anonymized)*:
+
+```mermaid
+  flowchart TD
+  %% Styles
+  classDef good fill:#ecfdf5,stroke:#10b981,color:#065f46
+  classDef layer fill:#eef2ff,stroke:#4f46e5,color:#1e1b4b
+  classDef store fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+  classDef vendor fill:#fef3c7,stroke:#d97706,color:#78350f
+  classDef sheet fill:#fff7ed,stroke:#fb923c,color:#7c2d12
+  classDef guard fill:#f0fdf4,stroke:#22c55e,color:#065f46
+
+  %% External sources
+  V1[Vendor EDC / CRO]:::vendor
+  V2[Lab LIMS]:::vendor
+  V3[Partner CTMS]:::vendor
+  S1[Team Spreadsheets]:::sheet
+
+  %% Ingestion
+  MC[[Managed Connectors]]:::good
+  UP[[Governed Upload]]:::guard
+  SBI[[Scheduled Batch Intake]]:::good
+  QC{{Early Automated<br/>Quality Checks}}:::good
+  QZ[[Quarantine on Fail]]:::guard
+
+  %% Layers
+  BR[(Bronze: Raw)]:::layer
+  SI[(Silver: Refined)]:::layer
+  DEF[[Shared Definitions & Rules]]:::good
+  GO[(Gold: Curated)]:::layer
+  AS[(Single Analytical Store)]:::store
+
+  %% Flows
+  V1 --> MC
+  V2 --> MC
+  V3 --> MC
+  MC --> SBI --> BR --> SI --> GO --> AS
+
+  %% Spreadsheet path (governed)
+  S1 --> UP --> SBI
+  SBI --> QC
+  QC -- pass --> BR
+  QC -- fail --> QZ
+
+  %% Governance
+  SI --> DEF
+  DEF --> GO
+```
 
 ---
 
@@ -47,9 +140,10 @@ A focused, fixed-scope **advisory engagement (2–3 weeks)** that delivers:
 
 ## Who it’s for
 Best fit for teams that:
-- Feel overwhelmed by the complexity or volume of their data  
-- Aren’t sure how data really moves between people and systems  
-- Want a clear, unbiased view **before** investing in new tools or hiring more staff  
+- **Feel overwhelmed** by the complexity or volume of their data  
+- **Aren’t sure** how data really moves between people, systems, and vendors  
+- **Want clarity first** — before investing in new tools or hiring more staff  
+- Need a **fast, low-risk way** to identify their biggest opportunities
 
 Especially valuable for:
 - Healthcare, life sciences, and other highly regulated environments  
@@ -58,23 +152,26 @@ Especially valuable for:
 ---
 
 ## Who it’s not for
-- Teams looking for a tool/software recommendation only  
-- Organizations expecting hands-on implementation during this engagement  
+Not a fit if you’re only:
+- Looking for a single tool/software recommendation  
+- Expecting hands-on implementation during this short engagement  
+
+*(If implementation is needed, we can scope it separately.)*
 
 ---
 
 ## How it helps
-- **Faster, more confident decisions** — Resolve upstream disconnects so reports and metrics align the first time  
+- **Faster, more confident decisions** — Fix upstream disconnects so reports align the first time  
 - **Less waste** — Eliminate redundant processes and manual reconciliations  
 - **Stronger foundations** — Make smarter choices about systems, vendors, and staffing  
-- **Clear priorities** — Focus on fixes that deliver the biggest impact quickly  
+- **Clear priorities** — Focus on changes that deliver the biggest impact quickly  
 
 ---
 
 ## Why it works
 - **Independent view** — No vendor bias or software upsell  
-- **Approachable & visual** — Clear explanations and diagrams anyone can follow  
-- **Actionable** — You walk away with a focused, prioritized plan, not a vague wishlist  
+- **Approachable & visual** — Clear diagrams and explanations anyone can follow  
+- **Actionable** — You leave with a prioritized plan you can start using right away, not a vague wishlist  
 
 ---
 
