@@ -27,8 +27,8 @@ This follow-up shows what that shift can look like in practice — moving from f
 
  If you’re unsure what a “data pipeline” is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)
 
- > **Note:** If you are unfamiliar with any terms or acronyms in this article or its diagrams, refer to the [summary of acronyms](#summary-of-acronyms) at the end of the article.
-*.
+ > **Note:** If you are unfamiliar with any terms or acronyms in this article or its diagrams, refer to the [summary of acronyms](#summary-of-acronyms) at the end of the article.*.
+
 ---
 
 ## The core idea
@@ -204,7 +204,7 @@ flowchart LR
   classDef add fill:#e9f8ef,stroke:#2bb673,stroke-width:2px,color:#0f3d2c;
   classDef migrate fill:#e8f1ff,stroke:#3a7afe,stroke-width:2px,color:#0e2a64;
 ```
-> *Delta Map highlighting the removal of shared-drive intake, legacy jobs, and on-prem as the primary source of truth. It also shows the addition of Bronze/Silver/Gold layers, early automated quality checks, and shared definitions, along with the standardization of data entry through managed connectors, scheduled batch intake, and a single analytical store.*.
+> *Delta Map: From shared drives, legacy jobs, and on-prem sources to Bronze/Silver/Gold layers, early quality checks, shared definitions, managed connectors, scheduled intake, and a single analytical store.*
 
 ---
 
