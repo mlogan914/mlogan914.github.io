@@ -235,7 +235,7 @@ That said, here’s one way you could picture it using modern, cloud-native opti
 | ----------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **One “front door” for data** | Managed connectors in *Fivetran*, *Airbyte*, or *AWS AppFlow*                                            |
 | **Early quality checks**      | *Great Expectations* or *dbt tests* triggered in orchestration workflows                                 |
-| **Layered storage**           | *Delta Lake* (Databricks) or *Apache Iceberg* on *AWS S3*, with `raw`, `validated`, and `curated` zones  |
+| **Layered storage**           | *Delta Lake* (Databricks) or *Apache Iceberg* on *AWS S3*, with *raw*, *validated*, and *curated* zones  |
 | **Consistent governance**     | *Unity Catalog*, *AWS Glue Data Catalog*, or *Apache Atlas* for metadata, lineage, and access controls   |
 | **Orchestration**             | *Apache Airflow*, *Dagster*, or *AWS Step Functions* to coordinate ingestion, validation, and publishing |
 
