@@ -1,6 +1,6 @@
 ---
 permalink: /services/
-title: "Services"
+title: "Data Clarity Audit"
 layout: single
 ---
 
@@ -134,7 +134,13 @@ flowchart TD
 ---
 
 ## Engagement at a glance
-<script src="https://gist.github.com/mlogan914/d7a7583bb228c16d439ec4c1c5f48ffe.js"></script>
+
+| Item | Details |
+|---|---|
+| Duration | 2–3 weeks |
+| Format | 3–4 working sessions + remote analysis |
+| Deliverables | PDF report, visual data map, prioritized improvement plan |
+| Commitment | Fixed-scope, fixed-fee advisory (no implementation required) |
 
 ---
 
