@@ -9,7 +9,7 @@ tags:
   - data-pipelines
   - operating-model
   - life-sciences
-classes: wide
+classes: splash
 ---
 
 <div class="notice--info">
