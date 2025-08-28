@@ -21,12 +21,12 @@ In many organizations, data is scattered across systems, teams, and vendors. Peo
 - **Manual reconciliations** and spreadsheet glue
 - **Unclear ownership** and “hidden” upstream dependencies
 
-This happens in:
+**This happens in**:
 - Complex, regulated environments (like healthcare, life sciences, manufacturing, finance)
 - Distributed teams with multiple vendors or complex reporting requirements
 - Fast-moving orgs adding tools without a central plan
 
-Leaders know there’s a problem — but not:
+**Leaders know there’s a problem — but not**:
 - What data they actually have  
 - Where it’s coming from  
 - How it flows (or fails to flow) between people and systems  
