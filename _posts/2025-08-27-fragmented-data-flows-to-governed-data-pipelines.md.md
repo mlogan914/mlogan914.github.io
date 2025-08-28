@@ -52,46 +52,59 @@ Here’s a fictional example to make it concrete.
 ### Current state: fragmented and inconsistent
 
 ```mermaid
-flowchart LR
+flowchart TB
+  %% Styles
+  classDef layer fill:#e0e0e0,stroke:#666,stroke-width:1px,rx:6,ry:6,color:#000;
+  classDef sys fill:#f4f4f4,stroke:#444,stroke-width:1px,rx:6,ry:6,color:#000;
+
   %% Sources
-  subgraph SRC[Sources]
-    CRM[(CRM System)]
-    EHR[(Clinical App)]
-    LIMS[(Lab System)]
-    Sheets[(Spreadsheets – uncontrolled)]
+  subgraph Sources
+    A1[Salesforce CRM]
+    A2[EHR System]
   end
+  class A1,A2 layer
 
-  %% Ingestion & Landing
-  subgraph ING[Ingestion & Landing]
-    SFTP[(SFTP Drop)]
-    API[[API Pull]]
-    NAS[(Shared Drive – uncontrolled)]:::problem
-    Intake[(Cloud Landing Area)]
-  end
+  %% Front door
+  FD[Front door: AWS AppFlow - Data ingestion]:::sys
 
-  %% Processing
-  subgraph PROC[Processing]
-    Legacy[[Legacy Jobs]]:::problem
-    Scripts[[Ad-hoc Scripts]]:::problem
-  end
+  %% Orchestration
+  ORC[AWS Step Functions - Workflow orchestration]:::sys
 
-  %% Storage
-  subgraph STORE[Storage]
-    OnDW[(On-Prem DW)]:::problem
-    Cloud[(Cloud DW)]
+  %% Lake zones
+  Z1[(raw)]:::layer
+  GE[Great Expectations - Quality checks]:::sys
+  Z2[(validated)]:::layer
+  DBT[dbt transforms - Business logic and joins]:::sys
+  Z3[(curated)]:::layer
+
+  %% Catalog
+  CAT[AWS Glue Data Catalog - Metadata and governance]:::sys
+
+  %% Query
+  ATH[Amazon Athena - Query and analysis]:::sys
+
+  %% Consumers
+  subgraph Consumers
+    C1[QuickSight Dashboard]
+    C2[Analyst Notebook]
   end
+  class C1,C2 layer
 
   %% Flows
-  CRM --> SFTP --> Intake
-  EHR --> API --> Intake
-  LIMS --> SFTP --> NAS
-  Sheets -. ad-hoc .-> NAS
-
-  Intake --> Scripts --> Cloud
-  NAS --> Legacy --> OnDW
-
-  %% Styling
-  classDef problem stroke-dasharray:5 3,stroke:#e5484d,stroke-width:2px;
+  A1 --> FD
+  A2 --> FD
+  FD --> ORC
+  ORC --> Z1
+  ORC --> GE
+  GE --> Z2
+  Z2 --> DBT
+  DBT --> Z3
+  CAT --- Z1
+  CAT --- Z2
+  CAT --- Z3
+  Z3 --> ATH
+  ATH --> C1
+  ATH --> C2
 ```
 
 **Key characteristics**:
