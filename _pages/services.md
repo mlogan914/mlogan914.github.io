@@ -13,18 +13,18 @@ layout: single
 ---
 
 ## Why teams call me
-In many organizations, data is scattered across systems, teams, and vendors. People spend more time moving data than using it.
+In many organizations, data is scattered across systems, teams, and vendors. You might feel like you spend more time moving data around than actually using it.
 
 **Common signs:**
-- **Conflicting reports or metrics**
-- **Slow handoffs and rework** between teams/vendors
-- **Manual reconciliations** and spreadsheet glue
-- **Unclear ownership** and “hidden” upstream dependencies
+- **Conflicting reports or metrics** — the same question gets different answers depending on who you ask  
+- **Slow handoffs and rework** between teams/vendors  
+- **Manual reconciliations** and “spreadsheet glue” holding critical processes together  
+- **Unclear ownership** and “hidden” upstream dependencies that break things unexpectedly  
 
-**This happens in**:
-- Complex, regulated environments (like healthcare, life sciences, manufacturing, finance)
-- Distributed teams with multiple vendors or complex reporting requirements
-- Fast-moving orgs adding tools without a central plan
+**Most often, I see this in:**
+- Healthcare, life sciences, and other regulated industries where processes are high-stakes but fragmented  
+- Distributed teams with multiple vendors or complex reporting requirements  
+- Fast-moving organizations where every team adds tools without a central plan
 
 **Leaders know there’s a problem — but not**:
 - What data they actually have  
@@ -32,22 +32,22 @@ In many organizations, data is scattered across systems, teams, and vendors. Peo
 - How it flows (or fails to flow) between people and systems  
 - Which fixes will matter most  
 
-Without clarity, teams waste time, duplicate work, and make decisions on unreliable information.
+Without this clarity, teams waste time, duplicate work, and make decisions on unreliable information.  
+That’s where I come in — giving you a clear picture of your data and where to focus first.
 
 ---
 
 ## What you get
 A short, focused **advisory engagement (2–3 weeks)** designed to give you clarity fast.  
 
-You’ll walk away with:
+By the end, you’ll have a **complete picture of your current data reality** and a **clear path to the biggest improvements**.
 
-1. **Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs.
+1. **Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs so everyone sees the same picture.  
+   *Example (fictional & anonymized)*:
 
-*Example (fictional & anonymized)*:
-
-``` mermaid
+```mermaid
+%%{init: {'theme': 'default', 'themeVariables': { 'background': '#f9fafb' }}}%%
 flowchart TD
-  %% Layout
   classDef bad fill:#fef2f2,stroke:#ef4444,color:#7f1d1d
   classDef neutral fill:#f3f4f6,stroke:#4b5563,color:#111827
   classDef store fill:#e5e7eb,stroke:#374151,color:#111827
@@ -69,24 +69,25 @@ flowchart TD
   SD --> LJ
   LJ --> OP
 
-  %% Pain points - anchored so they render near related node
   P1([Duplicate versions]):::pain
-  P2([Undocumented deps]):::pain
+  P2([Undocumented dependencies]):::pain
   P3([Stale data 3–5 days]):::pain
 
   SD -.-> P1
   LJ -.-> P2
   OP -.-> P3
+
 ```
-2. **Issues & Risks Report** — Where delays, duplication, and errors occur, and why they happen.  
-3. **Prioritized “Top 5”** — The changes that will have the biggest immediate impact.  
+
+2. **Issues & Risks Report** — Identifies where delays, duplication, and errors occur, explains why they happen, and highlights the cost of leaving them unresolved.
+3. **Prioritized “Top 5”** — A short list of the changes that will deliver the fastest and biggest impact, so you know exactly where to start.
 4. **Future-State Blueprint** — A high-level target flow for cleaner, more reliable data operations.
 
 *Example (fictional & anonymized)*:
 
 ```mermaid
-  flowchart TD
-  %% Styles
+%%{init: {'theme': 'default', 'themeVariables': { 'background': '#f9fafb' }}}%%
+flowchart TD
   classDef good fill:#ecfdf5,stroke:#10b981,color:#065f46
   classDef layer fill:#eef2ff,stroke:#4f46e5,color:#1e1b4b
   classDef store fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
@@ -94,39 +95,33 @@ flowchart TD
   classDef sheet fill:#fff7ed,stroke:#fb923c,color:#7c2d12
   classDef guard fill:#f0fdf4,stroke:#22c55e,color:#065f46
 
-  %% External sources
   V1[Vendor EDC / CRO]:::vendor
   V2[Lab LIMS]:::vendor
   V3[Partner CTMS]:::vendor
   S1[Team Spreadsheets]:::sheet
 
-  %% Ingestion
   MC[[Managed Connectors]]:::good
   UP[[Governed Upload]]:::guard
   SBI[[Scheduled Batch Intake]]:::good
-  QC{{Early Automated<br/>Quality Checks}}:::good
+  QC{{Early Automated Quality Checks}}:::good
   QZ[[Quarantine on Fail]]:::guard
 
-  %% Layers
   BR[(Bronze: Raw)]:::layer
   SI[(Silver: Refined)]:::layer
   DEF[[Shared Definitions & Rules]]:::good
   GO[(Gold: Curated)]:::layer
   AS[(Single Analytical Store)]:::store
 
-  %% Flows
   V1 --> MC
   V2 --> MC
   V3 --> MC
   MC --> SBI --> BR --> SI --> GO --> AS
 
-  %% Spreadsheet path (governed)
   S1 --> UP --> SBI
   SBI --> QC
   QC -- pass --> BR
   QC -- fail --> QZ
 
-  %% Governance
   SI --> DEF
   DEF --> GO
 ```
