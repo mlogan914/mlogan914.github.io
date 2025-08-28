@@ -239,7 +239,7 @@ That said, here’s one way you could picture it using modern, cloud-native opti
 | **Consistent governance**     | *Unity Catalog*, *AWS Glue Data Catalog*, or *Apache Atlas* for metadata, lineage, and access controls   |
 | **Orchestration**             | *Apache Airflow*, *Dagster*, or *AWS Step Functions* to coordinate ingestion, validation, and publishing |
 
-> This is just one possible combination.
+> **Note**: This is just one possible combination.
 > The same architecture could be implemented with many other tools — in the cloud, on-premises, or hybrid environments.
 
 ```mermaid
