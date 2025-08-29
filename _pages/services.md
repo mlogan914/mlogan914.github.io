@@ -42,7 +42,7 @@ A short, focused **advisory engagement (2–3 weeks)** designed to give you clar
 
 By the end, you’ll have a **complete picture of your current data reality** and a **clear path to the biggest improvements**.
 
-1. **Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs so everyone sees the same picture.  
+**1 - Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs so everyone sees the same picture.  
    *Example (fictional & anonymized)*:
 
 ```mermaid
@@ -79,9 +79,11 @@ flowchart TD
 
 ```
 
-2. **Issues & Risks Report** — Identifies where delays, duplication, and errors occur, explains why they happen, and highlights the cost of leaving them unresolved.
-3. **Prioritized “Top 5”** — A short list of the changes that will deliver the fastest and biggest impact, so you know exactly where to start.
-4. **Future-State Blueprint** — A high-level target flow for cleaner, more reliable data operations.
+**2 - Issues & Risks Report** — Identifies where delays, duplication, and errors occur, explains why they happen, and highlights the cost of leaving them unresolved.
+
+**3 - Prioritized “Top 5”** — A short list of the changes that will deliver the fastest and biggest impact, so you know exactly where to start.
+
+**4 - Future-State Blueprint** — A high-level target flow for cleaner, more reliable data operations.
 
 *Example (fictional & anonymized)*:
 
