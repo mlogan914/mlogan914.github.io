@@ -46,37 +46,42 @@ By the end, you’ll have a **complete picture of your current data reality** an
    *Example (fictional & anonymized)*:
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'background': '#f9fafb' }}}%%
 flowchart TD
+  classDef bg fill:#f9fafb,stroke:#f9fafb,stroke-width:0px
   classDef bad fill:#fef2f2,stroke:#ef4444,color:#7f1d1d
   classDef neutral fill:#f3f4f6,stroke:#4b5563,color:#111827
   classDef store fill:#e5e7eb,stroke:#374151,color:#111827
   classDef pain fill:#fff7ed,stroke:#fb923c,color:#7c2d12
 
-  subgraph Vendors/Teams
-    V1[Vendor A Files]:::neutral
-    V2[Vendor B Files]:::neutral
-    T1[Team Spreadsheets]:::neutral
+  subgraph Current State
+    class Canvas bg
+    direction TB
+
+    subgraph Vendors[ Vendors/Teams ]
+      V1[Vendor A Files]:::neutral
+      V2[Vendor B Files]:::neutral
+      T1[Team Spreadsheets]:::neutral
+    end
+    style Vendors fill:#fef3c7,stroke:#d97706,stroke-width:1px,color:#111827
+
+    SD[(Shared Drive Intake)]:::bad
+    LJ[[Legacy Jobs / Scripts]]:::bad
+    OP[(On-Prem DB)]:::store
+
+    V1 --> SD
+    V2 --> SD
+    T1 --> SD
+    SD --> LJ
+    LJ --> OP
+
+    P1([Duplicate versions]):::pain
+    P2([Undocumented dependencies]):::pain
+    P3([Stale data 3–5 days]):::pain
+
+    SD -.-> P1
+    LJ -.-> P2
+    OP -.-> P3
   end
-
-  SD[(Shared Drive Intake)]:::bad
-  LJ[[Legacy Jobs / Scripts]]:::bad
-  OP[(On-Prem DB)]:::store
-
-  V1 --> SD
-  V2 --> SD
-  T1 --> SD
-  SD --> LJ
-  LJ --> OP
-
-  P1([Duplicate versions]):::pain
-  P2([Undocumented dependencies]):::pain
-  P3([Stale data 3–5 days]):::pain
-
-  SD -.-> P1
-  LJ -.-> P2
-  OP -.-> P3
-
 ```
 
 **2 - Issues & Risks Report** — Identifies where delays, duplication, and errors occur, explains why they happen, and highlights the cost of leaving them unresolved.
@@ -88,44 +93,52 @@ flowchart TD
 *Example (fictional & anonymized)*:
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'background': '#f9fafb' }}}%%
 flowchart TD
+  classDef bg fill:#f9fafb,stroke:#f9fafb,stroke-width:0px,color:#111827
   classDef good fill:#ecfdf5,stroke:#10b981,color:#065f46
   classDef layer fill:#eef2ff,stroke:#4f46e5,color:#1e1b4b
   classDef store fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
-  classDef vendor fill:#fef3c7,stroke:#d97706,color:#78350f
+  classDef vendor fill:#bfdbfe,stroke:#2563eb,color:#1e3a8a
   classDef sheet fill:#fff7ed,stroke:#fb923c,color:#7c2d12
   classDef guard fill:#f0fdf4,stroke:#22c55e,color:#065f46
 
-  V1[Vendor EDC / CRO]:::vendor
-  V2[Lab LIMS]:::vendor
-  V3[Partner CTMS]:::vendor
-  S1[Team Spreadsheets]:::sheet
+  subgraph Canvas
+    class Canvas bg
+    direction TB
 
-  MC[[Managed Connectors]]:::good
-  UP[[Governed Upload]]:::guard
-  SBI[[Scheduled Batch Intake]]:::good
-  QC{{Early Automated Quality Checks}}:::good
-  QZ[[Quarantine on Fail]]:::guard
+    subgraph Vendors[ Vendors/Teams ]
+      V1[Vendor EDC / CRO]:::vendor
+      V2[Lab LIMS]:::vendor
+      V3[Partner CTMS]:::vendor
+      S1[Team Spreadsheets]:::sheet
+    end
+    style Vendors fill:#fef3c7,stroke:#d97706,stroke-width:1px,color:#111827
 
-  BR[(Bronze: Raw)]:::layer
-  SI[(Silver: Refined)]:::layer
-  DEF[[Shared Definitions & Rules]]:::good
-  GO[(Gold: Curated)]:::layer
-  AS[(Single Analytical Store)]:::store
+    MC[[Managed Connectors]]:::good
+    UP[[Governed Upload]]:::guard
+    SBI[[Scheduled Batch Intake]]:::good
+    QC{{Early Automated Quality Checks}}:::good
+    QZ[[Quarantine on Fail]]:::guard
 
-  V1 --> MC
-  V2 --> MC
-  V3 --> MC
-  MC --> SBI --> BR --> SI --> GO --> AS
+    BR[(Bronze: Raw)]:::layer
+    SI[(Silver: Refined)]:::layer
+    DEF[[Shared Definitions & Rules]]:::good
+    GO[(Gold: Curated)]:::layer
+    AS[(Single Analytical Store)]:::store
 
-  S1 --> UP --> SBI
-  SBI --> QC
-  QC -- pass --> BR
-  QC -- fail --> QZ
+    V1 --> MC
+    V2 --> MC
+    V3 --> MC
+    MC --> SBI --> BR --> SI --> GO --> AS
 
-  SI --> DEF
-  DEF --> GO
+    S1 --> UP --> SBI
+    SBI --> QC
+    QC -- pass --> BR
+    QC -- fail --> QZ
+
+    SI --> DEF
+    DEF --> GO
+  end
 ```
 
 ---
