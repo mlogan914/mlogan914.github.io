@@ -94,7 +94,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  classDef bg fill:#f9fafb,stroke:#f9fafb,stroke-width:0px,color:#111827
+  classDef bg fill:#f3f4f6,stroke:#f3f4f6,stroke-width:0px,color:#111827
   classDef good fill:#ecfdf5,stroke:#10b981,color:#065f46
   classDef layer fill:#eef2ff,stroke:#4f46e5,color:#1e1b4b
   classDef store fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
@@ -102,7 +102,7 @@ flowchart TD
   classDef sheet fill:#fff7ed,stroke:#fb923c,color:#7c2d12
   classDef guard fill:#f0fdf4,stroke:#22c55e,color:#065f46
 
-  subgraph Canvas
+  subgraph Future State
     class Canvas bg
     direction TB
 
