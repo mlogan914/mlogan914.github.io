@@ -8,6 +8,13 @@ layout: single
   See exactly how your data moves — and where it’s getting stuck — before you make your next move.
 </div>
 
+<div class="notice--info">
+  This is a pilot version of my Data Clarity Audit, designed to be a focused, high-impact engagement.  
+  I’m currently offering it to a small number of organizations as I refine the process.  
+  If you’re interested in being part of the pilot or discussing future availability, feel free to get in touch.
+</div>
+
+
 <img src="/assets/images/data_clarity_audit.png" alt="data clarity audit" class="center-image" />
 
 ---
