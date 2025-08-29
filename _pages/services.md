@@ -9,7 +9,7 @@ layout: single
 </div>
 
 <div class="notice--info">
-  Note: This is a pilot version of my Data Clarity Audit, designed to be a focused, high-impact engagement.  
+  **Note:** This is a pilot version of my Data Clarity Audit, designed to be a focused, high-impact engagement.  
   I’m currently offering it to a small number of organizations as I refine the process.  
   If you’re interested in being part of the pilot or discussing future availability, feel free to get in touch.
 </div>
