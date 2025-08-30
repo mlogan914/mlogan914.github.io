@@ -19,7 +19,7 @@ tags:
 
 If you’ve ever heard the term “data orchestration” and wondered, *“What exactly does that mean?”* — you’re not alone.
 
-For seasoned engineers, the term “orchestration” is second nature. But for those outside the data team, it can sound abstract or overly technical. Once you understand it, though, you’ll start spotting orchestration as a pattern in many workflows — both inside and outside of technology.  
+For seasoned engineers, the term “orchestration” is second nature, but for those outside the data team, it can sound abstract or overly technical. Once you understand it, you’ll start spotting orchestration as a pattern in many workflows — both inside and outside of technology.  
 
 ---
 
@@ -30,10 +30,10 @@ Think of orchestration as **coordinating a series of steps so that work happens 
 It’s not the step itself — it’s how you manage the *sequence* of steps, and how you make sure the whole process flows smoothly.  
 
 If you’ve seen an orchestra perform, you’ve seen how a conductor doesn’t play the instruments but still makes sure every musician starts and stops at the right moment. Orchestration in data is the same idea — but instead of musicians, you have tasks like:  
-- Pulling data from a source system  
-- Transforming it into a standard format  
-- Running validation checks  
-- Delivering it to a reporting system or compliance package  
+- Pulling data from a source system.  
+- Transforming it into a standard format.  
+- Running validation checks.  
+- Delivering it to a reporting system or compliance package.  
 
 Without orchestration, you’re basically asking each “musician” (task) to guess when to come in — and hoping they’re in sync.  
 
@@ -60,7 +60,7 @@ Imagine you run a busy coffee shop. Each morning:
 
 If the counter opens before coffee or pastries are ready, customers are waiting around. If the bakers start too late, the baristas run out of food to sell.  
 
-You could manually tell each team when to start, but that means constant coordination. Or you could set up a simple system — ovens start baking at 5:00, baristas begin prepping at 5:30, the counter opens at 6:00 — so it all happens in the right order without you micromanaging it every day.  
+You could manually tell each team when to start, but that means constant coordination, or you could set up a simple system — ovens start baking at 5:00, baristas begin prepping at 5:30, the counter opens at 6:00 — so it all happens in the right order without you micromanaging it every day.  
 
 That’s orchestration. The tasks don’t change — you just ensure they happen in sync, reliably.  
 
@@ -69,12 +69,12 @@ That’s orchestration. The tasks don’t change — you just ensure they happen
 ## What Orchestration Looks Like in Data Work
 
 For data teams (including those working with clinical trial data), orchestration might mean:  
-- Running an extract job only when yesterday’s data file has arrived  
-- Automatically triggering data cleaning scripts before a transformation job starts  
-- Running compliance checks after a dataset has been created, and stopping the process if it fails  
-- Sending an alert if any step doesn’t complete as expected  
+- Running an extract job only when yesterday’s data file has arrived.  
+- Automatically triggering data cleaning scripts before a transformation job starts.  
+- Running compliance checks after a dataset has been created, and stopping the process if it fails.  
+- Sending an alert if any step doesn’t complete as expected.  
 
-The key is that orchestration makes the process **hands-off, repeatable, and trackable**. You’re not waiting on one person to remember to “execute”.
+The key is that orchestration makes the process **hands-off, repeatable, and trackable**. You’re not waiting on one person to remember to “execute.”
 
 ---
 
@@ -89,10 +89,10 @@ Some examples:
 - **AWS Step Functions** – Ideal for cloud-native, event-driven workflows; integrates well with AWS services without needing servers.  
 
 For clinical data work, the tool you choose depends on:  
-- How complex your workflows are  
-- Where your data lives (on-prem, cloud, hybrid)  
-- Compliance and audit requirements  
-- Your team’s skill set  
+- How complex your workflows are?  
+- Where your data lives (on-prem, cloud, hybrid)?  
+- Compliance and audit requirements.  
+- Your team’s skill set.  
 
 The goal isn’t to pick the “coolest” tool — it’s to choose one that makes your workflows more reliable, easier to monitor, and easier to reproduce.  
 
