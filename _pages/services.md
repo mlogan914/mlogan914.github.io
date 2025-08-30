@@ -9,9 +9,7 @@ layout: single
 </div>
 
 <div class="notice--info" markdown="1">
-  **Note:** This is a pilot version of Data Clarity Audit, designed to be a focused, high-impact engagement.  
-  I’m currently offering it to a small number of organizations as I refine the process.  
-  If you’re interested in being part of the pilot or discussing future availability, feel free to get in touch.
+  **Note:** This is a pilot version of Data Clarity Audit, designed to be a focused, high-impact engagement. I’m currently offering it to a small number of organizations as I refine the process. If you’re interested in being part of the pilot or discussing future availability, feel free to get in touch.
 </div>
 
 
@@ -19,7 +17,7 @@ layout: single
 
 ---
 
-## Why teams call me
+## Why Teams Call Me
 In many organizations, data is scattered across systems, teams, and vendors. You might feel like you spend more time moving data around than actually using it.
 
 **Common signs:**
@@ -44,7 +42,7 @@ That’s where I come in — giving you a clear picture of your data and where t
 
 ---
 
-## What you get
+## What You Get
 A short, focused **advisory engagement (2–3 weeks)** designed to give you clarity fast.  
 
 By the end, you’ll have a **complete picture of your current data reality** and a **clear path to the biggest improvements**.
@@ -97,7 +95,7 @@ flowchart TD
 
 **4 - Future-State Blueprint** — A high-level target flow for cleaner, more reliable data operations.
 
-*Example (fictional & anonymized)*:
+*Example (Fictional & Anonymized)*:
 
 ```mermaid
 flowchart TD
@@ -150,7 +148,7 @@ flowchart TD
 
 ---
 
-## Engagement at a glance
+## Engagement at A Glance
 
 | Item | Details |
 |---|---|
@@ -161,7 +159,7 @@ flowchart TD
 
 ---
 
-## Who it’s for
+## Who It’s For
 Best fit for teams that:
 - **Feel overwhelmed** by the complexity or volume of their data  
 - **Aren’t sure** how data really moves between people, systems, and vendors  
@@ -174,7 +172,7 @@ Especially valuable for:
 
 ---
 
-## Who it’s not for
+## Who It’s Not For
 Not a fit if you’re only:
 - Looking for a single tool/software recommendation  
 - Expecting hands-on implementation during this short engagement  
@@ -183,7 +181,7 @@ Not a fit if you’re only:
 
 ---
 
-## How it helps
+## How It Helps
 - **Faster, more confident decisions** — Fix upstream disconnects so reports align the first time  
 - **Less waste** — Eliminate redundant processes and manual reconciliations  
 - **Stronger foundations** — Make smarter choices about systems, vendors, and staffing  
@@ -191,19 +189,19 @@ Not a fit if you’re only:
 
 ---
 
-## Why it works
+## Why It Works
 - **Independent view** — No vendor bias or software upsell  
 - **Approachable & visual** — Clear diagrams and explanations anyone can follow  
 - **Actionable** — You leave with a prioritized plan you can start using right away, not a vague wishlist  
 
 ---
 
-## About me
+## About Me
 I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Programmer) who has spent years mapping and improving data flows in complex environments. I bridge the gap between day-to-day operations and long-term strategy, helping teams cut through complexity and create data systems that actually work for them.
 
 ---
 
-## Next step
+## Next Step
 - 📧 Email: **[hello@nexaform.io](mailto:hello@nexaform.io)**  
 - 📅 Book a free 30-minute consultation  
 - 📄 Receive a fixed-fee proposal with clear scope and deliverables  

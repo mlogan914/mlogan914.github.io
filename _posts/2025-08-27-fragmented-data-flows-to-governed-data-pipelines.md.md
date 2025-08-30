@@ -31,7 +31,7 @@ This follow-up shows what that shift can look like in practice — moving from f
 
 ---
 
-## The core idea
+## The Core Idea
 
 Many organizations have data flowing in from multiple systems and vendors, each using their own methods to send it over. Without consistent entry points, quality checks, or structure, the result is hard to scale, hard to trust, and expensive to maintain.
 
@@ -49,7 +49,7 @@ Here’s a fictional example to make it concrete.
 
 ---
 
-### Current state: fragmented and inconsistent
+### Current State: Fragmented and Inconsistent
 
 ```mermaid
 flowchart LR
@@ -94,14 +94,14 @@ flowchart LR
   classDef problem stroke-dasharray:5 3,stroke:#e5484d,stroke-width:2px;
 ```
 
-**Key characteristics**:
+**Key Characteristics**:
 - Multiple uncontrolled entry points (SFTP, shared drives, ad-hoc files).
 - Different storage environments holding overlapping data.
 - Custom logic scattered across scripts that aren’t centrally managed.
 
 ---
 
-### Future state: governed and repeatable
+### Future State: Governed and Repeatable
 ```mermaid
 flowchart LR
   %% Sources
@@ -137,7 +137,7 @@ flowchart LR
 
 ```
 
-**Key characteristics**:
+**Key Characteristics**:
 - One governed front door for all sources.
 - Automated checks ensure issues are caught before they spread.
 - Layered structure (Raw → Refined → Curated) for clarity and trust.
@@ -226,82 +226,7 @@ The table below explains each major change from the current state to the governe
 
 ---
 
-## One Possible Modern Implementation
-
-The approach above works regardless of technology stack — the architecture matters more than the tools.
-That said, here’s one way you could picture it using modern, cloud-native options:
-
-| Architectural Principle       | Example Tools (One of Many Possibilities)                                                                |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **One “front door” for data** | Managed connectors in *Fivetran*, *Airbyte*, or *AWS AppFlow*                                            |
-| **Early quality checks**      | *Great Expectations* or *dbt tests* triggered in orchestration workflows                                 |
-| **Layered storage**           | *Delta Lake* (Databricks) or *Apache Iceberg* on *AWS S3*, with **raw**, **validated**, and **curated** zones  |
-| **Consistent governance**     | *Unity Catalog*, *AWS Glue Data Catalog*, or *Apache Atlas* for metadata, lineage, and access controls   |
-| **Orchestration**             | *Apache Airflow*, *Dagster*, or *AWS Step Functions* to coordinate ingestion, validation, and publishing |
-
-> **Note**: This is just one possible combination.
-> The same architecture could be implemented with many other tools — in the cloud, on-premises, or hybrid environments.
-
-```mermaid
-flowchart TB
-  %% Styles
-  classDef layer fill:#e0e0e0,stroke:#666,stroke-width:1px,rx:6,ry:6,color:#000;
-  classDef sys fill:#f4f4f4,stroke:#444,stroke-width:1px,rx:6,ry:6,color:#000;
-
-  %% Sources
-  subgraph Sources
-    A1[Salesforce CRM]
-    A2[EHR System]
-  end
-  class A1,A2 layer
-
-  %% Front door
-  FD[Front door: AWS AppFlow - Data ingestion]:::sys
-
-  %% Orchestration
-  ORC[AWS Step Functions - Workflow orchestration]:::sys
-
-  %% Lake zones
-  Z1[(raw)]:::layer
-  GE[Great Expectations - Quality checks]:::sys
-  Z2[(validated)]:::layer
-  DBT[dbt transforms - Business logic and joins]:::sys
-  Z3[(curated)]:::layer
-
-  %% Catalog
-  CAT[AWS Glue Data Catalog - Metadata and governance]:::sys
-
-  %% Query
-  ATH[Amazon Athena - Query and analysis]:::sys
-
-  %% Consumers
-  subgraph Consumers
-    C1[QuickSight Dashboard]
-    C2[Analyst Notebook]
-  end
-  class C1,C2 layer
-
-  %% Flows
-  A1 --> FD
-  A2 --> FD
-  FD --> ORC
-  ORC --> Z1
-  ORC --> GE
-  GE --> Z2
-  Z2 --> DBT
-  DBT --> Z3
-  CAT --- Z1
-  CAT --- Z2
-  CAT --- Z3
-  Z3 --> ATH
-  ATH --> C1
-  ATH --> C2
-
-```
-
----
-
-## Why this matters
+## Why This Matters
 
 This isn’t about chasing the latest software. It’s about setting up an engineering approach that:
 
@@ -313,7 +238,7 @@ When your data environment is designed this way, technology choices become easie
 
 ---
 
-## Next steps
+## Next Steps
 
 If your current-state looks more like the first diagram than the second, the first move isn’t to buy new software. It’s to map your flows, identify the uncontrolled entry points, and decide what your “front door” should be.
 
