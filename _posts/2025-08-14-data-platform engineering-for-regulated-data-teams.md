@@ -36,7 +36,7 @@ That’s where **data engineering** meets **platform engineering**.
 
 ---
 
-## What is data engineering?
+## What Is Data Engineering?
 
 <img src="/assets/images/data_engineering.png" alt="data engineering" class="center-image" />
 
@@ -75,7 +75,7 @@ In this model:
 
 ---
 
-## What is platform engineering?
+## What Is Platform Engineering?
 <img src="/assets/images/platform_engineering.png" alt="platform engineering" class="center-image" />
 
 <p align="center">Image created by the author</p>
@@ -122,7 +122,7 @@ SAS still plays a role, especially for regulatory deliverables or sponsor requir
 
 ---
 
-## How data engineering and platform engineering intersect
+## How Data Engineering and Platform Engineering Intersect
 
 Data engineering and platform engineering are complementary disciplines.  
 - **Data engineering** focuses on building the pipelines that ingest, transform, and deliver data so it’s ready for use.  
@@ -142,7 +142,7 @@ Instead of manually rebuilding the same logic for each study, teams can focus on
 
 ---
 
-## Why this matters in regulated industries
+## Why This Matters In Regulated Industries
 
 Regulated data teams are a perfect candidate for platform thinking because:  
 - **Patterns repeat** — SDTM, ADaM, CDASH aren’t changing every week.  
@@ -158,7 +158,7 @@ A platform approach can:
 
 ---
 
-## Why now?
+## Why Now?
 
 Platform engineering is still taking shape — even in mainstream software.  
 
@@ -170,11 +170,24 @@ If we keep designing systems to match how things were done yesterday, we’ll ne
 
 ---
 
-## Closing thought  
+## Closing Thought  
 
 While platform engineering varies by industry, platform thinking shifts the focus from delivering a single project to building the capability to deliver any project well.  
 
 If you’ve ever thought, “There has to be a better way” — you’re probably right. The first step might be to start thinking like a platform engineer.
+
+---
+
+## Next in the Series
+
+In this article, we explored the broader concept of **Data Platform Engineering** and why regulated teams need more than just new tools.
+
+Modernization happens across **two connected layers**:
+1. **Data Engineering** – Designing and building governed pipelines for ingestion, transformation, and controlled outputs.
+2. **Platform Engineering** – The delivery model that makes those pipelines sustainable: modular workflows, reusable components, automation, and tooling that reduce the burden on engineers and programmers.
+
+In the next article, I dive deeper into the **Data Engineering** layer and show what a modernized pipeline can look like in practice:  
+[From Fragmented Data Flows to Governed Data Pipelines](/data%20&%20platform%20engineering/fragmented-data-flows-to-governed-data-pipelines/)
 
 ---
 
