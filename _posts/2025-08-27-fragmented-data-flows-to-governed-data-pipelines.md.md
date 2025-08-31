@@ -16,6 +16,12 @@ classes: wide
     Many organizations focus on fixing individual data issues but overlook the bigger picture: how data enters, moves, and is governed across the entire environment. This article shows a practical before-and-after example of moving from fragmented data flows to governed, versioned pipeline — an approach that supports scalability, trust, and repeatability without relying on tool-first thinking.
 </div>
 
+<div class="notice--info">
+  <strong>Series:</strong> <a href="/tags/modern-data-platform-foundations/">Modern Data Platform Foundations</a>  
+  This article is part of a series exploring the essential layers of modern data practices.
+</div>
+
+
 <img src="/assets/images/governed_data_pipelines.png" alt="governed data pipelines" class="center-image" />
 
 <p align="center">Image created by the author</p>
