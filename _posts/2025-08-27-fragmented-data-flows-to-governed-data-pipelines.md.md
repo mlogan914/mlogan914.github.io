@@ -2,10 +2,11 @@
 title: "From Fragmented Data Flows to a Governed Data Pipeline"
 permalink: /fragmented-data-flows-to-governed-data-pipelines/
 excerpt_separator: "<!--more-->"
+
 categories:
   - Data & Platform Engineering
 tags:
-  - modern-data-platform-foundations
+  - Modern Data Platform Foundations
   
 layout: single
 classes: wide

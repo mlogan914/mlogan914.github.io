@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering
 tags:
-  - modern-data-platform-foundations
+  - Modern Data Platform Foundations
 
 ---
 
