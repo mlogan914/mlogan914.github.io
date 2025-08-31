@@ -188,7 +188,7 @@ Modernization happens across **two connected layers**:
 
 In the next article, I'll dive deeper into the **Data Engineering** layer and show what a modernized pipeline can look like in practice:  
 
-[From Fragmented Data Flows to Governed Data Pipelines](/fragmented-data-flows-to-governed-data-pipelines/)
+📄➡️ [From Fragmented Data Flows to a Governed Data Pipeline](/fragmented-data-flows-to-governed-data-pipelines/)
 
 ---
 
