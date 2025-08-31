@@ -20,15 +20,44 @@ classes: wide
 <img src="/assets/images/governed_data_pipelines.png" alt="governed data pipelines" class="center-image" />
 
 <p align="center">Image created by the author</p>
+In my previous article, [Data Platform Engineering for Regulated Teams](/data%20&%20platform%20engineering/data-platform-engineering-for-regulated-data-teams/), I explained why modernizing data in regulated industries requires more than simply swapping out tools.  
 
-In my previous article, [Data Platform Engineering for Regulated Teams](/data%20&%20platform%20engineering/data-platform-engineering-for-regulated-data-teams/), I outlined why modernizing data in regulated industries requires more than just swapping out tools.
+This follow-up shows what that shift can look like in practice — moving from fragmented, ad-hoc flows to a governed, repeatable data pipeline.  
 
-This follow-up shows what that shift can look like in practice — moving from fragmented, ad-hoc flows to a governed, repeatable data pipeline.
+If you’re unsure what a “data pipeline” is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)  
 
- If you’re unsure what a “data pipeline” is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)
+> **Note:** If you are unfamiliar with any terms or acronyms in this article or its diagrams, refer to the [summary of acronyms](#summary-of-acronyms) at the end of the article.  
 
- > **Note:** If you are unfamiliar with any terms or acronyms in this article or its diagrams, refer to the [summary of acronyms](#summary-of-acronyms) at the end of the article.
+---
 
+## Two Layers of Modernization
+
+Modernizing data involves two connected layers:  
+
+1. **Data Engineering** – Designing and building standardized, governed pipelines that handle ingestion, transformation, and controlled outputs.  
+2. **Platform Engineering** – The delivery model for those pipelines: modular workflows, reusable components, automation, and tooling that reduce the burden on engineers and programmers.  
+
+> This article focuses on the **first layer** — data engineering — and illustrates what modernized pipelines can look like. The *how* of building and running them (platform engineering) is equally important and will be covered in a future article.
+
+```mermaid
+%%{init: { 'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'primaryColor': '#d1fae5', 'secondaryColor': '#f9fafb', 'primaryTextColor': '#064e3b', 'secondaryTextColor': '#6b7280', 'lineColor': '#6b7280', 'tertiaryColor': '#f3f4f6' }}}%%
+flowchart TB
+    subgraph DE[Data Engineering – The What]
+      direction TB
+      ING[Ingest<br><span style="color:#6b7280;">Standardized inputs</span>] --> STD[Standardize<br><span style="color:#6b7280;">Apply formats & rules</span>] --> TRF[Transform<br><span style="color:#6b7280;">Business & clinical logic</span>] --> GOV[Govern<br><span style="color:#6b7280;">Validation & controls</span>] --> OUT[Output<br><span style="color:#6b7280;">Ready for analysis</span>]
+    end
+
+    subgraph PE[Platform Engineering – The How]
+      direction TB
+      MOD[Modular Components] --> LIB[Reusable Libraries] --> AUTO[Automation & Orchestration] --> SELF[Self-Service Deployment] --> OBS[Observability & Governance]
+    end
+
+    DE --> PE
+
+    style DE fill:#bbf7d0,stroke:#16a34a,stroke-width:2px
+    style PE fill:#f3f4f6,stroke:#d1d5db,stroke-width:1px,color:#6b7280
+
+```
 ---
 
 ## The Core Idea
