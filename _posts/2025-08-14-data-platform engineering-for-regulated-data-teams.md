@@ -186,7 +186,7 @@ Modernization happens across **two connected layers**:
 1. **Data Engineering** – Designing and building governed pipelines for ingestion, transformation, and controlled outputs.
 2. **Platform Engineering** – The delivery model that makes those pipelines sustainable: modular workflows, reusable components, automation, and tooling that reduce the burden on engineers and programmers.
 
-In the next article, I dive deeper into the **Data Engineering** layer and show what a modernized pipeline can look like in practice:  
+In the next article, I'll dive deeper into the **Data Engineering** layer and show what a modernized pipeline can look like in practice:  
 [From Fragmented Data Flows to Governed Data Pipelines](https://mlogan914.github.io/data%20&%20platform%20engineering/fragmented-data-flows-to-governed-data-pipelines/)
 
 ---
