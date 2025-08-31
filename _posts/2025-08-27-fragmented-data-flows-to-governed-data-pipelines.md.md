@@ -5,11 +5,8 @@ excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering
 tags:
-  - data engineering
-  - data-architecture
-  - data-pipelines
-  - operating-model
-  - life-sciences
+  - modern-data-platform-foundations
+  
 layout: single
 classes: wide
 ---

@@ -3,14 +3,8 @@ title: "We Had the Blueprint the Whole Time: Why Clinical Data Hasn’t Automate
 excerpt_separator: "<!--more-->"
 categories:
   - Modernization in Pharma & Clinical Data
-tags:
-  - metadata-as-infrastructure
-  - automation
-  - CDISC
-  - SDTM
-  - ODM
-  - industry-perspectives
-  - systems-thinking
+# tags:
+#   - metadata-as-infrastructure
 
 ---
 

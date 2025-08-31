@@ -4,8 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering
 tags:
-  - data-engineering
-  - systems-thinking
+  - modern-data-platform-foundations
 
 ---
 
