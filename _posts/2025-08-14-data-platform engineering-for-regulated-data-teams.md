@@ -13,7 +13,7 @@ tags:
 </div>
 
 <div class="notice--info">
-  This article is part of the <a href="/tags/#modern-data-platform-foundations">Modern Data Platform Foundations</a>  series covering the two key layers of modernization: data engineering and platform engineering.
+  📄This article is part of the <a href="/tags/#modern-data-platform-foundations">Modern Data Platform Foundations</a>  series covering the two key layers of modernization: data engineering and platform engineering.
 </div>
 
 <img src="/assets/images/data_platform.png" alt="data platform" class="center-image" />

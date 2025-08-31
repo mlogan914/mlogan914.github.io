@@ -17,7 +17,7 @@ classes: wide
 </div>
 
 <div class="notice--info">
-  This article is part of the <a href="/tags/#modern-data-platform-foundations">Modern Data Platform Foundations</a>  series covering the two key layers of modernization: data engineering and platform engineering.
+   📄 This article is part of the <a href="/tags/#modern-data-platform-foundations">Modern Data Platform Foundations</a>  series covering the two key layers of modernization: data engineering and platform engineering.
 </div>
 
 <img src="/assets/images/governed_data_pipelines.png" alt="governed data pipelines" class="center-image" />
