@@ -39,29 +39,30 @@ Modernizing data involves two connected layers:
 
 > This article focuses on the **first layer** — data engineering — and illustrates what modernized pipelines can look like. The *how* of building and running them (platform engineering) is equally important and will be covered in a future article.
 
+### Data Engineering – The What
 ```mermaid
 %%{init: { 'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'primaryColor': '#d1fae5', 'secondaryColor': '#f9fafb', 'primaryTextColor': '#064e3b', 'secondaryTextColor': '#6b7280', 'lineColor': '#6b7280', 'tertiaryColor': '#f3f4f6' }}}%%
 flowchart TB
     %% Top layer: Data Engineering
-    subgraph DE[Data Engineering – The What]
+    subgraph DE
       direction LR
       ING[Ingest<br><span style="color:#6b7280;">Standardized inputs</span>] --> STD[Standardize<br><span style="color:#6b7280;">Apply formats & rules</span>] --> TRF[Transform<br><span style="color:#6b7280;">Business & clinical logic</span>] --> GOV[Govern<br><span style="color:#6b7280;">Validation & controls</span>] --> OUT[Output<br><span style="color:#6b7280;">Ready for analysis</span>]
     end
+    style DE fill:#bbf7d0,stroke:#16a34a,stroke-width:2px
+```
 
+### Platform Engineering – The How
+```mermaid
+%%{init: { 'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'primaryColor': '#f3f4f6', 'secondaryColor': '#f9fafb', 'primaryTextColor': '#6b7280', 'secondaryTextColor': '#6b7280', 'lineColor': '#6b7280', 'tertiaryColor': '#f3f4f6' }}}%%
+flowchart TB
     %% Bottom layer: Platform Engineering
-    subgraph PE[Platform Engineering – The How]
+    subgraph PE
       direction LR
       MOD[Modular Components] --> LIB[Reusable Libraries] --> AUTO[Automation & Orchestration] --> SELF[Self-Service Deployment] --> OBS[Observability & Governance]
     end
-
-    %% Positioning: Stack layers vertically
-    DE --> PE
-
-    %% Styling
-    style DE fill:#bbf7d0,stroke:#16a34a,stroke-width:2px
     style PE fill:#f3f4f6,stroke:#d1d5db,stroke-width:1px,color:#6b7280
-
 ```
+
 ---
 
 ## The Core Idea
