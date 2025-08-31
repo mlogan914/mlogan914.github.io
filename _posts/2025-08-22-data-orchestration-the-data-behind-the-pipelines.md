@@ -27,9 +27,9 @@ For seasoned engineers, the term “orchestration” is second nature, but for t
 
 Think of orchestration as **coordinating a series of steps so that work happens in the right order, at the right time, with the right checks along the way**.  
 
-It’s not the step itself — it’s how you manage the *sequence* of steps, and how you make sure the whole process flows smoothly.  
+It’s not the step itself; it’s how you manage the *sequence* of steps, and how you make sure the whole process flows smoothly.  
 
-If you’ve seen an orchestra perform, you’ve seen how a conductor doesn’t play the instruments but still makes sure every musician starts and stops at the right moment. Orchestration in data is the same idea — but instead of musicians, you have tasks like:  
+If you’ve seen an orchestra perform, you’ve seen how a conductor doesn’t play the instruments but still makes sure every musician starts and stops at the right moment. Orchestration in data is the same idea, but instead of musicians, you have tasks like:  
 - Pulling data from a source system.  
 - Transforming it into a standard format.  
 - Running validation checks.  
@@ -60,7 +60,7 @@ Imagine you run a busy coffee shop. Each morning:
 
 If the counter opens before coffee or pastries are ready, customers are waiting around. If the bakers start too late, the baristas run out of food to sell.  
 
-You could manually tell each team when to start, but that means constant coordination, or you could set up a simple system — ovens start baking at 5:00, baristas begin prepping at 5:30, the counter opens at 6:00 — so it all happens in the right order without you micromanaging it every day.  
+You could manually tell each team when to start, but that means constant coordination, or you could set up a simple system — ovens start baking at 5:00, baristas begin prepping at 5:30, the counter opens at 6:00, so it all happens in the right order without you micromanaging it every day.  
 
 That’s orchestration. The tasks don’t change — you just ensure they happen in sync, reliably.  
 
@@ -100,7 +100,7 @@ The goal isn’t to pick the “coolest” tool — it’s to choose one that ma
 
 ## Why This Matters — Especially in Clinical Data
 
-In most regulated environments — including clinical research — **orchestration isn’t even part of the conversation**.  
+In most regulated environments, including clinical research, **orchestration isn’t even part of the conversation**.  
 
 Right now, many processes are still run manually:  
 - Someone checks if new data has arrived.  
@@ -129,4 +129,4 @@ This isn’t just a tech upgrade — it’s a mindset shift. Instead of thinking
 
 Orchestration is one of those behind-the-scenes capabilities that, once in place, makes everything else feel smoother. It’s the invisible conductor making sure your data pipelines perform in harmony — whether you’re running dashboards for a business or delivering a submission package for a clinical trial.  
 
-If you’ve ever had to run the same steps in the same order more than once, orchestration is worth understanding — and worth doing well.  
+If you’ve ever had to run the same steps in the same order more than once, orchestration is worth understanding, and it's worth doing well.  

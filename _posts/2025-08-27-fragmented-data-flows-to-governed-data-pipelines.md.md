@@ -23,7 +23,7 @@ classes: wide
 
 In my previous article, [Data Platform Engineering for Regulated Teams](/data%20&%20platform%20engineering/data-platform-engineering-for-regulated-data-teams/), I outlined why modernizing data in regulated industries requires more than just swapping out tools.
 
-This follow-up shows what that shift can look like in practice — moving from fragmented, ad-hoc flows to a governed, repeatable data pipelines.
+This follow-up shows what that shift can look like in practice — moving from fragmented, ad-hoc flows to a governed, repeatable data pipeline.
 
  If you’re unsure what a “data pipeline” is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)
 
@@ -208,14 +208,14 @@ flowchart LR
 
 ---
 
-## From–To: What Changed and Why
+## From–>To: What Changed and Why
 
 The table below explains each major change from the current state to the governed, repeatable pipelines in the future state. It includes plain-language descriptions and examples so the improvements are easier to understand.
 
 | **Current State** (Removed/Changed) | **Future State** (Added/Standardized) | **Future State Examples** | **What it is** | **Why it’s better** |
 |---|---|---|---|---|
 | SFTP drops from vendors | Managed connectors / change feeds | Salesforce connector, HL7 feed, Snowflake Data Share | Direct, governed integrations that pull or stream data automatically from source systems | Reduces manual steps, ensures timeliness, and eliminates missed/duplicated files |
-| API pulls (custom scripts) | Managed connectors | FHIR API, REST API connector | Built-in, monitored connections to source APIs | No need for fragile, one-off scripts; easier to maintain and scale |
+| API pulls (custom scripts) | Managed connectors | FHIR API, REST API connector | Built-in, monitored connections to source APIs | No need for one-off scripts; easier to maintain and scale |
 | Shared drive intake (NAS) | Controlled intake (templates, validation) | Secure upload portal, governed S3 bucket | Standard process for uploading data with built-in checks | Prevents uncontrolled or incomplete data from entering the environment |
 | Legacy jobs | Versioned processing | dbt, SQL scripts in Git | Processing logic stored in code with version control | Increases reproducibility, auditability, and collaboration |
 | Ad-hoc scripts | Standardized transforms | dbt models, reusable SQL macros | Reusable, documented transformation logic | Reduces risk of inconsistencies between teams |
