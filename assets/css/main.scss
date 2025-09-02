@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter
 ---
 
 @charset "utf-8";
@@ -28,24 +28,8 @@ $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
-// $quote-blue-color           : #1da1f2;
-// $primary-cream              : #b2d9f1;
-// $cream-color                : #f4f4f4;
-
-$background-color     : #000000;
-$text-color           : #e0e0e0;
-$muted-text-color     : #aaaaaa;
-$header-color         : #ffffff;
-$link-color           : #d134e6;
-$link-hover-color     : #3de792;
-$brand-color          : #ffab40;
-
-$quote-blue-color     : #64b5f6;
-$cream-color          : #1e1e1e;
-
-// https://stackoverflow.com/questions/73789719/how-to-override-theme-defaults-for-minimal-mistakes-theme
-// $info-color                 : $quote-blue-color;
-// $link-color                 : $info-color;
+/* DO NOT set $background-color, $text-color, $link-color, etc.
+   Leaving them unset defers to the theme/skin defaults. */
 
 /* type scale */
 $type-size-1: 2.441em !default;
@@ -68,86 +52,44 @@ $h-size-6: 1em !default;
 // *************************************************************
 // !! ALL VARIABLE DECLARATIONS MUST BE BEFORE THIS STATEMENT !!
 // *************************************************************
-
 @import "minimal-mistakes";
 
-// https://github.com/mmistakes/minimal-mistakes/discussions/1352#discussioncomment-2074482
-// If you adjust your /assets/css/main.scss like suggested in #1219:
-// You'll have to first set variables (like those in _variables.scss), then import minimal mistakes, and finally write the html code.
-// The html part will set the default font size (i.e. the text font size within your posts). The type-size variables on the other hand will set font size for other elements like table of content etc., relative to the default size specified in the html block.
-// As an example here's my /assets/css/main.css:
-
-// 2025-01-03 Took some time to fix this... Thanks MoritzLange :)
+/* Keep neutral, non-color customizations below */
 html {
-    font-size: 14px; // change to whatever
+  font-size: 14px;
 
-    @include breakpoint($medium) {
-      font-size: 14px; // change to whatever
-    }
+  @include breakpoint($medium) { font-size: 14px; }
+  @include breakpoint($large)  { font-size: 15px; }
+  @include breakpoint($x-large){ font-size: 16px; }
+}
 
-    @include breakpoint($large) {
-      font-size: 15px; // change to whatever
-    }
-
-    @include breakpoint($x-large) {
-      font-size: 16px; // change to whatever
-    }
-  }
-
-// 2023-12-12: Still don't really understand scss... oh well
-// 2022-05-17: This changes the code box. Do you wonder how you can find this out yourself?
-// Use the inspect tool and look at which class you are selecting. This one
-// highlights pre.highlight and class=highlight! YES YES YES YES I FINALLY
-// FIGURED THIS OUT I feel so stupid that it took me so long but I
-// can finally style the code box, lol.
 .highlight {
   margin: 0;
   padding: 0.2em;
   font-family: $monospace;
-  // font-size: $type-size-5b;
   font-size: 0.9em;
   line-height: 1.5;
 }
 
 blockquote {
-  margin: 0em; // Remove all margin (push on the left)
-  margin-block: 2em; // Used to be 20www0ww
+  /* remove color overrides so skin defaults apply */
+  margin: 0;
+  margin-block: 2em;
   margin-inline-end: 1em;
   padding-inline: 0.5em;
   font-style: italic;
-  border-inline-start: 0.25em solid $quote-blue-color;
-  background-color: $cream-color;
-  border-top-right-radius: 8px; // Rounded top-right corner
-  border-bottom-right-radius: 8px; // Rounded bottom-right corner
 
   cite {
     font-style: italic;
-
-    &::before {
-      content: "\2014";
-      padding-inline-end: 5px;
-    }
+    &::before { content: "\2014"; padding-inline-end: 5px; }
   }
 }
 
-// Change the table of contents on the right hand side
-// Set toc_label in the header to change contents
-// .toc .nav__title {
-//   background: dodgerblue;
-// }
+.h1 { text-decoration: underline; text-decoration-color: currentColor; }
 
-// Change the table of contents on the right hand side
-.h1 {
-  text-decoration: underline;
-  text-decoration-color: dodgerblue; // Specify the underline color
-  }
-
-// Change the image on the left hand side
 .author__avatar img {
   max-width: 110px;
-  border-radius: 15%; // 50 is circle
-  // border-width:5px;
-  // border-color: dodgerblue;
+  border-radius: 15%;
   padding: 0;
 }
 
@@ -157,29 +99,10 @@ blockquote {
   margin-right: auto;
 }
 
-// #Added to override markdown rendered table header colors
-/* Dark-mode table overrides */
-.page__content table {
-  background: #0b0f14;
-  border-color: #374151;
-}
-
-.page__content table thead th {
-  background: #1f2937;
-  color: #e5e7eb;
-  border-color: #374151;
-}
-
-.page__content table tbody td,
-.page__content table tbody th {
-  color: #e0e0e0;
-  border-color: #374151;
-}
-
-.page__content table tbody tr:nth-child(odd) {
-  background: rgba(255,255,255,0.03);
-}
-
-.page__content table tbody tr:hover {
-  background: rgba(255,255,255,0.06);
-}
+/* Remove the dark-mode table color overrides so defaults return */
+// .page__content table { }
+// .page__content table thead th { }
+// .page__content table tbody td,
+// .page__content table tbody th { }
+// .page__content table tbody tr:nth-child(odd) { }
+// .page__content table tbody tr:hover { }
