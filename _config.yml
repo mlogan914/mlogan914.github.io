@@ -58,7 +58,7 @@ plugins:
 # Icons here: https://fontawesome.com/search
 author:
   name   : "Melanie Logan"
-  avatar : "/assets/images/bio-photo2.png"
+  avatar : "/assets/images/bio-photo1.jpg"
   bio    : "Data Platform Engineer. Systems Thinker. Architect. Optimizer."
   links:
     - label: "Website"
