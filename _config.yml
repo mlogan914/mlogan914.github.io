@@ -61,8 +61,8 @@ author:
   avatar : "/assets/images/bio-photo1.jpg"
   bio    : "Data Platform Engineer. Systems Thinker. Architect. Optimizer."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - label: "Linkedin"
+      icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/mlogan914/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
