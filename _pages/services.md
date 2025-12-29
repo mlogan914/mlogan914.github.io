@@ -4,6 +4,8 @@ title: "Data Clarity Audit – Pilot Edition"
 layout: single
 ---
 
+*by Nexaform*
+
 <div class="notice--info">
   See exactly how your data moves — and where it’s getting stuck — before you make your next move.
 </div>
