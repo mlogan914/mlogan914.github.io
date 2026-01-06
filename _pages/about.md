@@ -9,44 +9,40 @@ layout: single
 
 ## About Me
 
-I’m **Melanie Logan** — a Data Platform Engineer and former Statistical Programmer with deep experience modernizing how regulated, complex data is defined, transformed, and delivered.  
+I’m **Melanie Logan**, a Data Platform Engineer and former Statistical Programmer with experience modernizing how complex, regulated data is defined, transformed, and delivered.
 
-I help organizations apply modern engineering practices to highly regulated data environments. My work spans industries where compliance, traceability, and reproducibility are non-negotiable, including pharmaceuticals, biotechnology, and medical devices. I help organizations move from manual, siloed processes to metadata-driven, reusable workflows with compliance and quality built in from the start.  
+I help organizations move from manual, siloed processes to reusable, metadata-driven data systems with quality and traceability built in from the start.
 
-Over the years, I’ve developed a reputation for:  
-- **Deep domain understanding** of regulated data and governance requirements.  
-- **Modern engineering mindset** that brings proven patterns from platform engineering, data engineering, and DevOps into high-stakes environments.  
-- **System design expertise** for building scalable, adaptable, and compliance-ready infrastructure.  
-- **End-to-end perspective** that ensures every stage of the data lifecycle, from raw input to standardized outputs, is efficient, transparent, and reliable.  
+Over the years, I’ve developed a reputation for:
+- **Deep domain understanding** of regulated data environments  
+- **Modern engineering mindset** grounded in platform engineering, data engineering, and DevOps  
+- **System design expertise** for scalable, compliance-ready infrastructure  
+- **End-to-end perspective** across the full data lifecycle, from raw inputs to standardized outputs  
 
-I’m passionate about applying modern engineering principles in contexts where quality and governance can’t be compromised, and about creating workflows that are both technically robust and operationally sustainable.
+I apply modern engineering principles in environments where governance and quality aren’t optional, building systems teams can trust and sustain.
 
 ---
 
 ### ⧉ What You’ll Find Here
-- **Project updates** on blueprint-style and other metadata-driven frameworks.  
-- **Industry perspectives** on bridging legacy workflows with modern engineering.  
-- **Practical insights** for designing high-stakes pipelines that meet compliance while staying adaptable.  
+- **Project updates** on blueprint-style and metadata-driven frameworks  
+- **Industry perspectives** on bridging legacy workflows with modern engineering  
+- **Practical insights** for designing high-stakes data pipelines that remain compliant and adaptable  
 
-If you’ve ever heard *“it’s always been done this way”* and wanted to prove there’s a better path — you’re in the right place.  
+If you’ve ever heard *“it’s always been done this way”* and wanted to prove there’s a better path — you’re in the right place.
 
 ---
 
 ### ∴ Why It Matters
 
-I don’t expect the industry to change overnight, but I do believe someone needs to **show what’s possible**.
+I don’t expect the industry to change overnight — but I do believe someone needs to **show what’s possible**.
 
-Because if we keep designing for the past, we’ll never be ready for what’s next — whether that’s real-time submissions, intelligent automation, or simply teams who deserve better tooling.
-
-This work is my contribution to that future:  
-
-A proof-of-concept for what regulated data infrastructure *could* be — if we’re willing to build it.
+Designing for the past leaves us unprepared for what’s next
 
 ---
 
 ### ⟶ Let’s Connect
 
-If this resonates — or if you’re building something similar in another corner of the world — I’d love to connect and share ideas.
+If this resonates, or if you’re building something similar in another corner of the world, I’d love to connect and share ideas.
 
 - [LinkedIn](https://www.linkedin.com/in/mlogan914/)
 - [GitHub](https://github.com/mlogan914)  
