@@ -18,6 +18,9 @@ layout: single
     The expertise comes from what you build alongside them.
 </div>
 
+<img src="/assets/images/trading-cards.jpg" alt="trading cards" class="center-image" />
+
+
 ## The Question I Get Asked All the Time
 One of the most common questions I get is whether certifications are “worth it. Usually, the conversation goes something like this:
 > “Certifications are useless. They’re not real experience.”
