@@ -11,13 +11,13 @@ layout: single
 
 I’m **Melanie Logan** — a Data Platform Engineer and former Statistical Programmer with deep experience modernizing how regulated, complex data is defined, transformed, and delivered.  
 
-I help organizations apply modern engineering practices to highly regulated data environments. My work spans industries where compliance, traceability, and reproducibility are non-negotiable — including pharmaceuticals, biotechnology, and medical devices. I help organizations move from manual, siloed processes to metadata-driven, reusable workflows with compliance and quality built in from the start.  
+I help organizations apply modern engineering practices to highly regulated data environments. My work spans industries where compliance, traceability, and reproducibility are non-negotiable, including pharmaceuticals, biotechnology, and medical devices. I help organizations move from manual, siloed processes to metadata-driven, reusable workflows with compliance and quality built in from the start.  
 
 Over the years, I’ve developed a reputation for:  
 - **Deep domain understanding** of regulated data and governance requirements.  
 - **Modern engineering mindset** that brings proven patterns from platform engineering, data engineering, and DevOps into high-stakes environments.  
 - **System design expertise** for building scalable, adaptable, and compliance-ready infrastructure.  
-- **End-to-end perspective** that ensures every stage of the data lifecycle — from raw input to standardized outputs — is efficient, transparent, and reliable.  
+- **End-to-end perspective** that ensures every stage of the data lifecycle, from raw input to standardized outputs, is efficient, transparent, and reliable.  
 
 I’m passionate about applying modern engineering principles in contexts where quality and governance can’t be compromised, and about creating workflows that are both technically robust and operationally sustainable.
 
@@ -48,6 +48,6 @@ A proof-of-concept for what regulated data infrastructure *could* be — if we�
 
 If this resonates — or if you’re building something similar in another corner of the world — I’d love to connect and share ideas.
 
-- [LinkedIn](https://www.linkedin.com/in/melanie-logan/)
+- [LinkedIn](https://www.linkedin.com/in/mlogan914/)
 - [GitHub](https://github.com/mlogan914)  
 - [Medium](https://medium.com/@mlogan914)  
