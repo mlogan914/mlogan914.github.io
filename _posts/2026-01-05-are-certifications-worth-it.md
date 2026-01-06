@@ -9,7 +9,7 @@ tags:
   - Career Development
   
 layout: single
-classes: wide
+# classes: wide
 ---
 
 <div class="notice--info">
@@ -29,8 +29,6 @@ That statement isn’t entirely wrong, but it also misses the point.
 
 Certifications were never meant to *replace* real-world experience. They exist to solve a different problem entirely.
 
----
-
 ## The Short Answer (With an Asterisk)
 
 Yes, certifications *can* be worth it.
@@ -38,8 +36,6 @@ Yes, certifications *can* be worth it.
 But only when they’re used intentionally, and paired with actual learning and hands-on work.
 
 They are a **tool**, not a destination.
-
----
 
 ## Why “Certifications Aren’t Real Experience” Is the Wrong Argument
 
@@ -57,8 +53,6 @@ Ironically, the people most likely to dismiss certifications are the ones who al
 Certifications aren’t for experts.
 They’re for people building their footing.
 
----
-
 ## When Certifications Actually Make Sense
 
 Certifications are most valuable when you’re **changing state**, such as:
@@ -72,7 +66,6 @@ Certifications are most valuable when you’re **changing state**, such as:
 
 In these cases, certifications act as a **bridge**, not proof of mastery.
 
----
 
 ## Recruiters Need Black-and-White Signals
 
@@ -90,8 +83,6 @@ That signal is about **translation**.
 
 It helps turn your experience into something that can be quickly understood by people who don’t share your background.
 
----
-
 ## Breadth Has a Delayed Payoff
 
 Another common complaint is that certifications don’t reflect production reality.
@@ -107,8 +98,6 @@ Later, once you gain experience, you might recognize situations and think:
 
 Certifications plant **mental reference points** that mature over time.
 
----
-
 ## Where Certifications Become a Problem
 
 Certifications become a problem when they’re pursued **just to collect them**.
@@ -121,8 +110,6 @@ If you’re:
 then the certification becomes a Pokémon card.
 
 At that point, it’s not demonstrating competence; it’s demonstrating collection.
-
----
 
 ## The Right Way to Use Certifications
 
@@ -147,8 +134,6 @@ Projects don’t replace production experience, but they’re far better than go
 A certification plus a real project is an honest signal:
 > “I’ve learned this, and I’ve applied it independently.”
 
----
-
 ## Early Career, Pivots, and the Client Exception
 
 Certifications matter most:
@@ -167,8 +152,6 @@ If you’re marketing yourself — especially as a consultant or business — ce
 Everyone understands that a certification doesn’t make you an expert.
 What matters is whether your **hands-on work backs it up**.
 
----
-
 ## If You’re Going to Learn Anyway, Document It
 
 One of my personal philosophies is simple:
@@ -183,8 +166,6 @@ That can be:
 
 If you don’t want the paperwork, you *must* have the project.
 If you want the signal, get the paperwork *and* do the work.
-
----
 
 ## Final Thoughts
 
