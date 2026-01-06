@@ -19,9 +19,7 @@ layout: single
 </div>
 
 ## The Question I Get Asked All the Time
-One of the most common questions I get is whether certifications are “worth it.”
-
-Usually, the conversation goes something like this:
+One of the most common questions I get is whether certifications are “worth it. Usually, the conversation goes something like this:
 > “Certifications are useless. They’re not real experience.”
 
 That statement isn’t entirely wrong, but it also misses the point. Certifications were never meant to *replace* real-world experience. They exist to solve a different problem entirely.
@@ -130,7 +128,7 @@ Many clients:
 - use them as credibility markers,
 - or require them for compliance or trust.
 
-If you’re marketing yourself — especially as a consultant or business — certifications help you look legitimate *before* someone ever reviews your work.
+If you’re marketing yourself, especially as a consultant or business, certifications help you look legitimate *before* someone ever reviews your work.
 
 Everyone understands that a certification doesn’t make you an expert.
 What matters is whether your **hands-on work backs it up**.
