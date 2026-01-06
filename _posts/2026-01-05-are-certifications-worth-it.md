@@ -21,7 +21,7 @@ layout: single
 <img src="/assets/images/trading-cards.jpg" alt="trading cards" class="center-image" />
 
 ## The Question I Get Asked All the Time
-One of the most common questions I get is whether certifications are “worth it. Usually, the conversation goes something like this:
+One of the most common questions I get is whether certifications are “worth it. This question comes up constantly across the internet. Usually, the response goes something like this:
 > “Certifications are useless. They’re not real experience.”
 
 That statement isn’t entirely wrong, but it also misses the point. Certifications were never meant to *replace* real-world experience. They exist to solve a different problem entirely.
