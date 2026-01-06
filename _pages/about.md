@@ -4,7 +4,7 @@ title: "About"
 layout: single
 ---
 
-<img src="/assets/images/blocks.png" alt="blocks" class="center-image" />
+<img src="/assets/images/bio-photo3.jpeg" alt="bio-photo-3" class="center-image" />
 
 
 ## About Me
