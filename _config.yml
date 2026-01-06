@@ -69,7 +69,7 @@ author:
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/mlogan914/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github-alt"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/mlogan914"
     - label: "Medium"
       icon: "fa-brands fa-medium"
@@ -80,6 +80,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mlogan914"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:melanie.module@gmail.com"
       
 defaults:
   # _posts
