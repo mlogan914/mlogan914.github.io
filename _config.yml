@@ -69,7 +69,7 @@ author:
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/mlogan914/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-alt"
       url: "https://github.com/mlogan914"
     - label: "Medium"
       icon: "fa-brands fa-medium"
