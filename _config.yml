@@ -83,6 +83,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:melanie.module@gmail.com"
+    - label: "Business"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:hello@nexaform.io"
       
 defaults:
   # _posts
