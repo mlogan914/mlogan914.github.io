@@ -6,6 +6,7 @@ layout: single
 
 <img src="/assets/images/bio-photo3.jpeg" alt="bio-photo-3" class="center-image" />
 
+
 <h3 align="center">
   <samp>
    > Hey there, I’m Melanie
@@ -16,6 +17,10 @@ layout: single
   <samp>
     「 Data Platform Engineer · Systems Thinker · Architect · Optimizer 」
   </samp>
+</p>
+
+<p align="center" style="opacity: 0.85;">
+  I design modern data systems with an emphasis on clarity, scale, and reuse.
 </p>
 
 <p align="center">
