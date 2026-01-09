@@ -8,9 +8,9 @@ layout: single
 
 
 <h3 align="center">
-  <samp>
-   > Hey there, I’m Melanie
-  </samp>
+  <!-- <samp> -->
+   Hey there, I’m Melanie
+  <!-- </samp> -->
 </h3>
 
 <p align="center">
@@ -19,7 +19,7 @@ layout: single
   </samp>
 </p>
 
-<p align="center" style="opacity: 0.75;">
+<p align="center" style="opacity: 0.70;">
   I design modern data systems with an emphasis on clarity, scale, and reuse.
 </p>
 
@@ -36,6 +36,7 @@ layout: single
 </p>
 
 ---
+
 Much of my work involves applying modern engineering principles in environments where governance and quality aren’t optional, building platforms teams can trust and sustain over time.
 
 Over the years, I’ve developed a reputation for:
