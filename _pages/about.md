@@ -6,9 +6,6 @@ layout: single
 
 <img src="/assets/images/bio-photo3.jpeg" alt="bio-photo-3" class="center-image" />
 
-
-## About Me
-
 <h3 align="center">
   <samp>
    > Hey there, I’m Melanie
