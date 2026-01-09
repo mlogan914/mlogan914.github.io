@@ -9,7 +9,7 @@ layout: single
 
 <h3 align="center">
   <!-- <samp> -->
-   Hey there, I’m Melanie
+   > Hey there, I’m Melanie
   <!-- </samp> -->
 </h3>
 
@@ -44,5 +44,8 @@ Over the years, I’ve developed a reputation for:
 - **Modern engineering practice** spanning platform engineering, data engineering, and DevOps  
 - **System design** focused on scalable, compliance-ready infrastructure  
 - **End-to-end thinking** across the data lifecycle, from raw inputs to standardized outputs
+
+This site is a place to explore how these ideas show up in practice.
+
 
 
