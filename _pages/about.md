@@ -4,7 +4,7 @@ title: "About"
 layout: single
 ---
 
-<img src="/assets/images/bio-photo7.jpeg" alt="bio-photo-7" class="center-image" />
+<img src="/assets/images/bio-photo7.jpg" alt="bio-photo-7" class="center-image" />
 
 
 <h3 align="center">
