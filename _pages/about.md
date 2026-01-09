@@ -19,9 +19,9 @@ layout: single
   </samp>
 </p>
 
-<!-- <p align="center" style="opacity: 0.85;">
+<p align="center" style="opacity: 0.85;">
   I design modern data systems with an emphasis on clarity, scale, and reuse.
-</p> -->
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mlogan914/">
@@ -37,8 +37,6 @@ layout: single
 
 ---
 Much of my work involves applying modern engineering principles in environments where governance and quality aren’t optional, building platforms teams can trust and sustain over time.
-
-I design modern data architecture with an emphasis on clarity, scale, and reuse. 
 
 Over the years, I’ve developed a reputation for:
 - **Deep domain understanding** of regulated data environments  
