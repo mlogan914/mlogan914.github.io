@@ -19,7 +19,7 @@ layout: single
   </samp>
 </p>
 
-<p align="center" style="opacity: 0.85;">
+<p align="center" style="opacity: 0.75;">
   I design modern data systems with an emphasis on clarity, scale, and reuse.
 </p>
 
