@@ -4,7 +4,7 @@ title: "About"
 layout: single
 ---
 
-<img src="/assets/images/bio-photo8.jpg" alt="bio-photo-8" class="center-image" />
+<img src="/assets/images/bio-photo8.jpeg" alt="bio-photo-8" class="center-image" />
 
 
 <h3 align="center">
@@ -46,6 +46,3 @@ Over the years, I’ve developed a reputation for:
 - **End-to-end thinking** across the data lifecycle, from raw inputs to standardized outputs
 
 This site is a place to explore how these ideas show up in practice.
-
-
-
