@@ -153,3 +153,5 @@ It’s the one that:
 Tools will change. Teams will change. Requirements will change.
 
 Stacks that are built on clear principles tend to outlast all three.
+
+→ Download the full evaluation checklist: [Resources]({{ "/resources/" | absolute_url }})
