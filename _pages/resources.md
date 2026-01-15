@@ -15,7 +15,4 @@ A job-ready checklist for evaluating or reassessing data stacks in real-world se
 | Format | PDF |
 | Use case | Architecture reviews, platform decisions, system evaluations |
 
-📄 Download: [Data Stack Evaluation Checklist (PDF)](/assets/resources/data-stack-evaluation-checklist.pdf)
-
-
-
+📄 Download: [Data Stack Evaluation Checklist (PDF)](/home/mlogan/projects/blogs/baas/melanie-module/assets/resources/data_stack_evaluation_checklist_f.pdf)
