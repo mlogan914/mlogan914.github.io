@@ -15,7 +15,7 @@ Here are practical resources I’ve created to support data platform and system 
 | **Format** | PDF |
 | **Use case** | Architecture reviews, platform decisions, system evaluations |
 
-> 📄 **Download:** [Data Stack Evaluation Checklist (PDF)](/assets/resources/data-stack-evaluation-checklist.pdf)
+> 📄 *Download:* [Data Stack Evaluation Checklist (PDF)](/assets/resources/data-stack-evaluation-checklist.pdf)
 
 
 
