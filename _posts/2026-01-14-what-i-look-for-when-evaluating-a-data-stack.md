@@ -4,9 +4,9 @@ permalink: /evaluating-a-data-stack/
 excerpt_separator: "<!--more-->"
 
 categories:
-  - Data Engineering Foundations
+  - Data & Platform Engineering 
 tags:
-  - Data & Platform Engineering
+  - Data Engineering Foundations
   
 layout: single
 # classes: wide
