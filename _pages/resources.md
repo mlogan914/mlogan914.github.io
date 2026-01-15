@@ -16,10 +16,9 @@ Here are practical resources I’ve created to support data platform and system 
 |----------|---------|
 | **Format** | PDF |
 | **Use case** | Architecture reviews, platform decisions, system evaluations |
-assessments
 
 <iframe
-  src="/assets/resources/data-stack-evaluation-checklist_f.pdf"
+  src="/assets/resources/data_stack_evaluation_checklist_f.pdf"
   width="100%"
   height="600px"
   style="border: none;">
