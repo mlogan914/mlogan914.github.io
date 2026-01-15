@@ -15,11 +15,7 @@ Here are practical resources I’ve created to support data platform and system 
 | **Format** | PDF |
 | **Use case** | Architecture reviews, platform decisions, system evaluations |
 
-<iframe
-  src="baas/melanie-module/assets/resources/data_stack_evaluation_checklist_f.pdf"
-  width="100%"
-  height="600px"
-  style="border: none;">
-</iframe>
+> 📄 **Download:** [Data Stack Evaluation Checklist (PDF)](/assets/resources/data-stack-evaluation-checklist.pdf)
+
 
 
