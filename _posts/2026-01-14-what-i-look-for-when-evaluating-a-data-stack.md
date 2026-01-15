@@ -17,7 +17,7 @@ A systems-oriented way to evaluate data stacks beyond tools, features, and hype.
 </div>
 
 
-<img src="/assets/images/evaluating_data_stack.jpg" alt="evaluating data stack" class="center-image" />
+<img src="/assets/images/evaluating_data_stack.png" alt="evaluating data stack" class="center-image" />
 
 When teams talk about data stacks, the conversation usually centers on tools:  
 *Which warehouse? Which orchestrator? Which transformation framework?*
