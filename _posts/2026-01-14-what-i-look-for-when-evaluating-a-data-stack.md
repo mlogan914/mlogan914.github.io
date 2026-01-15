@@ -6,7 +6,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Data Engineering Foundations
 tags:
-  - Data Engineering Foundations
+  - Data & Platform Engineering
   
 layout: single
 # classes: wide
