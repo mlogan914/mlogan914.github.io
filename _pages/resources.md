@@ -15,5 +15,4 @@ Here are practical resources I’ve created to support data platform and system 
 | Format | PDF |
 | Use case | Architecture reviews, platform decisions, system evaluations |
 
-[📄 Download the checklist (PDF)]({{ "/assets/resources/data_stack_evaluation_checklist_f.pdf" | absolute_url }}){: .btn .btn--primary}
-
+[📄 Download (PDF)]({{ "/assets/resources/data_stack_evaluation_checklist_f.pdf" | absolute_url }}){: .btn .btn--primary}
