@@ -29,7 +29,7 @@ After working across different data systems, I’ve found that the long-term suc
 
 Here are the core principles I look for when evaluating a data stack, with real-world examples of how these ideas show up in practice.
 
-## Clarity Over Cleverness
+## Design for Understanding
 
 A powerful system that only its original authors understand is a liability.
 
