@@ -6,7 +6,6 @@ permalink: /categories/
 
 Categories reflect areas of focus rather than strict boundaries.
 
-{: .table}
 | Category | Description |
 |---------|-------------|
 | **Data & Platform Engineering** | Writing on data platform design, infrastructure decisions, reliability, and system tradeoffs. |
