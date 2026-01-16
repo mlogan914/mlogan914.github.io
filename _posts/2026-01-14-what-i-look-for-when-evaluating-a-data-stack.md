@@ -20,9 +20,10 @@ A systems-oriented way to evaluate data stacks beyond tools, features, and hype.
 <img src="/assets/images/evaluating_data_stack2.png" alt="evaluating data stack2" class="center-image" />
 
 When teams talk about data stacks, the conversation usually centers on tools:  
+
 *Which warehouse? Which orchestrator? Which transformation framework?*
 
-Those questions matter, but they’re rarely the most important ones.
+Those questions matter, but they’re not the most important ones.
 
 After working across different data systems, I’ve found that the long-term success of a data stack has less to do with individual tools and more to do with **how the system behaves over time**, especially as teams grow, requirements change, and complexity accumulates.
 
@@ -45,15 +46,15 @@ Many data failures aren’t technical; they stem from organizational boundaries 
 
 Common warning signs include:
 
-- ingestion pipelines failing with no clear owner
-- transformation logic spread across multiple teams without defined responsibility
-- downstream consumers unsure who to contact when data looks wrong
+- Ingestion pipelines failing with no clear owner
+- Transformation logic spread across multiple teams without defined responsibility
+- Downstream consumers unsure who to contact when data looks wrong
 
 A healthier pattern is when ownership is explicit:
 
-- one team owns ingestion and raw data contracts
-- another owns modeled datasets
-- expectations around handoffs are documented and understood
+- One team owns ingestion and raw data contracts
+- Another owns modeled datasets
+- Expectations around handoffs are documented and understood
 
 When ownership is clear, incidents resolve faster and teams spend less time debating responsibility.
 
@@ -74,15 +75,15 @@ Every data stack looks reasonable on day one.
 
 The real test comes when:
 
-- a new data source is added with different assumptions
-- a column that was once optional becomes required
-- reporting needs shift in ways the original design didn’t anticipate
+- A new data source is added with different assumptions
+- A column that was once optional becomes required
+- Reporting needs shift in ways the original design didn’t anticipate
 
 Stacks designed for change tend to:
 
-- isolate raw data from business logic
-- minimize tight coupling between layers
-- make migrations incremental rather than all-or-nothing
+- Isolate raw data from business logic
+- Minimize tight coupling between layers
+- Make migrations incremental rather than all-or-nothing
 
 Requirements change faster than designs. Systems that anticipate evolution are more resilient.
 
@@ -92,14 +93,14 @@ Technical decisions don’t just affect systems — they affect people.
 
 Examples of hidden cognitive load include:
 
-- pipelines that require memorizing undocumented run orders
-- dashboards that only make sense if you know historical quirks
-- processes that depend on “just knowing” how things work
+- Pipelines that require memorizing undocumented run orders
+- Dashboards that only make sense if you know historical quirks
+- Processes that depend on “just knowing” how things work
 
 In contrast, sustainable stacks:
 
-- document assumptions
-- make defaults safe
+- Document assumptions
+- Make defaults safe
 - reduce the amount of context engineers must keep in their heads during incidents
 
 The best systems are the ones people can reason about when they’re tired, stressed, or onboarding for the first time.
@@ -145,10 +146,9 @@ A good data stack isn’t the most feature-rich or impressive.
 
 It’s the one that:
 
-- behaves predictably under change
-- supports collaboration across teams
-- scales with both data *and* people
-- enables correct decisions, consistently
+- Behaves predictably under change
+- Scales with both data *and* people
+- Enables correct decisions, consistently
 
 Tools will change. Teams will change. Requirements will change.
 
