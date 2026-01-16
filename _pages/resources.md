@@ -4,7 +4,7 @@ layout: single
 permalink: /resources/
 ---
 
-Here are practical resources I’ve created to support data platform and system evaluation work.
+Here are resources I’ve created to support data platform and system evaluation work.
 
 ## Data Stack Evaluation Checklist
 
