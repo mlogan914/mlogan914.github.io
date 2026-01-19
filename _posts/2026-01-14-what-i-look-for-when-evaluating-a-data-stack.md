@@ -13,7 +13,7 @@ layout: single
 ---
 
 <div class="notice--info">
-A systems-oriented way to evaluate data stacks beyond tools, features, and hype.
+A systems-oriented way to evaluate data stacks beyond tools and feature comparisons.
 </div>
 
 
