@@ -6,9 +6,6 @@ permalink: /resources/
 
 Here are resources I’ve created to support data platform and system evaluation work.
 
-
-Here are resources I’ve created to support data platform and system evaluation work.
-
 ## Evaluation Resources
 
 | Resource | Description | Format | Primary Use Case | Download |
