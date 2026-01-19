@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-layout: single
+# layout: single
 classes: wide
 permalink: /resources/
 ---
