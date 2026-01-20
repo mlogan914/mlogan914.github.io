@@ -30,7 +30,7 @@ I’ve seen versions of this pattern repeat across organizations and industries.
 ## The Cost of Long-Term Dependence
 Organizations often commit to enterprise software with the expectation of long-term reliance, focusing heavily on initial fit and implementation. What’s less frequently assessed is how difficult that dependency will be to adapt, or unwind, as needs evolve.
 
-I’ve seen organizations spend millions on tools meant to “solve” complex problems—vendor management systems, governance layers, AI enablement frameworks. Years later, teams are still stitching systems together manually, working around tools instead of with them, and hesitating to make changes as complexity accumulates. In some cases, the systems introduce more operational overhead than the manual workflows they were meant to replace.
+I’ve seen organizations spend millions on tools meant to “solve” complex problems such as vendor management systems, governance layers, AI enablement frameworks etc. Years later, teams are still stitching systems together manually, working around tools instead of with them, and hesitating to make changes as complexity accumulates. In some cases, the systems introduce more operational overhead than the manual workflows they were meant to replace.
 
 One of my core principles when evaluating any system is to think explicitly about how conditions are likely to change over time, and to favor approaches that preserve flexibility rather than constrain it.
 
@@ -60,7 +60,7 @@ Over time, I’ve found the more useful question isn’t *enterprise versus cust
 
 **Where do we want complexity to live?**
 
-Enterprise software doesn’t eliminate complexity, it relocates it. Much of that complexity ends up inside vendor abstractions, configuration layers, and constraints that are difficult to change.
+Enterprise software doesn’t eliminate complexity; it relocates it. Much of that complexity ends up inside vendor abstractions, configuration layers, and constraints that are difficult to change.
 
 Custom systems keep complexity closer to the surface. It’s more visible, more explicit, and easier to reason about—but it requires engineering effort and clear ownership.
 
@@ -83,17 +83,25 @@ Enterprise software is often the right choice when the problem is well understoo
 Constraints can be a feature rather than a flaw. In environments where validation, auditability, or regulatory confidence matter more than flexibility, prescribed workflows can be the right tradeoff, so long as teams periodically reassess whether the system still meets their needs. Over time, custom or open components may become the more practical choice.
 
 ## How I Evaluate These Decisions
-When I evaluate system operating models, I ask:
+
+First, I ask:
+
+**What is the minimum set of capabilities required to meet this use case today?**
+
+In many cases, those capabilities already exist in lightweight or open-source tools, or even in systems the organization already runs. These options are often overlooked because they require more intentional integration work up front—while managed solutions offer faster initial setup.
+
+I’ve seen teams spend around **$300,000 per month** on fully managed observability platforms, only to realize later that their actual needs, basic metrics, dashboards, and alerting, could have been met with a much simpler stack costing **a few hundred dollars per month**.
+
+Once the baseline is clear, I then evaluate vendor-specific tradeoffs by asking:
 
 - What does ongoing integration actually cost?
-- Who owns failures when the system doesn’t quite fit?
 - How difficult will this be to adapt later?
 - What happens when organizational needs move faster than a vendor roadmap?
 
-These questions tend to matter most.
+These questions tend to matter more over time.
 
 ## Closing Thought
-Enterprise software often feels like choosing certainty over risk. But over time, a misaligned operating model can introduce more friction than a well-scoped custom system ever would.
+Enterprise software often feels like choosing certainty over risk, but over time, a misaligned operating model can introduce more friction than a well-scoped custom system ever would.
 
 For me, the goal isn’t to avoid enterprise software or build everything in-house. It’s to choose the operating model that minimizes long-term operational burden and matches how the organization actually needs to work.
 
