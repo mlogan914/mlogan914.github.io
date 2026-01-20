@@ -105,7 +105,7 @@ Enterprise software often feels like choosing certainty over risk, but over time
 
 For me, the goal isn’t to avoid enterprise software or build everything in-house. It’s to choose the operating model that minimizes long-term operational burden and matches how the organization actually needs to work.
 
-→ **Download the system operating model evaluation checklist:**  
+→ **Download the system operating model diagnostic checklist:**  
 [Resources]({{ "/resources/" | absolute_url }})
 
 ---
