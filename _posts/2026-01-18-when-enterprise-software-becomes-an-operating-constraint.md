@@ -30,7 +30,7 @@ I’ve seen versions of this pattern repeat across organizations and industries.
 ## The Cost of Long-Term Dependence
 Organizations often commit to enterprise software with the expectation of long-term reliance, focusing heavily on initial fit and implementation. What’s less frequently assessed is how difficult that dependency will be to adapt, or unwind, as needs evolve.
 
-I’ve seen organizations spend millions on tools meant to “solve” complex problems such as vendor management systems, governance layers, AI enablement frameworks etc. Years later, teams are still stitching systems together manually, working around tools instead of with them, and hesitating to make changes as complexity accumulates. In some cases, the systems introduce more operational overhead than the manual workflows they were meant to replace.
+I’ve seen organizations spend millions on tools meant to “solve” complex problems such as vendor management systems, governance layers, AI enablement frameworks, etc. Years later, teams are still stitching systems together manually, working around tools instead of with them, and hesitating to make changes as complexity accumulates. In some cases, the systems introduce more operational overhead than the manual workflows they were meant to replace.
 
 One of my core principles when evaluating any system is to think explicitly about how conditions are likely to change over time, and to favor approaches that preserve flexibility rather than constrain it.
 
