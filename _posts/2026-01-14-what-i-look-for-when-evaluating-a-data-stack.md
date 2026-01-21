@@ -19,7 +19,7 @@ A systems-oriented way to evaluate data stacks beyond tools and feature comparis
 
 <img src="/assets/images/evaluating_data_stack2.png" alt="evaluating data stack2" class="center-image" />
 
-# How We Got Here
+## How We Got Here
 Before evaluating a data stack, it helps to understand how we got here.
 
 What people call the “modern data stack” evolved over time as teams moved from on-prem systems to cloud warehouses, adopted ELT patterns, and added specialized tools to solve specific problems.
@@ -39,7 +39,6 @@ After working across different data systems, I’ve found that the long-term suc
 The following principles reflect how I evaluate data stacks in practice.
 
 ## Design for Understanding
-
 A powerful system that only its original authors understand is a liability.
 
 For example:
@@ -50,7 +49,6 @@ For example:
 Clever abstractions can be useful, but clarity is what keeps systems usable six months later, after the original context has faded.
 
 ## Clear Ownership and Boundaries
-
 Unclear responsibility across the pipeline often leads to data problems.
 
 Common signs include:
@@ -68,7 +66,6 @@ A more stable setup assigns responsibility by layer and makes the handoffs expli
 When responsibilities are aligned to pipeline layers, issues are easier to diagnose and resolve.
 
 ## Observability and Trust
-
 If something goes wrong, how quickly can the team understand *what* happened and *why*?
 
 Consider two scenarios:
@@ -79,7 +76,6 @@ Consider two scenarios:
 Silent failures are the hardest to recover from. Systems that surface issues early reduce downstream impact.
 
 ## Designed for Change, Not Perfection
-
 Data needs evolve over time.
 
 This becomes apparent when:
@@ -97,7 +93,6 @@ Stacks designed for change tend to:
 Requirements change faster than designs, so systems that anticipate evolution are more resilient.
 
 ## Human Cost and Cognitive Load
-
 Design choices shape how people work with a system.
 
 Cognitive load shows up when:
@@ -116,7 +111,6 @@ The most reliable systems are the ones people can reason about when they’re ti
 
 
 ## A Practical Checklist for Evaluating a Data Stack
-
 > This checklist isn’t meant to dictate tooling decisions.  
 > It’s designed to help teams ask better questions *before* committing to a stack.
 
