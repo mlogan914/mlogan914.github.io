@@ -19,15 +19,24 @@ A systems-oriented way to evaluate data stacks beyond tools and feature comparis
 
 <img src="/assets/images/evaluating_data_stack2.png" alt="evaluating data stack2" class="center-image" />
 
-When teams talk about data stacks, the conversation usually centers on tools:  
+# How We Got Here
+Before evaluating a data stack, it helps to understand how we got here.
 
-*Which warehouse? Which orchestrator? Which transformation framework?*
+What people call the “modern data stack” evolved over time as teams moved from on-prem systems to cloud warehouses, adopted ELT patterns, and added specialized tools to solve specific problems.
 
-Those questions matter, but they’re not the most important ones.
+Each step made sense in isolation: cloud storage lowered costs, modular tools increased flexibility, and self-service analytics increased the speed of decision-making. Over time, these choices layered on top of one another.
+
+The result is a powerful stack spread across many tools, teams, and abstractions.
+
+<img src="/assets/images/MAD-2025.png" alt="MAD 2025" class="center-image" />
+
+<p align="center">The MAD Ecosystem | Source: mattturck.com</p>
+
+Frameworks like the [Modern Analytics Data (MAD) Landscape](https://mad.firstmark.com/) are useful for understanding the breadth of the ecosystem. They show just how many categories and tools now exist around ingestion, transformation, orchestration, governance, and consumption.
 
 After working across different data systems, I’ve found that the long-term success of a data stack has less to do with individual tools and more to do with **how the system behaves over time**, especially as teams grow, requirements change, and complexity accumulates.
 
-Here are the core principles I look for when evaluating a data stack, with real-world examples of how these ideas show up in practice.
+The following principles reflect how I evaluate data stacks in practice.
 
 ## Design for Understanding
 
