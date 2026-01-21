@@ -36,27 +36,27 @@ A powerful system that only its original authors understand is a liability.
 For example:
 
 - A transformation layer with deeply nested abstractions might reduce duplication, but if debugging requires tracing logic across multiple files and conventions, engineers spend more time understanding the system than improving it.
-- In contrast, a stack with consistent naming, predictable folder structure, and clear patterns makes it easy for a new engineer to follow the flow of data end to end, even if it’s slightly more verbose.
+- In contrast, a stack with consistent naming, predictable folder structure, and clear patterns makes it easy for a new engineer to follow the flow end to end, even if it’s slightly more verbose.
 
-Clever abstractions can be useful. But clarity is what keeps systems usable six months later, after the original context has faded.
+Clever abstractions can be useful, but clarity is what keeps systems usable six months later, after the original context has faded.
 
 ## Clear Ownership and Boundaries
 
-Many data failures aren’t technical; they stem from organizational boundaries and ownership.
+Unclear responsibility across the pipeline often leads to data problems.
 
-Common warning signs include:
+Common signs include:
 
-- Ingestion pipelines failing with no clear owner
-- Transformation logic spread across multiple teams without defined responsibility
-- Downstream consumers unsure who to contact when data looks wrong
+- Ingestion jobs fail and it’s not clear who owns the fix  
+- Transformation logic is spread across teams without a defined boundary  
+- Downstream consumers don’t know who to contact when data looks wrong  
 
-A healthier pattern is when ownership is explicit:
+A more stable setup assigns responsibility by layer and makes the handoffs explicit:
 
-- One team owns ingestion and raw data contracts
-- Another owns modeled datasets
-- Expectations around handoffs are documented and understood
+- One team owns ingestion, raw datasets, and upstream data contracts  
+- Another team owns transformations and modeled datasets used downstream  
+- Expectations at each handoff are defined so teams know where their responsibility begins and ends  
 
-When ownership is clear, incidents resolve faster and teams spend less time debating responsibility.
+When responsibilities are aligned to pipeline layers, issues are easier to diagnose and resolve.
 
 ## Observability and Trust
 
@@ -71,9 +71,9 @@ Silent failures are the hardest to recover from. Systems that surface issues ear
 
 ## Designed for Change, Not Perfection
 
-Every data stack looks reasonable on day one.
+Data needs evolve over time.
 
-The real test comes when:
+This becomes apparent when:
 
 - A new data source is added with different assumptions
 - A column that was once optional becomes required
@@ -83,27 +83,28 @@ Stacks designed for change tend to:
 
 - Isolate raw data from business logic
 - Minimize tight coupling between layers
-- Make migrations incremental rather than all-or-nothing
+- Make migrations incremental rather than large rewrites
 
-Requirements change faster than designs. Systems that anticipate evolution are more resilient.
+Requirements change faster than designs, so systems that anticipate evolution are more resilient.
 
 ## Human Cost and Cognitive Load
 
-Technical decisions don’t just affect systems — they affect people.
+Design choices shape how people work with a system.
 
-Examples of hidden cognitive load include:
+Cognitive load shows up when:
 
-- Pipelines that require memorizing undocumented run orders
-- Dashboards that only make sense if you know historical quirks
-- Processes that depend on “just knowing” how things work
+- A pipeline depends on a specific run order that isn’t documented  
+- A dashboard only makes sense if you know its history  
+- A process relies on people already knowing how it works  
 
-In contrast, sustainable stacks:
+More sustainable stacks reduce this burden:
 
-- Document assumptions
-- Make defaults safe
-- reduce the amount of context engineers must keep in their heads during incidents
+- Assumptions are documented  
+- Defaults are safe  
+- Engineers don’t need to keep large amounts of context in their heads during incidents  
 
-The best systems are the ones people can reason about when they’re tired, stressed, or onboarding for the first time.
+The most reliable systems are the ones people can reason about when they’re tired, under pressure, or new to the codebase.
+
 
 ## A Practical Checklist for Evaluating a Data Stack
 
