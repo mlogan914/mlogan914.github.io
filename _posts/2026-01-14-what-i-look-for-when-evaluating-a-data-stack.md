@@ -28,7 +28,7 @@ Each step made sense in isolation: cloud storage lowered costs, modular tools in
 
 The result is a powerful stack spread across many tools, teams, and abstractions.
 
-<img src="/assets/images/MAD-2025.png" alt="MAD 2025" class="center-image" />
+<img src="/assets/images/mad-2025.png" alt="MAD 2025" class="center-image" />
 
 <p align="center">The MAD Ecosystem | Source: mattturck.com</p>
 
