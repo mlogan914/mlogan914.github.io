@@ -36,8 +36,6 @@ The challenge isn't just outdated tools — it's the lack of shared systems, orc
 
 That's where **data engineering** meets **platform engineering**.
 
----
-
 ## What Is Data Engineering?
 
 ![data engineering](/assets/images/data_engineering.png){: .center-image }
@@ -74,8 +72,6 @@ From there, authorized teams can connect directly to the PROD datasets:
 
 In this model:  
 - **Data engineering** builds the automated flow from RAW → dbt → PROD, plus the connections to analytics tools + dashboards.
-
----
 
 ## What Is Platform Engineering?
 <img src="/assets/images/platform_engineering.png" alt="platform engineering" class="center-image" />
@@ -122,8 +118,6 @@ SAS remains important for regulatory and sponsor deliverables, but effort shifts
 > - **Platform engineering** defines *how* it gets done by providing the operating model and blueprints.  
 > - **Analytics engineering** (the direction programmers move in with this model) ensures *the transformation layer is reliable*, so programmers can devote more time to **analysis-ready deliverables like TFLs and custom outputs**.  
 
----
-
 ## How Data Engineering and Platform Engineering Intersect
 
 Data engineering and platform engineering are complementary disciplines.  
@@ -136,8 +130,6 @@ Instead of manually rebuilding the same logic for each study, teams can focus on
 
 > If you're still unclear on these concepts, refer to my explainer:  
 > 👉 [What Is Data Platform Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/)
-
----
 
 ## Why This Matters In Regulated Industries
 
@@ -153,21 +145,15 @@ A platform approach can:
 - Let statisticians, programmers, and data managers work without waiting for engineering support every time  
 - Make it easier to adapt to new standards or tech without starting from scratch  
 
----
-
 ## Why Now?
 
 Platform engineering is still evolving, and in regulated data teams it remains largely uncharted. That’s why the timing matters. Designing systems for yesterday’s workflows leaves teams unprepared for what’s next, from real-time submissions to AI-assisted compliance and higher-value work.
-
----
 
 ## Closing Thought  
 
 While platform engineering varies by industry, platform thinking shifts the focus from delivering a single project to building the capability to deliver projects well.
 
 If you’ve ever thought, “There has to be a better way,” you’re probably right. The first step may be to think like a platform engineer.
-
----
 
 ## Next in the Series
 
@@ -181,7 +167,6 @@ In the next article, I’ll take a closer look at the Data Engineering layer and
 
 📄➡️ [From Fragmented Data Flows to a Governed Data Pipeline](/fragmented-data-flows-to-governed-data-pipelines/)
 
----
 
 💬 If you're enjoying the ideas here and want to stay connected, feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/mlogan914/). I'd love to stay in touch with others thinking about the future of clinical data and systems design.
 
