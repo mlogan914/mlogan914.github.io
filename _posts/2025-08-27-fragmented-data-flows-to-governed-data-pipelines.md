@@ -13,7 +13,7 @@ classes: wide
 ---
 
 <div class="notice--info">
-    Many organizations focus on fixing individual data issues but overlook the bigger picture: how data enters, moves, and is governed across the entire environment. This article shows a practical before-and-after example of moving from fragmented data flows to governed, versioned pipeline — an approach that supports scalability, trust, and repeatability without relying on tool-first thinking.
+    Many organizations focus on fixing individual data issues but overlook the bigger picture: how data enters, moves, and is governed across the entire environment. This article shows a before-and-after example of moving from fragmented data flows to a governed pipeline without relying on tool-first thinking.
 </div>
 
 <div class="notice--info">
@@ -23,9 +23,9 @@ classes: wide
 <img src="/assets/images/governed_data_pipelines.png" alt="governed data pipelines" class="center-image" />
 
 <p align="center">Image created by the author</p>
-In my previous article, [Data Platform Engineering for Regulated Teams](/data%20&%20platform%20engineering/data-platform-engineering-for-regulated-data-teams/), I explained why modernizing data in regulated industries requires more than simply swapping out tools.  
+In my previous article, [Data Platform Engineering for Regulated Teams](/data%20&%20platform%20engineering/data-platform-engineering-for-regulated-data-teams/), I explained why modernizing data in regulated industries requires more than swapping out tools.  
 
-This follow-up shows what that shift can look like in practice — moving from fragmented, ad-hoc flows to a governed, repeatable data pipeline.  
+This follow-up shows what it looks like to move from a fragmented data flow to a governed data pipeline.
 
 If you’re unsure what a “data pipeline” is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)  
 
@@ -38,7 +38,7 @@ If you’re unsure what a “data pipeline” is, see my definition here: [What 
 Modernizing data involves two connected layers:  
 
 1. **Data Engineering** – Designing and building standardized, governed pipelines that handle ingestion, transformation, and controlled outputs.  
-2. **Platform Engineering** – The delivery model for those pipelines: modular workflows, reusable components, automation, and tooling that reduce the burden on engineers and programmers.  
+2. **Platform Engineering** – The delivery model for those pipelines: modular workflows, reusable components, automation, and tooling that reduce the burden on engineers.  
 
 > This article focuses on the **first layer** — data engineering — and illustrates what modernized pipelines can look like. The *how* of building and running them (platform engineering) is equally important and will be covered in a future article.
 
@@ -70,7 +70,7 @@ flowchart TB
 
 ## The Core Idea
 
-Many organizations have data flowing in from multiple systems and vendors, each using their own methods to send it over. Without consistent entry points, quality checks, or structure, the result is hard to scale, hard to trust, and expensive to maintain.
+Many organizations have data flowing in from multiple systems and vendors, each using diffrent transfer methods. Without consistent entry points or structure, the result is hard to scale, hard to trust, and expensive to maintain.
 
 A modern engineering approach changes that by:
 - Defining **one “front door”** for all incoming data.
@@ -82,7 +82,7 @@ A modern engineering approach changes that by:
 
 ## Example: Current vs. Future State
 
-Here’s a fictional example to make it concrete.
+Here’s a fictional example to make it clear.
 
 ---
 
@@ -279,10 +279,7 @@ When your data environment is designed this way, technology choices become easie
 
 If your current-state looks more like the first diagram than the second, the first move isn’t to buy new software. It’s to map your flows, identify the uncontrolled entry points, and decide what your “front door” should be.
 
-From there, governance, automation, and layered structure follow naturally — and the result is an environment that supports the work you’re doing today and the scale you’ll need tomorrow.
-
-
-
+From there, a layered structure, governance, and automation follow. The result is an environment that supports the work you’re doing today and the scale you’ll need tomorrow.
 
 ---
 
