@@ -191,7 +191,8 @@ blockquote {
   background-color: rgba(255,255,255,0.06);
 }
 
-/* # Added Fallbacks: cover tables that don't render thead/tbody consistently */
+
+//* --- #Added Fallbacks: some tables don't render thead/tbody consistently --- */
 .page__content table th {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -203,3 +204,26 @@ blockquote {
   color: #e0e0e0;
   border: 1px solid #374151;
 }
+
+/* Zebra + hover fallbacks (works even without tbody) */
+.page__content table tr:nth-child(odd) td,
+.page__content table tr:nth-child(odd) th {
+  background-color: rgba(255,255,255,0.03);
+}
+
+.page__content table tr:hover td,
+.page__content table tr:hover th {
+  background-color: rgba(255,255,255,0.06);
+}
+
+/* --- Fix "white cells": inline code/pre inside table cells --- */
+.page__content table code,
+.page__content table pre {
+  background-color: rgba(255,255,255,0.06);
+  color: inherit;
+}
+
+.page__content table pre {
+  border: 1px solid #374151;
+}
+
