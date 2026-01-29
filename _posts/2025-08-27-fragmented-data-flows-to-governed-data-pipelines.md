@@ -273,8 +273,6 @@ This isn’t about chasing the latest software. It’s about setting up an engin
 
 When your data environment is designed this way, technology choices become easier, because they’re guided by a clear operating model instead of being the starting point.
 
----
-
 ## Next Steps
 
 If your current-state looks more like the first diagram than the second, the first move isn’t to buy new software. It’s to map your flows, identify the uncontrolled entry points, and decide what your “front door” should be.

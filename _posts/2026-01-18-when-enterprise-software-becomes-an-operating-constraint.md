@@ -21,7 +21,7 @@ layout: single
 ## What Prompted This Article
 Part of what encouraged me to write this article was a recent conversation with a friend who had just joined a company through a series of acquisitions. The business had grown quickly by buying up smaller landscaping companies, each with its own customers, contracts, and commitments to track.
 
-He was hired into a master data role and spent much of his time manually validating records. Before information could be entered into the company’s ERP system, he often had to confirm invoice details by pulling identifiers from sales systems and reconciling them by hand. The software was in place, but the systems didn’t reliably connect in a way that made the data trustworthy without human intervention.
+He was hired into a master data role and spent much of his time manually validating records. Before information could be entered into the company’s ERP system, he had to confirm invoice details by pulling identifiers from sales systems and reconciling them by hand. The software was in place, but the systems didn’t reliably connect in a way that made the data trustworthy without human intervention.
 
 When he described his day-to-day work, what stood out to me wasn’t the tooling—it was the operating model. Manual reconciliation had simply become part of the process. The organization had invested in enterprise software, but the cost of integration and long-term operability had shifted onto people.
 

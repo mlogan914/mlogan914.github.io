@@ -18,8 +18,6 @@ tags:
 
 If you've ever heard the term "data orchestration" and wondered, *"What exactly does that mean?"*, my goal is to make that clearer.
 
----
-
 ## What Orchestration Actually Means
 
 Think of orchestration as **coordinating a series of steps so that work happens in the right order, time, and with the right checks**.  
@@ -34,8 +32,6 @@ If you've seen an orchestra perform, you've seen how a conductor doesn't play th
 
 Without orchestration, you're basically asking each "musician" (task) to guess when to come in, and hoping they're in sync.  
 
----
-
 ## Pipelines vs. Tools vs. Orchestration
 
 Here's where people often get confused:  
@@ -45,8 +41,6 @@ Here's where people often get confused:
 - **Orchestration** is what ties all of those tools together into a single, repeatable workflow.  
 
 Without orchestration, you might be running each tool manually. With orchestration, each step knows when to start, waits for its dependencies, and automatically hands off to the next.  
-
----
 
 ## A Simple, Non-Technical Example
 
@@ -61,8 +55,6 @@ You could manually tell each team when to start, but that requires constant coor
 
 That's orchestration. You simply ensure they happen in sync, reliably.  
 
----
-
 ## What Orchestration Looks Like in Data Work
 
 For data teams (including those working with clinical trial data), orchestration might mean:  
@@ -72,8 +64,6 @@ For data teams (including those working with clinical trial data), orchestration
 - Sending an alert if any step doesn't complete as expected.  
 
 The key is that orchestration makes the process **hands-off, repeatable, and trackable**. You're not waiting on one person to remember to "execute."
-
----
 
 ## Orchestration Tools: The "Conductor's Podium"
 
@@ -92,8 +82,6 @@ For clinical data work, the tool you choose depends on:
 - Your team's skill set.  
 
 Choose one that makes your workflows more reliable, easier to monitor, and easier to reproduce.  
-
----
 
 ## Why This Matters, Especially in Clinical Data
 
@@ -119,8 +107,6 @@ For regulated environments that means:
 - **Scalability**: Once you've built it, you can repeat across studies.  
 
 This isn'ta tech upgrade — it's a mindset shift. It is important we start thinking in terms of **systems** and design.
-
----
 
 ## Final Thought
 
