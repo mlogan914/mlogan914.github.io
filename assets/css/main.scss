@@ -190,3 +190,16 @@ blockquote {
 .page__content table tbody tr:hover th {
   background-color: rgba(255,255,255,0.06);
 }
+
+/* # Added Fallbacks: cover tables that don't render thead/tbody consistently */
+.page__content table th {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+}
+
+.page__content table td {
+  background-color: #0b0f14;
+  color: #e0e0e0;
+  border: 1px solid #374151;
+}
