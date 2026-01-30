@@ -20,8 +20,6 @@ layout: single
 
 <img src="/assets/images/trading-cards.jpg" alt="trading cards" class="center-image" />
 
-<p align="center">Image created by the author</p>
-
 ## The Question I Get Asked All the Time
 One of the most common questions I get is whether certifications are “worth it". This question comes up constantly across the internet. Usually, the response goes something like this:
 > “Certifications are useless. They’re not real experience.”
