@@ -18,6 +18,8 @@ layout: single
 
 <img src="/assets/images/enterprise-software-operating-constraint2.png" alt="enterprise software operating constraint 2" class="center-image" />
 
+<p align="center">Image created by the author</p>
+
 ## What Prompted This Article
 Part of what encouraged me to write this article was a recent conversation with a friend who had just joined a company through a series of acquisitions. The business had grown quickly by buying up smaller landscaping companies, each with its own customers, contracts, and commitments to track.
 

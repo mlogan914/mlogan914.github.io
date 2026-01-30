@@ -19,6 +19,8 @@ A systems-oriented way to evaluate data stacks beyond tools and feature comparis
 
 <img src="/assets/images/evaluating_data_stack2.png" alt="evaluating data stack2" class="center-image" />
 
+<p align="center">Image created by the author</p>
+
 ## How We Got Here
 Before evaluating a data stack, it helps to understand how we got here.
 
