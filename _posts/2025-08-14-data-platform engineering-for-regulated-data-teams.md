@@ -50,7 +50,7 @@ In regulated pharma, SDTM and ADaM work is typically limited to the **Transform*
 
 In a true data engineering model, ingestion, transformation, and delivery are connected through orchestration. For example, an organization might maintain centralized **RAW** and **PROD** data layers, with transformation jobs producing SDTM and ADaM outputs as part of the same pipeline.
 
-In most pharma organizations today, this kind of end-to-end pipeline still doesn’t exist. While some teams are adapting, the shift is long overdue.
+In most pharma organizations today, this kind of end-to-end pipeline still doesn't exist. While some teams are adapting, the shift is long overdue.
 
 
 💡 **Example** 
@@ -147,13 +147,13 @@ A platform approach can:
 
 ## Why Now?
 
-Platform engineering is still evolving, and in regulated data teams it remains largely uncharted. That’s why the timing matters. Designing systems for yesterday’s workflows leaves teams unprepared for what’s next, from real-time submissions to AI-assisted compliance and higher-value work.
+Platform engineering is still evolving, and in regulated data teams it remains largely uncharted. That's why the timing matters. Designing systems for yesterday's workflows leaves teams unprepared for what's next, from real-time submissions to AI-assisted compliance and higher-value work.
 
 ## Closing Thought  
 
 While platform engineering varies by industry, platform thinking shifts the focus from delivering a single project to building the capability to deliver projects well.
 
-If you’ve ever thought, “There has to be a better way,” you’re probably right. The first step may be to think like a platform engineer.
+If you've ever thought, “There has to be a better way,” you're probably right. The first step may be to think like a platform engineer.
 
 ## Next in the Series
 
@@ -163,7 +163,7 @@ Modernization happens across **two connected layers**:
 1. **Data Engineering**
 2. **Platform Engineering**
 
-In the next article, I’ll take a closer look at the Data Engineering layer and show what a modernized pipeline can look like in practice:
+In the next article, I'll take a closer look at the Data Engineering layer and show what a modernized pipeline can look like in practice:
 
 📄➡️ [From Fragmented Data Flows to a Governed Data Pipeline](/fragmented-data-flows-to-governed-data-pipelines/)
 

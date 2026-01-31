@@ -21,8 +21,8 @@ layout: single
 <img src="/assets/images/trading-cards.jpg" alt="trading cards" class="center-image" />
 
 ## The Question I Get Asked All the Time
-One of the most common questions I get is whether certifications are “worth it". This question comes up constantly across the internet. Usually, the response goes something like this:
-> “Certifications are useless. They’re not real experience.”
+One of the most common questions I get is whether certifications are "worth it". This question comes up constantly across the internet. Usually, the response goes something like this:
+> "Certifications are useless. They’re not real experience."
 
 That statement isn’t entirely wrong, but it also misses the point. Certifications were never meant to *replace* real-world experience. They exist to solve a different problem entirely.
 
@@ -31,7 +31,7 @@ Yes, certifications *can* be worth it, but only when they’re used intentionall
 
 They are a **tool**, not a destination.
 
-## Why “Certifications Aren’t Real Experience” Is the Wrong Argument
+## Why "Certifications Aren’t Real Experience" Is the Wrong Argument
 The most common criticism of certifications is that they don’t represent real experience. That’s true, but irrelevant.
 
 Certifications are about **structured exposure**:
@@ -64,7 +64,7 @@ They don’t:
 - Infer nuance from loosely described projects
 
 Certifications create a **clear, standardized signal**:
-> “This person has been exposed to these specific skills and concepts.”
+> "This person has been exposed to these specific skills and concepts."
 
 That signal is about **translation**.
 
@@ -80,7 +80,7 @@ That’s often true, but certifications *do* expose you to:
 - Scenarios you may not encounter early on
 
 Later, once you gain experience, you might recognize situations and think:
-> “Oh — this is that thing I remember from studying for that cert.”
+> "Oh — this is that thing I remember from studying for that cert."
 
 Certifications plant **mental reference points** that mature over time.
 
@@ -116,7 +116,7 @@ The project provides:
 Projects don’t replace production experience, but they’re far better than going in cold.
 
 A certification plus a real project is an honest signal:
-> “I’ve learned this, and I’ve applied it independently.”
+> "I’ve learned this, and I’ve applied it independently."
 
 ## Early Career, Pivots, and the Client Exception                       
 Certifications matter most:

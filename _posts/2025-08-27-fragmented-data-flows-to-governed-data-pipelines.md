@@ -27,7 +27,7 @@ In my previous article, [Data Platform Engineering for Regulated Teams](/data%20
 
 This follow-up shows what it looks like to move from a fragmented data flow to a governed data pipeline.
 
-If you’re unsure what a “data pipeline” is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)  
+If you're unsure what a "data pipeline" is, see my definition here: [What is Data Engineering?](https://mlogan914.github.io/data%20&%20platform%20engineering/what-is-data-platform-engineering/#data-engineering)  
 
 > **Note:** If you are unfamiliar with any terms or acronyms in this article or its diagrams, refer to the [summary of acronyms](#summary-of-acronyms) at the end of the article.  
 
@@ -73,16 +73,16 @@ flowchart TB
 Many organizations have data flowing in from multiple systems and vendors, each using diffrent transfer methods. Without consistent entry points or structure, the result is hard to scale, hard to trust, and expensive to maintain.
 
 A modern engineering approach changes that by:
-- Defining **one “front door”** for all incoming data.
+- Defining **one "front door"** for all incoming data.
 - Running **quality checks early**.
 - Using **layered storage** to clearly separate raw, refined, and curated data.
-- Governing **how definitions and rules are applied** so they’re consistent everywhere.
+- Governing **how definitions and rules are applied** so they're consistent everywhere.
 
 ---
 
 ## Example: Current vs. Future State
 
-Here’s a fictional example to make it clear.
+Here's a fictional example to make it clear.
 
 ---
 
@@ -134,7 +134,7 @@ flowchart LR
 **Key Characteristics**:
 - Multiple uncontrolled entry points (SFTP, shared drives, ad-hoc files).
 - Different storage environments holding overlapping data.
-- Custom logic scattered across scripts that aren’t centrally managed.
+- Custom logic scattered across scripts that aren't centrally managed.
 
 ---
 
@@ -203,7 +203,7 @@ flowchart LR
   subgraph RET[Remove]
     NAS[(Shared Drive Intake)]:::retire
     Legacy[[Legacy Jobs / One-off Scripts]]:::retire
-    OnDW[(On-Prem Warehouse as “truth”)]:::retire
+    OnDW[(On-Prem Warehouse as "truth")]:::retire
   end
 
   %% Add (GREEN)
@@ -249,14 +249,14 @@ flowchart LR
 
 The table below explains each major change from the current state to the governed, repeatable pipelines in the future state. It includes plain-language descriptions and examples so the improvements are easier to understand.
 
-| **Current State** (Removed/Changed) | **Future State** (Added/Standardized) | **Future State Examples** | **What it is** | **Why it’s better** |
+| **Current State** (Removed/Changed) | **Future State** (Added/Standardized) | **Future State Examples** | **What it is** | **Why it's better** |
 |---|---|---|---|---|
 | SFTP drops from vendors | Managed connectors / change feeds | Salesforce connector, HL7 feed, Snowflake Data Share | Direct, governed integrations that pull or stream data automatically from source systems | Reduces manual steps, ensures timeliness, and eliminates missed/duplicated files |
 | API pulls (custom scripts) | Managed connectors | FHIR API, REST API connector | Built-in, monitored connections to source APIs | No need for one-off scripts; easier to maintain and scale |
 | Shared drive intake (NAS) | Controlled intake (templates, validation) | Secure upload portal, governed S3 bucket | Standard process for uploading data with built-in checks | Prevents uncontrolled or incomplete data from entering the environment |
 | Legacy jobs | Versioned processing | dbt, SQL scripts in Git | Processing logic stored in code with version control | Increases reproducibility, auditability, and collaboration |
 | Ad-hoc scripts | Standardized transforms | dbt models, reusable SQL macros | Reusable, documented transformation logic | Reduces risk of inconsistencies between teams |
-| On-prem DW as “truth” | Single analytical store | Snowflake, Databricks, Redshift | One authoritative store for curated data | Avoids “two sources of truth” and speeds decision-making |
+| On-prem DW as "truth" | Single analytical store | Snowflake, Databricks, Redshift | One authoritative store for curated data | Avoids "two sources of truth" and speeds decision-making |
 | No early quality checks | Automated quality checks (DQ) | Great Expectations, dbt tests | Rules and tests applied when data first enters | Catches errors early before they spread |
 | No layered storage | Bronze / Silver / Gold layers | Bronze (raw files), Silver (cleaned tables), Gold (business-ready views) | Raw (Bronze), refined (Silver), curated (Gold) stages | Clear separation of data states; improves lineage and trust |
 
@@ -265,19 +265,19 @@ The table below explains each major change from the current state to the governe
 
 ## Why This Matters
 
-This isn’t about chasing the latest software. It’s about setting up an engineering approach that:
+This isn't about chasing the latest software. It's about setting up an engineering approach that:
 
 - Handles growth without adding chaos.  
 - Makes processes repeatable across teams and projects.  
 - Gives you a single, trusted foundation for all downstream work.  
 
-When your data environment is designed this way, technology choices become easier, because they’re guided by a clear operating model instead of being the starting point.
+When your data environment is designed this way, technology choices become easier, because they're guided by a clear operating model instead of being the starting point.
 
 ## Next Steps
 
-If your current-state looks more like the first diagram than the second, the first move isn’t to buy new software. It’s to map your flows, identify the uncontrolled entry points, and decide what your “front door” should be.
+If your current-state looks more like the first diagram than the second, the first move isn't to buy new software. It's to map your flows, identify the uncontrolled entry points, and decide what your "front door" should be.
 
-From there, a layered structure, governance, and automation follow. The result is an environment that supports the work you’re doing today and the scale you’ll need tomorrow.
+From there, a layered structure, governance, and automation follow. The result is an environment that supports the work you're doing today and the scale you'll need tomorrow.
 
 ---
 
@@ -287,22 +287,22 @@ From there, a layered structure, governance, and automation follow. The result i
 |---------|---------|-----------------------|-------------|
 | API     | Application Programming Interface | A defined way for software systems to communicate and exchange data. Used for automated data pulls from source systems. | FHIR API, REST API |
 | Batch   | Batch Ingestion / Scheduled Batch | A method of loading data at set intervals instead of in real time. | Nightly file load, scheduled ETL job |
-| Bronze  | Bronze Layer | The “raw” stage in a layered data environment where data lands before any transformations. | Raw files from source systems |
+| Bronze  | Bronze Layer | The "raw" stage in a layered data environment where data lands before any transformations. | Raw files from source systems |
 | CDC     | Change Data Capture | A method of identifying and capturing only the changes (new, updated, deleted records) from a source system. Often used with managed connectors. | Salesforce CDC feed |
 | Cloud DW | Cloud Data Warehouse | A centralized analytical database hosted in the cloud. | Snowflake, Redshift, BigQuery |
 | CRM     | Customer Relationship Management | A system for managing customer or stakeholder information and interactions. | Salesforce CRM |
 | DQ      | Data Quality | Checks and rules applied to ensure incoming data is valid, complete, and consistent. | Great Expectations, dbt tests |
-| DW      | Data Warehouse | A centralized analytical database. In “On-Prem DW,” it is hosted in the organization’s own infrastructure. | Oracle DW, Teradata |
+| DW      | Data Warehouse | A centralized analytical database. In "On-Prem DW," it is hosted in the organization's own infrastructure. | Oracle DW, Teradata |
 | EHR     | Electronic Health Record | A system that stores and manages patient health information. | Epic, Cerner |
 | FHIR    | Fast Healthcare Interoperability Resources | A modern standard for exchanging healthcare data via APIs. | FHIR API for patient data |
 | Git     | Git Version Control | A system for tracking changes to code and collaborating on development. | GitHub, GitLab |
-| Gold    | Gold Layer | The “curated” stage in a layered data environment, ready for use in analytics or reporting. | Business-ready tables/views |
+| Gold    | Gold Layer | The "curated" stage in a layered data environment, ready for use in analytics or reporting. | Business-ready tables/views |
 | HL7     | Health Level Seven | A set of international standards for exchanging healthcare data between systems. | HL7 lab results feed |
 | LIMS    | Laboratory Information Management System | Software for managing lab samples, test results, and workflows. | LabWare, STARLIMS |
 | NAS     | Network Attached Storage | A shared network drive where files are stored and accessed by multiple users. | Internal file share |
-| OnDW    | On-Premises Data Warehouse | A data warehouse hosted on servers within the organization’s facilities. | On-prem Oracle DW |
+| OnDW    | On-Premises Data Warehouse | A data warehouse hosted on servers within the organization's facilities. | On-prem Oracle DW |
 | REST    | Representational State Transfer | A common web API design style for exchanging data over HTTP. | REST API for sales data |
 | S3      | Amazon Simple Storage Service | A cloud-based object storage service. | S3 bucket for file uploads |
 | SFTP    | Secure File Transfer Protocol | A secure method of transferring files between systems. | SFTP drop folder from vendor |
-| Silver  | Silver Layer | The “refined” stage in a layered data environment, where data is cleaned and standardized. | Cleaned tables with standardized fields |
+| Silver  | Silver Layer | The "refined" stage in a layered data environment, where data is cleaned and standardized. | Cleaned tables with standardized fields |
 

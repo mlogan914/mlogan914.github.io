@@ -32,7 +32,7 @@ I've seen versions of this pattern repeat across organizations and industries.
 ## The Cost of Long-Term Dependence
 Organizations often commit to enterprise software with the expectation of long-term reliance, focusing heavily on initial fit and implementation. What's less frequently assessed is how difficult that dependency will be to adapt, or unwind, as needs evolve.
 
-I've seen organizations spend millions on tools meant to “solve” complex problems such as vendor management systems, governance layers, AI enablement frameworks, etc. Years later, teams are still stitching systems together manually, working around tools instead of with them, and hesitating to make changes as complexity accumulates. In some cases, the systems introduce more operational overhead than the manual workflows they were meant to replace.
+I've seen organizations spend millions on tools meant to "solve" complex problems such as vendor management systems, governance layers, AI enablement frameworks, etc. Years later, teams are still stitching systems together manually, working around tools instead of with them, and hesitating to make changes as complexity accumulates. In some cases, the systems introduce more operational overhead than the manual workflows they were meant to replace.
 
 One of my core principles when evaluating any system is to think explicitly about how conditions are likely to change over time, and to favor approaches that preserve flexibility rather than constrain it.
 
@@ -44,21 +44,21 @@ Enterprise software often feels like the safer choice because it's familiar, wid
 These decisions can also feel easier to defend internally. Aligning with an industry standard reduces perceived risk and provides justification if things don't go as planned.
 
 ## When Popular Solutions Stop Solving the Problem
-This is an industry-agnostic issue, but I've seen it most clearly in organizations with highly specialized or niche requirements. These teams often end up paying the highest price for “industry standard” tools. Customization is technically possible, but usually only through vendor-specific configuration layers, professional services, or highly specialized expertise.
+This is an industry-agnostic issue, but I've seen it most clearly in organizations with highly specialized or niche requirements. These teams often end up paying the highest price for "industry standard" tools. Customization is technically possible, but usually only through vendor-specific configuration layers, professional services, or highly specialized expertise.
 
 As the cost and friction of adapting the system increase, teams often stop trying to change it directly. Instead, they build workarounds, external scripts, manual steps, or parallel processes, anything that allows progress without touching the core system.
 
 At that point, the organization isn't choosing between enterprise and custom anymore. It's paying for both.
 
 ## When a Custom or Open System Makes Sense
-When people hear “custom,” they often imagine rewriting everything from scratch. That's not what I mean.
+When people hear "custom," they often imagine rewriting everything from scratch. That's not what I mean.
 
 In practice, custom systems often look like assembling smaller, well-understood components, frequently open-source, and keeping logic close to the teams who operate it. This approach accepts greater responsibility in exchange for control.
 
 I've seen custom systems work best when requirements are specific, workflows don't map cleanly to existing tools, and ownership is clear. In these cases, a simpler system that teams understand can outperform a more sophisticated one they don't.
 
 ## Where Do You Want Complexity to Live?
-Over time, I've found the more useful question isn't *enterprise versus custom*, but rather:
+Over time, I've found the more useful question is:
 
 **Where do we want complexity to live?**
 

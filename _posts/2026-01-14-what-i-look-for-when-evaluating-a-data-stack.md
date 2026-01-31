@@ -38,7 +38,7 @@ Frameworks like the [Modern Analytics Data (MAD) Landscape](https://mad.firstmar
 
 After working across different data systems, I’ve found that the long-term success of a data stack has less to do with individual tools and more to do with **how the system behaves over time**, especially as teams grow, requirements change, and complexity accumulates.
 
-The following principles reflect how I evaluate data stacks in practice.
+The following principles reflect how I evaluate data stacks.
 
 ## Design for Understanding
 A powerful system that only its original authors understand is a liability.
@@ -48,7 +48,7 @@ For example:
 - A transformation layer with deeply nested abstractions might reduce duplication, but if debugging requires tracing logic across multiple files and conventions, engineers spend more time understanding the system than improving it.
 - In contrast, a stack with consistent naming, predictable folder structure, and clear patterns makes it easy for a new engineer to follow the flow end to end, even if it’s slightly more verbose.
 
-Clever abstractions can be useful, but clarity is what keeps systems usable six months later, after the original context has faded.
+Sophisticated abstractions can be useful, but clarity is what keeps systems usable six months later, after the original context is lost.
 
 ## Clear Ownership and Boundaries
 Unclear responsibility across the pipeline often leads to data problems.

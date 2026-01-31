@@ -17,9 +17,9 @@ tags:
 <p align="center">Image created by the author</p>
 
 
-Technology loves buzzwords, and sometimes the lines between them blur. **"Data engineering," "platform engineering," and now "data platform engineering"** are three terms you’ll see everywhere, often used interchangeably, but they’re not the same thing.  
+Technology loves buzzwords, and sometimes the lines between them blur. **"Data engineering," "platform engineering," and now "data platform engineering"** are three terms you'll see everywhere, often used interchangeably, but they're not the same thing.  
 
-Here’s a simple breakdown.  
+Here's a simple breakdown.  
 
 ## Data Engineering  
 Data engineering is about **moving and shaping data**.  
@@ -40,16 +40,16 @@ The goal of platform engineering is **efficiency and scalability**. Instead of e
 ## Data Platform Engineering  
 Data platform engineering is where the two meet.  
 
-It’s about applying the mindset of platform engineering to the work of data engineering. Instead of just building one pipeline at a time, data platform teams build the **platform that manages all the pipelines** (i.e., the shared water system for the entire city).  
+It's about applying the mindset of platform engineering to the work of data engineering. Instead of just building one pipeline at a time, data platform teams build the **platform that manages all the pipelines** (i.e., the shared water system for the entire city).  
 
 That means creating a foundation that makes pipelines reusable, governed, and easy for others to extend.  
 
-The goal of platform engineering is **sustainability**: Ensure that as organizations scale, they don’t drown in a patchwork and inconsistencies, by building a trusted baseline infrastructure that everyone can build on. 
+The goal of platform engineering is **sustainability**: Ensure that as organizations scale, they don't drown in a patchwork and inconsistencies, by building a trusted baseline infrastructure that everyone can build on. 
 
 
 ## Why This Matters  
-Even if you don’t work in tech, this matters because every modern organization depends on data. If the "plumbing" is unreliable, the entire city suffers. If the "city planning" is missing, growth is chaotic.  
+Even if you don't work in tech, this matters because every modern organization depends on data. If the "plumbing" is unreliable, the entire city suffers. If the "city planning" is missing, growth is chaotic.  
 
-**Data platform engineering is what ties it all together.** It’s the quiet discipline that ensures the data we rely on every day is delivered reliably, safely, and at scale.  
+**Data platform engineering is what ties it all together.** It's the quiet discipline that ensures the data we rely on every day is delivered reliably, safely, and at scale.  
 
 👉 *In short: Data engineering moves the data. Platform engineering builds the foundation. Data platform engineering makes sure the whole system works for everyone sustainably.*  
