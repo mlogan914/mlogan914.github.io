@@ -27,7 +27,7 @@ He was hired into a master data role and spent much of his time manually validat
 
 When he described his day-to-day work, what stood out to me wasn't the tooling; it was the operating model. Manual reconciliation had simply become part of the process. The organization had invested in enterprise software, but the cost of integration and long-term operability had shifted onto people.
 
-I've seen versions of this pattern repeat across organizations and industries.
+I’ve seen versions of this pattern repeat across organizations and industries. The constraint isn’t the software choice itself, but the way organizations adopt, structure, and depend on software.
 
 ## The Cost of Long-Term Dependence
 Organizations often commit to enterprise software with the expectation of long-term reliance, focusing heavily on initial fit and implementation. What's less frequently assessed is how difficult that dependency will be to adapt, or unwind, as needs evolve.
