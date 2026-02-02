@@ -107,6 +107,7 @@ Choosing enterprise software might feel like minimizing risk, but a misaligned o
 
 For me, the goal isn't to avoid enterprise software or build everything in-house. It's to choose the operating model that minimizes long-term operational burden and matches how the organization actually needs to work.
 
+
 → **Download the system operating model diagnostic checklist:**  
 [Resources]({{ "/resources/" | absolute_url }})
 
