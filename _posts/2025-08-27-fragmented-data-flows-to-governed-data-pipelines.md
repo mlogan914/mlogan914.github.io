@@ -199,11 +199,11 @@ flowchart LR
     Sheets[(Spreadsheets)]
   end
 
-  %% Retire - Remove (RED)
+  %% Retire / Remove (RED)
   subgraph RET[Remove]
     NAS[(Shared Drive Intake)]:::retire
     Legacy[[Legacy Jobs / One-off Scripts]]:::retire
-    OnDW[(On-Prem Warehouse as "truth")]:::retire
+    OnDW[(On-Prem Warehouse as 'truth')]:::retire
   end
 
   %% Add (GREEN)
@@ -215,7 +215,7 @@ flowchart LR
     Semantic[[Shared Definitions]]:::add
   end
 
-  %% Standardize - Migrate (BLUE)
+  %% Standardize / Migrate (BLUE)
   subgraph STD[Standardize / Migrate]
     CDC[[Managed Connectors / Change Feeds]]:::migrate
     Batch[[Scheduled Batch Intake]]:::migrate
@@ -228,7 +228,7 @@ flowchart LR
   LIMS --> Batch --> Bronze
   Sheets -. controlled templates/validation .-> Bronze
 
-  %% Old - retiring paths (fading)
+  %% Old/retiring paths (fading)
   Sheets -. ad-hoc .-> NAS
   NAS --> Legacy --> OnDW
 
