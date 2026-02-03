@@ -41,7 +41,7 @@ What's often framed as a build-versus-buy decision is really a question of **ope
 ## Why Enterprise Software Often Feels Like the Safer Choice
 Enterprise software often feels like the safer choice because it's familiar, widely adopted, and backed by vendors with established reputations. If peers or competitors rely on it, the assumption is that it must cover the necessary use cases.
 
-These decisions can also feel easier to defend internally. Aligning with an industry standard reduces perceived risk and provides justification if things don't go as planned.
+These decisions can also feel easier to defend internally. Aligning with an industry standard reduces perceived risk and provides justification if things don't go as planned. It also shifts accountability outward, framing the outcome as a function of vendor capability rather than an isolated internal decision.
 
 ## When Popular Solutions Stop Solving the Problem
 This is an industry-agnostic issue, but I've seen it most clearly in organizations with highly specialized or niche requirements. These teams often end up paying the highest price for "industry standard" tools. Customization is technically possible, but usually only through vendor-specific configuration layers, professional services, or highly specialized expertise.
