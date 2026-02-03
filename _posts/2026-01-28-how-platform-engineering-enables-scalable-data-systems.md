@@ -1,7 +1,7 @@
 ---
 
 title: "How Platform Engineering Enables Scalable Data Systems"
-permalink: /2026-01-28-how-platform-engineering-enables-scalable-data-systems/
+permalink: /how-platform-engineering-enables-scalable-data-systems/
 excerpt_separator: "<!--more-->"
 
 categories:
@@ -18,6 +18,8 @@ layout: single
 </div>
 
 <img src="/assets/images/data_platform_engineering_scalable.png" alt="data platform engineering scalable" class="center-image" />
+
+<p align="center">Image created by the author</p>
 
 ## The Limits of Traditional DevOps
 Platform engineering emerged as organizations began to reach the limits of traditional DevOps models. While DevOps emphasized teams owning systems end to end, that approach became harder to sustain as environments scaled. As teams grew, they repeatedly solved the same infrastructure and operational problems, often with different tools and patterns.
