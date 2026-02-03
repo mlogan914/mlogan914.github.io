@@ -99,6 +99,7 @@ Even with ODM in place, many orgs still create and pass around Excel/Word-based 
 The industry tends to treat ODM as a recordkeeping format—something to store, not something to build with. It was always meant to be both.
 
 ## What If We Used ODM as Intended?
+
 | Current State           | Future State (ODM-Driven)          |
 | ----------------------- | ---------------------------------- |
 | Manual SDTM programming | Auto-scaffolded SDTM SQL           |
