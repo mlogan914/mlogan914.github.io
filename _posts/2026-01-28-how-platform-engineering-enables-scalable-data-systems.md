@@ -14,7 +14,7 @@ layout: single
 ---
 
 <div class="notice--info">
-    This post discusses how platform engineering principles apply to data systems.
+    This post discusses how platform engineering principles apply to data systems, and how shared internal platforms help teams scale infrastructure, security, and operational practices.
 </div>
 
 <img src="/assets/images/data_platform_engineering_scalable.png" alt="data platform engineering scalable" class="center-image" />
