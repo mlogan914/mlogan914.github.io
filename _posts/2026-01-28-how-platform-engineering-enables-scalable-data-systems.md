@@ -14,8 +14,9 @@ layout: single
 ---
 
 <div class="notice--info">
-    This post discusses how platform engineering principles apply to data systems, and how shared internal platforms help teams scale infrastructure, security, and operational practices.
+    This post discusses how platform engineering principles apply to data systems at a high level, focusing on how shared internal platforms help teams scale infrastructure, security, and operational practices.
 </div>
+
 
 <img src="/assets/images/data_platform_engineering_scalable.png" alt="data platform engineering scalable" class="center-image" />
 
@@ -27,7 +28,10 @@ Platform engineering emerged as organizations began to reach the limits of tradi
 Over time, more effort went into maintaining foundational tooling and infrastructure instead of building on top of them. This created operational overhead and made consistency, security, and reliability harder to maintain across teams. Platform engineering addresses this by introducing shared internal systems that standardize how work is built and operated. Rather than asking each team to assemble and maintain its own stack, platform teams provide supported building blocks that teams can rely on.
 
 ## What a Platform Actually Is
-In this context, a platform is a shared internal system that standardizes how software is built and operated. In many organizations, this type of system is referred to as an internal developer platform (IDP). It provides common building blocks such as infrastructure definitions, pipeline scaffolding, and deployment workflows. These definitions describe environments, access rules, and security settings as versioned configuration, so teams do not need to recreate the building blocks themselves.
+In this context, a platform is a shared internal system that standardizes how software is built and operated. In many organizations, this type of system is referred to as an **internal developer platform (IDP)**. It provides common building blocks such as infrastructure definitions, pipeline scaffolding, and deployment workflows. These definitions describe environments, access rules, and security settings as versioned configuration, so teams do not need to recreate the building blocks themselves.
+
+## Who the Platform Serves
+In this model, the primary users of the platform are other builders. Data engineers, application developers, and analysts depend on shared infrastructure to do their work. Platform engineering treats these internal teams as customers and designs systems around their needs, emphasizing reuse and self-service rather than ad hoc solutions.
 
 ## Applying Platform Engineering to Data Systems
 When applied to data systems, these principles address similar problems. Data work often involves high variability in inputs, schemas, and outputs. This makes full reuse difficult. While data may vary, the systems that move, process, and operate it often follow the same patterns.
