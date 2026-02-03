@@ -110,8 +110,6 @@ The industry tends to treat ODM as a recordkeeping format—something to store, 
 
 <!-- <script src="https://gist.github.com/mlogan914/b73fa337f982f697fa4f55e58279fd72.js"></script> -->
 
----
-
 By parsing ODM and pairing it with a reference model (e.g., SDTMIG or CDISC Library), we can:
 - Automatically match ItemOIDs to SDTM targets
 - Generate compliant scaffolding for standard domains
