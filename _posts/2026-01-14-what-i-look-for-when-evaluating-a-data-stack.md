@@ -1,6 +1,6 @@
 ---
 title: "What I Look for When Evaluating a Data Stack"
-permalink: /evaluating-a-data-stack/
+permalink: /what-i-look-for-when-evaluating-a-data-stack/
 excerpt_separator: "<!--more-->"
 
 categories:

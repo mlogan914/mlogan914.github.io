@@ -1,6 +1,6 @@
 ---
 title: "From Fragmented Data Flows to a Governed Data Pipeline"
-permalink: /fragmented-data-flows-to-governed-data-pipelines/
+permalink: /from-fragmented-data-flows-to-governed-data-pipelines/
 excerpt_separator: "<!--more-->"
 
 categories:
@@ -199,7 +199,7 @@ flowchart LR
     Sheets[(Spreadsheets)]
   end
 
-  %% Retire / Remove (RED)
+  %% Retire - Remove (RED)
   subgraph RET[Remove]
     NAS[(Shared Drive Intake)]:::retire
     Legacy[[Legacy Jobs / One-off Scripts]]:::retire
@@ -215,7 +215,7 @@ flowchart LR
     Semantic[[Shared Definitions]]:::add
   end
 
-  %% Standardize / Migrate (BLUE)
+  %% Standardize - Migrate (BLUE)
   subgraph STD[Standardize / Migrate]
     CDC[[Managed Connectors / Change Feeds]]:::migrate
     Batch[[Scheduled Batch Intake]]:::migrate
@@ -228,7 +228,7 @@ flowchart LR
   LIMS --> Batch --> Bronze
   Sheets -. controlled templates/validation .-> Bronze
 
-  %% Old/retiring paths (fading)
+  %% Old - retiring paths (fading)
   Sheets -. ad-hoc .-> NAS
   NAS --> Legacy --> OnDW
 

@@ -1,5 +1,6 @@
 ---
 title: "Data Orchestration: The Conductor Behind the Pipelines"
+permalink: /orchestration-the-conductor-behind-the-pipelines/
 excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering

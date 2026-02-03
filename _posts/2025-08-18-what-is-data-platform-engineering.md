@@ -1,5 +1,6 @@
 ---
 title: "What Is Data Platform Engineering? "
+permalink: /what-is-data-platform-engineering/
 excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering

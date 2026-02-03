@@ -1,5 +1,6 @@
 ---
 title: "We Had the Blueprint the Whole Time: Why Clinical Data Hasn't Automated (Yet)"
+permalink: /why-clinical-data-hasnt-automated-yet/
 excerpt_separator: "<!--more-->"
 categories:
   - Modernization in Pharma & Clinical Data

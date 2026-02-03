@@ -1,5 +1,6 @@
 ---
 title: "From Pipelines to Platforms: Modern Engineering for Regulated Data Teams"
+permalink: /modern-engineering-for-regulated-data-teams/
 excerpt_separator: "<!--more-->"
 categories:
   - Data & Platform Engineering

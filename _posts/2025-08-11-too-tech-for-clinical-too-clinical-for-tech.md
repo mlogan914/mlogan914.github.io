@@ -1,5 +1,6 @@
 ---
 title: "Too Tech for Clinical, Too Clinical for Tech"
+permalink: /too-tech-for-clinical-too-clinical-for-tech/
 excerpt_separator: "<!--more-->"
 categories:
   - Modernization in Pharma & Clinical Data
