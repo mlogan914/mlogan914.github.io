@@ -23,15 +23,13 @@ categories:
 
 Clinical data standards like CDISC ODM give us everything we need to automate SDTM transformations, but the industry hasn't taken full advantage. This post explores why, and how we can finally bridge that gap.
 
-<!--more-->
-
 For over two decades, CDISC has provided us with deeply thoughtful metadata standards. The Operational Data Model (ODM) wasn't just created to document what we did; it was designed to enable automation, consistency, and reuse. It gave us a structured, machine-readable way to describe the forms, fields, controlled terminology, and relationships that make up a clinical trial.
 
-And yet, here we are: still copying SDTM specs into Excel, writing thousands of lines of SAS code by hand, and maintaining hardcoded mappings across studies that look nearly identical.
+Despite that foundation, much of the day-to-day work in clinical data still relies on manual translation. SDTM specifications are copied into spreadsheets, mappings are recreated study by study, and large volumes of transformation logic are written by hand even when the underlying patterns repeat.
 
-It's not because we're lazy. It's because the people doing the work are under-resourced, overburdened, and deeply siloed, and the systems that support them were never designed for modern workflows.
+This gap is structural. Teams operate within constraints shaped by limited resources, disconnected tooling, and processes that evolved around legacy workflows.
 
-But now, there is opportunity to change that.
+There is opportunity to change that.
 
 > **NOTE:** For definitions of any unfamiliar terms, see the Glossary of Acronyms at the end of this article.
 
@@ -121,12 +119,12 @@ My goal is to make SDTM programming modular, inspectable, and automatable, while
 
 I'll be sharing more about the project soon. But for now, I want to invite others to reflect with me:
 
-> This isn't about replacing people. It's about respecting their time and expertise by removing busywork.
+> The goal is to respect people’s time and expertise by removing unnecessary busywork.
 
 We don't need to wait for vendors to catch up.
 We can start small. Build modularly. Use the standards we already have.
 
-With some intention, we can close the gap between what's possible and what actually gets built.
+With intentional design, we can close the gap between what is possible and what actually gets built.
 
 <div class="notice--info">
 <strong>UPDATE:</strong> Project status and ongoing work are tracked 
