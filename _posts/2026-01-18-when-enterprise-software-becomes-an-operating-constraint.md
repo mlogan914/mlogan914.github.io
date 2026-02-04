@@ -10,6 +10,9 @@ tags:
   
 layout: single
 # classes: wide
+
+header:
+  teaser: /assets/images/enterprise-software-operating-constraint2.png
 ---
 
 <div class="notice--info">
