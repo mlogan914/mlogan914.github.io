@@ -1,5 +1,5 @@
 ---
-title: "Series" # Changed from "Posts by Tag" --> "Series"
+title: "Posts by Series" # Changed from "Posts by Tag" --> "Series"
 permalink: /tags/
 layout: tags
 # entries_layout: list

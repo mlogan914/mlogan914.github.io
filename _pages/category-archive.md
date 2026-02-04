@@ -2,6 +2,9 @@
 title: "Posts by Category"
 layout: categories
 permalink: /categories/
+
+# Added - posts entries layout
+entries_layout: grid
 ---
 
 <!-- Categories reflect areas of focus rather than strict boundaries.
