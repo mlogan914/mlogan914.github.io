@@ -11,6 +11,9 @@ tags:
   
 layout: single
 # classes: wide
+
+header:
+  teaser: /assets/images/data_platform_engineering_scalable.png
 ---
 
 <div class="notice--info">

@@ -10,6 +10,9 @@ tags:
   
 layout: single
 # classes: wide
+
+header:
+  teaser: /assets/images/evaluating_data_stack2.png
 ---
 
 <div class="notice--info">
