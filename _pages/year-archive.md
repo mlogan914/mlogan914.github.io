@@ -5,5 +5,5 @@ layout: posts
 author_profile: false
 
 # Added - posts entries layout
-entries_layout: grid
+# entries_layout: grid
 ---
