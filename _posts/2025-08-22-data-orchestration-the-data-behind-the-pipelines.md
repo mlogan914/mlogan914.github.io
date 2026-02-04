@@ -7,6 +7,11 @@ categories:
 tags:
   - Data Engineering Foundations
 
+layout: single
+# classes: wide
+
+header:
+  teaser: /assets/images/data_orchestration.png
 ---
 
 <div class="notice--info">

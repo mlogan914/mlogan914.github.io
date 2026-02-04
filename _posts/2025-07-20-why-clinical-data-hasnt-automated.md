@@ -7,6 +7,11 @@ categories:
 # tags:
 #   - metadata-as-infrastructure
 
+layout: single
+# classes: wide
+
+header:
+  teaser: /assets/images/article_image_5.png
 ---
 
 <div class="notice--info">

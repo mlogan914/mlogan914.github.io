@@ -7,6 +7,11 @@ categories:
 tags:
   - Data Platform Engineering Foundations
 
+layout: single
+# classes: wide
+
+header:
+  teaser: /assets/images/data_platform_engineering.png
 ---
 
 <div class="notice--info">

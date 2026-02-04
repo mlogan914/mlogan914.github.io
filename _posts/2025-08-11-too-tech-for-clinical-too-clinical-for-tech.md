@@ -6,6 +6,11 @@ categories:
   - Modernization in Pharma & Clinical Data
 # tags:
 
+layout: single
+# classes: wide
+
+header:
+  teaser: /assets/images/vennDiagram.png
 ---
 
 <div class="notice--info">

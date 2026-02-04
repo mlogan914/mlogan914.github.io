@@ -10,6 +10,9 @@ tags:
   
 layout: single
 # classes: wide
+
+header:
+  teaser: /assets/images/trading-cards.jpg
 ---
 
 <div class="notice--info">

@@ -7,6 +7,11 @@ categories:
 tags:
   - Modern Data Platform Foundations
 
+layout: single
+# classes: wide
+
+header:
+  teaser: /assets/images/data_platform.png
 ---
 
 <div class="notice--info">
