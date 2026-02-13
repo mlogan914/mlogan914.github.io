@@ -33,8 +33,6 @@ Platform engineering addresses this by introducing shared internal systems that 
 ## What a Platform Actually Is
 In this context, a platform is a shared internal system treated as a product that standardizes how software is built and operated. Many organizations refer to this as an internal developer platform (IDP). It provides self-service building blocks such as infrastructure definitions, pipeline scaffolding, and deployment workflows, expressed as versioned configuration so teams don’t need to recreate them or wait on manual provisioning. By packaging infrastructure as a product, the platform abstracts operational complexity and reduces cognitive load for developers.
 
-To enable developer self-service and reduce cognitive load by abstracting underlying infrastructure complexity.
-
 > Think of a platform team as a startup building an IDP for an internal market.
 
 ## Who the Platform Serves
