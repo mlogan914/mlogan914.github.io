@@ -33,7 +33,7 @@ Platform engineering addresses this by introducing shared internal systems that 
 ## What a Platform Actually Is
 In this context, a platform is a shared internal system treated as a product that standardizes how software is built and operated. Many organizations refer to this as an internal developer platform (IDP). It provides self-service building blocks such as infrastructure definitions, pipeline scaffolding, and deployment workflows, expressed as versioned configuration so teams don’t need to recreate them or wait on manual provisioning. By packaging infrastructure as a product, the platform abstracts operational complexity and reduces cognitive load for developers.
 
-> Think of a platform team as a startup building an IDP for an internal market.
+> 💡 Think of a platform team as a startup building an IDP for an internal market.
 
 ## Who the Platform Serves
 The primary customers of a platform team are the developers who build and operate software inside the organization. The platform exists to make their work safer, faster, and more predictable. In this sense, the platform team functions as a product team serving internal users.
@@ -45,10 +45,26 @@ When applied to data systems, these principles address similar problems. Data wo
 
 Platform engineering for data focuses on standardizing how pipelines, infrastructure, and operational concerns are handled, rather than standardizing the data itself. This includes how pipelines are created, how infrastructure is provisioned, how environments are configured, and how security and monitoring are handled. The result is a consistent foundation that supports diverse data use cases.
 
-## What This Looks Like in Practice
-In practice, this can look like defining cloud data warehouse infrastructure using infrastructure-as-code so environments, roles, and permissions are created the same way every time. It may also include providing standard pipeline templates for ingestion and transformation, enforcing consistent access patterns, and embedding monitoring and security defaults into the platform so teams do not need to implement these concerns individually.
+Here is a short "before vs after" contrast:
 
-A key aspect of this approach is shifting operational and security concerns earlier in the process. Instead of relying on manual reviews or team-specific implementations, security and compliance requirements are encoded directly into platform defaults. Teams move faster because guardrails are built into the systems they use.
+**Before platform engineering:**
+- Each team builds pipelines differently
+- Security reviews happen late
+- Monitoring is inconsistent
+- Environments drift
+
+**After platform engineering:**
+- Teams start from a template
+- Guardrails are built in
+- Environments are reproducible
+- Ops burden is centralized
+
+## What This Looks Like in Practice
+In practice, this can look like defining cloud data warehouse infrastructure using infrastructure-as-code so environments, roles, and permissions are created the same way every time. It may also include providing version-controlled pipeline templates that teams initialize when starting ingestion or transformation work, enforcing access patterns through shared identity and role modules, and applying standardized monitoring and security instrumentation through reusable platform components so teams do not need to implement these concerns individually.
+
+> 💡 The platform team defines the scaffolding and declarative configuration. Product teams supply intent and business logic.
+
+A key aspect of this approach is shifting operational and security concerns earlier in the process. Instead of relying on manual reviews or team-specific implementations, security and compliance requirements are encoded directly into platform defaults. Teams move faster because guardrails are built into the systems they start with.
 
 ## Why This Model Scales
 As data environments continue to grow in size and complexity, this model becomes increasingly necessary. It reduces duplication, clarifies ownership of shared concerns, and allows data teams to focus on problems that are specific to their data rather than rebuilding foundational systems.
