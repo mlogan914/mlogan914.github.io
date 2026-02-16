@@ -26,9 +26,10 @@ header:
 <p align="center">Image created by the author</p>
 
 ## The Limits of Traditional DevOps
-Platform engineering emerged as organizations reached the limits of traditional DevOps models. Traditional DevOps encouraged teams to own infrastructure and delivery pipelines end to end, and at small scale this autonomy worked well. However, As organizations scaled and cloud-native systems grew more complex, maintaining software began to outpace building it. Over time, infrastructure maintenance overtook product progress, increasing overhead and reducing consistency, security, and reliability.
+Platform engineering emerged as organizations reached the limits of traditional DevOps models. Traditional DevOps encouraged teams to own infrastructure and delivery pipelines end to end, and at small scale this autonomy worked well. However, as organizations scaled and cloud-native systems grew more complex, maintaining software began to outpace building it. Over time, infrastructure maintenance overtook product progress, increasing overhead and reducing consistency, security, and reliability.
 
 Platform engineering addresses this by introducing shared internal systems that standardize how work is built and operated. Rather than asking each team to assemble and maintain its own stack, platform teams provide supported building blocks that teams can rely on.
+
 
 ## What a Platform Actually Is
 In this context, a platform is a shared internal system treated as a product that standardizes how software is built and operated. Many organizations refer to this as an internal developer platform (IDP). It provides self-service building blocks such as infrastructure definitions, pipeline scaffolding, and deployment workflows, expressed as versioned configuration so teams don’t need to recreate them or wait on manual provisioning. By packaging infrastructure as a product, the platform abstracts operational complexity and reduces cognitive load for developers.
@@ -39,6 +40,18 @@ In this context, a platform is a shared internal system treated as a product tha
 The primary customers of a platform team are the developers who build and operate software inside the organization. The platform exists to make their work safer, faster, and more predictable. In this sense, the platform team functions as a product team serving internal users.
 
 There are also secondary customers: operations, security, and compliance functions that depend on the platform to enforce standards consistently. Leadership relies on it to improve delivery reliability and reduce organizational risk. These benefits are achieved indirectly through a better developer experience.
+
+The main point is that platform engineering is not DevOps with re-branded. It is a fundamental shift in how we think about infrastructure and developer productivity.
+
+**Traditional ops thinking is:**
+- How do we keep system running?
+- How do we respond to requests?
+- How do we manage infrastructure?
+
+**Platform engineers think of:**
+- How do we treat infrastructure as a product?
+- How do we enable developer self-service?
+- How do we reduce cognitive load for developers?
 
 ## Applying Platform Engineering to Data Systems
 When applied to data systems, these principles address similar problems. Data work often involves high variability in inputs, schemas, and outputs. This makes full reuse difficult. While data may vary, the systems that move, process, and operate it often follow the same patterns.
