@@ -26,7 +26,7 @@ header:
 <p align="center">Image created by the author</p>
 
 ## The Limits of Traditional DevOps
-Platform engineering emerged as organizations reached the limits of traditional DevOps models. Traditional DevOps encouraged teams to own infrastructure and delivery pipelines end to end, and at small scale this autonomy worked well. However, as organizations scaled and cloud-native systems grew more complex, maintaining software began to outpace building it. Over time, infrastructure maintenance overtook product progress, increasing overhead and reducing consistency, security, and reliability.
+Platform engineering emerged as organizations reached the limits of traditional DevOps models. Traditional DevOps encouraged teams to own infrastructure and delivery end to end, and at small scale this autonomy worked well. However, as organizations scaled and cloud-native systems grew more complex, maintaining software began to outpace building it. Over time, infrastructure maintenance overtook product progress, increasing overhead and reducing consistency, security, and reliability.
 
 Platform engineering addresses this by introducing shared internal systems that standardize how work is built and operated. Rather than asking each team to assemble and maintain its own stack, platform teams provide supported building blocks that teams can rely on.
 
@@ -56,7 +56,7 @@ The main point is that platform engineering is not DevOps with re-branded. It is
 ## Applying Platform Engineering to Data Systems
 When applied to data systems, these principles address similar problems. Data work often involves high variability in inputs, schemas, and outputs. This makes full reuse difficult. While data may vary, the systems that move, process, and operate it often follow the same patterns.
 
-Platform engineering for data focuses on standardizing how pipelines, infrastructure, and operational concerns are handled, rather than standardizing the data itself. This includes how pipelines are created, how infrastructure is provisioned, how environments are configured, and how security and monitoring are handled. The result is a consistent foundation that supports diverse data use cases.
+Platform engineering for data focuses on standardizing how pipelines, infrastructure, and operational concerns are handled. This includes how pipelines are created, how infrastructure is provisioned, how environments are configured, and how security and monitoring are handled. The result is a consistent foundation that supports diverse data use cases.
 
 Here is a short "before vs after" contrast:
 
