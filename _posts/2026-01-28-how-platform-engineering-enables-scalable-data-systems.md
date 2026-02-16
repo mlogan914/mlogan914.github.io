@@ -26,7 +26,7 @@ header:
 <p align="center">Image created by the author</p>
 
 ## The Limits of Traditional DevOps
-Platform engineering emerged as organizations reached the limits of traditional DevOps models. Traditional DevOps encouraged teams to own infrastructure and delivery end-to-end, and this autonomy work well at a small scale. However, the effort of maintaining software began to outpace building it as organizations scaled and cloud-native systems grew more complex. Maintaining infratructure overtook product progress over time, increasing overhead and reducing consistency, security, and reliability.
+Platform engineering emerged as organizations reached the limits of traditional DevOps models. Traditional DevOps encouraged teams to own infrastructure and delivery end-to-end, and this autonomy worked well at a small scale. However, the effort of maintaining software began to outpace building it as organizations scaled and cloud-native systems grew more complex. Maintaining infrastructure overtook product progress over time, increasing overhead and reducing consistency, security, and reliability.
 
 Platform engineering addresses this by introducing shared internal systems that standardize how work is built and operated. Platform teams provide supported building blocks that teams can rely on rather than asking each team to assemble and maintain its own stack.
 
@@ -43,7 +43,7 @@ There are also secondary customers: operations, security, and compliance functio
 The main point is that platform engineering is not DevOps re-branded. It is a fundamental shift in how we think about infrastructure and developer productivity.
 
 **Traditional ops thinking is:**
-- How do we keep system running?
+- How do we keep systems running?
 - How do we respond to requests?
 - How do we manage infrastructure?
 
@@ -72,7 +72,7 @@ Here is a short "before vs after" contrast:
 - Ops burden is centralized
 
 ## What This Looks Like in Practice
-This can look like defining cloud data warehouse infrastructure using infrastructure-as-code so environments, roles, and permissions are created the same way every time in practice. It may also include providing version-controlled pipeline templates that teams initialize when starting ingestion or transformation work, enforcing access patterns through shared identity and role modules, and applying standardized monitoring and security instrumentation through reusable platform components so teams do not need to implement these concerns individually.
+This can look like defining cloud data warehouse infrastructure using infrastructure-as-code so environments, roles, and permissions are created the same way every time. It may also include providing version-controlled pipeline templates that teams initialize when starting ingestion or transformation work, enforcing access patterns through shared identity and role modules, and applying standardized monitoring and security instrumentation through reusable platform components so teams do not need to implement these concerns individually.
 
 > 💡 The platform team defines the scaffolding and declarative configuration. Product teams supply the intent and business logic.
 
