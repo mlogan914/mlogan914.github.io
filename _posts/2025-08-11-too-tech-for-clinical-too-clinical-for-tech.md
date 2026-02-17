@@ -28,7 +28,7 @@ I work at the intersection of clinical research and modern engineering. One side
 Somehow, I'm *too tech for clinical* and *too clinical for tech*. And it's… a little like being bilingual in two dialects that don't think they need translators.
 
 ## The Clinical Side: "We Could Innovate… But Why Rush?"
-The clinical research world isn't opposed to innovation; it's just heavily optimized for stability and compliance. Change is slow because:  
+The clinical research world isn't opposed to innovation, but it's heavily optimized for stability and compliance. Change is slow because:  
 - Every new system must be validated.  
 - Every process must meet regulatory expectations.  
 - The stakes aren't just uptime and user retention; they're patient safety and data integrity.  
@@ -54,7 +54,7 @@ It's about:
 - Showing fast-moving engineers that not all obstacles are "technical debt" — some are guardrails that exist for a reason.  
 - Finding solutions that feel like progress to both sides, even if they define progress differently.  
 
-> *The bridge doesn't just connect two sides — it's what keeps progress alive.* ∞  
+> *The bridge does more than connect two sides. It keeps progress alive.* ∞  
 
 The bridge is the only thing that keeps them moving forward.
 
@@ -66,7 +66,7 @@ The bridge is the only thing that keeps them moving forward.
 
 Here's the point: being in the middle feels like speaking into the void.  
 
-The clinical side has the power to change but not the will — their incentives are tied to compliance, not transformation. The engineering side has the skills to change things but not the desire, since the complexity is too messy, the regulations too restrictive, and the work is too far removed from what they know.  
+The clinical side has the power to change but not the will — their incentives are tied to compliance, not transformation. The engineering side has the skills to change things but often lacks the incentive, since the complexity is messy, the regulations restrictive, and the work far removed from their usual domain.
 
 That leaves a very small group of people — people like me — who *both* understand the potential and care enough to try.  
 
@@ -81,7 +81,7 @@ In many cases, proven solutions already exist. Open-source and cloud-native tool
 
 And yet we rarely adopt them.
 
-The problem isn’t capability. It’s incentives.
+The constraint isn’t capability. It’s incentives.
 
 The vendor ecosystem around regulated healthcare optimizes first and foremost for passing audits. Compliance is essential, and no one disputes that. But compliance alone is not modern engineering discipline. A system can meet regulatory requirements and still remain architecturally fragile, difficult to integrate, and inefficient for users.
 
@@ -118,7 +118,7 @@ In this space, teams can:
 - Introduce improvements that feel safe to adopt.  
 - Build trust so larger changes become possible over time.  
 
-The goal is not but precision. It is about choosing the right improvements, earning buy-in, and maintaining security and compliance while the system evolves.
+The goal is not speed but precision. It is about choosing the right improvements, earning buy-in, and maintaining security and compliance while the system evolves.
 
 If you work in this space, you understand the tension. You also know that people who can bridge clinical operations and modern engineering remain rare and necessary.
 
