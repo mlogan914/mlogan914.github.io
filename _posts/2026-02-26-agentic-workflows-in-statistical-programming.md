@@ -263,11 +263,13 @@ As workflow awareness improves, teams gain clearer visibility into study executi
 
 ## Closing Thoughts
 
-Statistical programming already operates as a structured production workflow that evolves continuously throughout a clinical study. Agentic workflows introduce systems capable of participating within this environment by maintaining operational context and supporting coordination activities.
+Statistical programming already operates as a structured production workflow that evolves continuously throughout a clinical study. Agentic workflows describe a potential evolution of this environment, where systems maintain operational context and support coordination activities across study execution.
 
-Early adoption will likely begin with faster impact assessment, clearer execution flow, and improved continuity across study phases. Over time, these changes reshape how statistical programming work executes.
+This article presents a theoretical model of how such workflows could operate if these capabilities prove implementable in regulated environments. It remains an open question how workflow awareness and automation can be introduced safely, and the practical limits of these systems are still being actively evaluated.
 
-Statistical programming provides a strong environment for defining practical models of agentic workflows grounded in real operational needs.
+Early adoption would likely begin with incremental improvements such as faster impact assessment, clearer execution flow, and improved continuity across study phases. Over time, these changes could reshape how statistical programming work executes.
+
+Statistical programming provides a strong environment for exploring practical models of agentic workflows grounded in real operational needs.
 
 ---
 
