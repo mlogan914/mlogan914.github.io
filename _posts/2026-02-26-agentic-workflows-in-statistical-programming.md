@@ -69,6 +69,8 @@ Within statistical programming, a workflow might:
 
 The statistical programmer continues to define analytical intent and implement logic. The workflow maintains awareness across the study and supports progression as work evolves.
 
+>💡 I think of an *agentic workflow* as "orchestration with reasoning", building on the coordination model described in [Data Orchestration: The Conductor Behind the Pipelines](https://mlogan914.github.io/orchestration-the-conductor-behind-the-pipelines/).
+
 ## Iteration in Practice
 
 Statistical programming already depends on iterative execution. Teams rebuild datasets, review validation findings, adjust derivations, and rerun analyses until outputs meet study requirements.
