@@ -53,6 +53,8 @@ An agent is a system component that observes what is happening within an environ
 
 An agent does not replace human decision making. Instead, it maintains awareness of system state and assists by identifying changes, surfacing impacts, or coordinating next steps that would otherwise require manual investigation.
 
+> 💡 A true *AI agent* can dynamically select actions to achieve a goal, while an *agentic workflow* constrains how goals are pursued within a predefined operational structure.
+
 ## What Is an Agentic Workflow?
 
 An agentic workflow combines structured execution with systems that actively monitor progress and help move work forward.
@@ -69,7 +71,7 @@ Within statistical programming, a workflow might:
 
 The statistical programmer continues to define analytical intent and implement logic. The workflow maintains awareness across the study and supports progression as work evolves.
 
->💡 I think of an *agentic workflow* as "orchestration with reasoning", building on the coordination model described in [Data Orchestration: The Conductor Behind the Pipelines](https://mlogan914.github.io/orchestration-the-conductor-behind-the-pipelines/).
+> 💡 I think of an *agentic workflow* as "orchestration with reasoning", building on the coordination model described in [Data Orchestration: The Conductor Behind the Pipelines](https://mlogan914.github.io/orchestration-the-conductor-behind-the-pipelines/).
 
 ## Iteration in Practice
 
