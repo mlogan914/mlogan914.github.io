@@ -53,7 +53,9 @@ An agent is a system component that observes what is happening within an environ
 
 An agent does not replace human decision making. Instead, it maintains awareness of system state and assists by identifying changes, surfacing impacts, or coordinating next steps that would otherwise require manual investigation.
 
-> 💡 A true *AI agent* can dynamically select actions to achieve a goal, while an *agentic workflow* constrains how goals are pursued within a predefined operational structure.
+> 💡 A true *AI agent* operates from a goal and dynamically determines actions to achieve it. An *agentic workflow*, by contrast, embeds limited reasoning within a predefined operational structure.
+
+This distinction matters because most near-term enterprise adoption will resemble agentic workflows rather than fully autonomous agents.
 
 ## What Is an Agentic Workflow?
 
