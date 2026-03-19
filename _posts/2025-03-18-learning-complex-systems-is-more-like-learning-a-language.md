@@ -10,8 +10,8 @@ tags:
 layout: single
 # classes: wide
 
-# header:
-#   teaser: /assets/images/learning_complex_systems_language_.png
+header:
+  teaser: /assets/images/learning_complex_systems_language_.png
 ---
 
 <div class="notice--info">
