@@ -5,7 +5,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Career Development
 tags:
-  - Platform Engineering
+  - Data & Platform Engineering
 
 layout: single
 # classes: wide
@@ -34,7 +34,7 @@ I was reminded of this idea while watching a talk at DevOps Days 2026 by **Josh 
 
 In the talk, Lee frames DevOps as something closer to a language than a set of tools. He connects DevOps learning to research on second-language acquisition, suggesting that becoming effective in DevOps requires absorbing a large amount of implicit knowledge about systems, workflows, and operational culture.
 
-> You can watch the full talk [HERE.](https://www.youtube.com/watch?v=058eX3byv6s)
+> ▶️ [Watch the talk](https://www.youtube.com/watch?v=058eX3byv6s)
 
 One example from the talk illustrated this idea particularly well. Lee asked the audience a simple question:
 
