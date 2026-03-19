@@ -26,9 +26,9 @@ header:
 
 Many technical domains that involve complex systems share a common challenge.
 
-The tools and specifications are only part of the picture. Much of the real expertise comes from the surrounding context and patterns that people gradually absorb through experience.
+The tools and specifications are only part of the picture. Much of the real expertise comes from the surrounding context and edge cases that are gradually absorbed through experience.
 
-Over time, people begin to recognize how pieces fit together, which decisions matter most, and how systems behave in practice. This understanding often develops slowly and is difficult to capture fully in documentation.
+Over time, people begin to recognize how pieces fit together, which decisions matter most, and how systems behave in production. This understanding often develops slowly and is difficult to capture fully in documentation.
 
 I was reminded of this idea while watching a talk at DevOps Days 2026 by **Josh Lee** titled *DevOps is a Foreign Language*. At one point, he showed the [CNCF Cloud Native Landscape](https://landscape.cncf.io/) to illustrate the scale and complexity of what engineers are expected to navigate.
 
@@ -51,7 +51,7 @@ When Lee asked the audience how they knew which command to use, most people simp
 
 This is exactly the kind of knowledge that accumulates over time when working in complex systems. It is not always captured explicitly in documentation, but it becomes part of the mental model people develop through *repeated exposure*.
 
-This is what makes learning can feel difficult. Much of what is required is not immediately visible, and often only becomes clear through experience.
+This is what makes learning feel difficult. Much of what is required is not immediately visible, and often only becomes clear through experience.
 
 Although the talk focuses on DevOps, the idea applies to many technical fields that involve complex systems and similar learning curves. Learning technologies such as Kubernetes, CI/CD tooling, or infrastructure platforms is only one part of the process. The deeper challenge is building the mental models that allow these tools to make sense together.
 

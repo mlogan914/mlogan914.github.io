@@ -164,6 +164,14 @@ blockquote {
   border-color: #374151;
 }
 
+// #Added to overwite code block formatiing
+code {
+  color: #222;           // darker text
+  background-color: #f5f5f5; // subtle background
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
 /* Header */
 .page__content table thead th {
   background-color: #1f2937;
