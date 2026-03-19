@@ -36,7 +36,9 @@ In the talk, Lee frames DevOps as something closer to a language than a set of t
 
 > ▶️ [Watch the talk](https://www.youtube.com/watch?v=058eX3byv6s)
 
-One example from the talk illustrated this idea particularly well. Lee asked the audience a simple question:
+---
+
+One example illustrated this idea particularly well. Lee asked the audience a simple question:
 
 **How do you check the Docker version installed on your system?**
 
