@@ -151,6 +151,7 @@ flowchart TD
 ---
 
 ## Engagement at A Glance
+
 | Item | Details |
 |---|---|
 | Duration | 2–3 weeks |
