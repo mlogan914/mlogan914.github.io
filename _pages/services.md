@@ -7,11 +7,11 @@ layout: single
 *by Nexaform*
 
 <div class="notice--info">
-  See exactly how your data moves — and where it’s getting stuck — before you make your next move.
+  See exactly how your data moves — and where it's getting stuck — before you make your next move.
 </div>
 
 <div class="notice--info" markdown="1">
-  **Note:** This is a pilot version of Data Clarity Audit, designed to be a focused, high-impact engagement. I’m currently offering it to a small number of organizations as I refine the process. If you’re interested in being part of the pilot or discussing future availability, feel free to get in touch.
+  **Note:** This is a pilot version of Data Clarity Audit, designed to be a focused, high-impact engagement. I'm currently offering it to a small number of organizations as I refine the process. If you're interested in being part of the pilot or discussing future availability, feel free to get in touch.
 </div>
 
 
@@ -29,25 +29,25 @@ In many organizations, data is scattered across systems, teams, and vendors. You
 - **Unclear ownership** and “hidden” upstream dependencies that break things unexpectedly  
 
 **Most often, I see this in:**
-- Healthcare, life sciences, and other regulated industries where processes are high-stakes but fragmented  
+- Healthcare, life sciences, and other regulated industries where processes are high-stakes but siloed  
 - Distributed teams with multiple vendors or complex reporting requirements  
 - Fast-moving organizations where every team adds tools without a central plan
 
-**Leaders know there’s a problem — but not**:
+**Leaders know there's a problem — but not**:
 - What data they actually have  
-- Where it’s coming from  
+- Where it's coming from  
 - How it flows (or fails to flow) between people and systems  
 - Which fixes will matter most  
 
-Without this clarity, teams waste time, duplicate work, and make decisions on unreliable information.  
-That’s where I come in — giving you a clear picture of your data and where to focus first.
+Without this clarity, teams perform duplicate work, and make decisions on unreliable information.  
+I can give you a clear picture of your data and where to focus first.
 
 ---
 
 ## What You Get
 A short, focused **advisory engagement (2–3 weeks)** designed to give you clarity fast.  
 
-By the end, you’ll have a **complete picture of your current data reality** and a **clear path to the biggest improvements**.
+By the end, you'll have a **complete picture of your current data reality** and a **clear path to the biggest improvements**.
 
 **1 - Current-State Data Map** — A clear, visual diagram of your systems, data sources, and handoffs so everyone sees the same picture.  
    *Example (fictional & anonymized)*:
@@ -151,7 +151,6 @@ flowchart TD
 ---
 
 ## Engagement at A Glance
-
 | Item | Details |
 |---|---|
 | Duration | 2–3 weeks |
@@ -161,10 +160,10 @@ flowchart TD
 
 ---
 
-## Who It’s For
+## Who It's For
 Best fit for teams that:
 - **Feel overwhelmed** by the complexity or volume of their data  
-- **Aren’t sure** how data really moves between people, systems, and vendors  
+- **Aren't sure** how data really moves between people, systems, and vendors  
 - **Want clarity first** — before investing in new tools or hiring more staff  
 - Need a **fast, low-risk way** to identify their biggest opportunities
 
@@ -174,8 +173,8 @@ Especially valuable for:
 
 ---
 
-## Who It’s Not For
-Not a fit if you’re only:
+## Who It's Not For
+Not a fit if you're only:
 - Looking for a single tool/software recommendation  
 - Expecting hands-on implementation during this short engagement  
 
@@ -192,14 +191,14 @@ Not a fit if you’re only:
 ---
 
 ## Why It Works
-- **Independent view** — No vendor bias or software upsell  
-- **Approachable & visual** — Clear diagrams and explanations anyone can follow  
-- **Actionable** — You leave with a prioritized plan you can start using right away, not a vague wishlist  
+- **Independent** — No vendor bias or software upsell  
+- **Visual** — Clear diagrams and explanations anyone can follow  
+- **Actionable** — You leave with a prioritized plan you can start using right away 
 
 ---
 
 ## About Me
-I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Programmer) who has spent years mapping and improving data flows in complex environments. I bridge the gap between day-to-day operations and long-term strategy, helping teams cut through complexity and create data systems that actually work for them.
+I'm **Melanie Logan** — a Data Platform Engineer (and former Statistical Programmer) who has spent years mapping and improving data flows in complex environments. I bridge the gap between day-to-day operations and long-term strategy, helping teams cut through complexity and build data systems that are consistent, scalable, and usable in practice.
 
 ---
 
@@ -210,4 +209,4 @@ I’m **Melanie Logan** — a Data Platform Engineer (and former Statistical Pro
 
 ---
 
-> *All services are offered independently, using my own time, tools, and resources, and are not performed on behalf of or in affiliation with my current employer. No proprietary information, methods, or logic from my current or former employers is used. I do not engage with my current employer’s customers, potential customers, or competitors as part of these services.*
+> *All services are offered independently, using my own time, tools, and resources, and are not performed on behalf of or in affiliation with my current employer. No proprietary information, methods, or logic from my current or former employers is used. I do not engage with my current employer's customers, potential customers, or competitors as part of these services.*
