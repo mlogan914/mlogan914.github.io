@@ -58,3 +58,5 @@ I believe clinical data workflows are beginning to face many of the same pressur
 AI may eventually assist many parts of clinical programming in meaningful ways. However, sustainable automation becomes significantly more realistic when the surrounding workflow is structured, standardized, and easier to validate.
 
 For me, that is currently the more interesting engineering problem.
+
+> **Disclaimer:** This article reflects my personal views only and is for informational purposes. It does not represent professional advice or the positions of any past or current employer. No confidential or proprietary information is shared, and I disclaim all liability for how you use its content. Third-party links or tool mentions are not endorsements.
