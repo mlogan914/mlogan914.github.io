@@ -51,6 +51,45 @@ Conceptually, the architecture separates:
 
 The goal is to reduce the amount of repetitive infrastructure work surrounding the programming itself.
 
+At a high level, I imagine the workflow evolving toward a reusable platform-style operational model where metadata ingestion, scaffolding generation, validation, and execution pipelines become standardized workflow layers, while programmers focus primarily on study-specific derivations, business logic, and clinical edge cases.
+
+```mermaid
+flowchart TD
+
+    A[Programmer Assigned Study] --> B[Initialize Study Workspace]
+
+    B --> C[Generate Folder Structure]
+    C --> D[Generate Base Config Files]
+
+    D --> E[Pull SDTM Metadata<br/>from CDISC API]
+
+    E --> F[ODM-XML / ODM-JSON Extraction]
+
+    F --> G[Metadata Matching + Normalization]
+
+    G --> H[Generate SDTM Scaffolding]
+
+    H --> I[Programmer Reviews Scaffold + Specs]
+
+    subgraph Programmer_Contribution["Programmer Contribution Layer"]
+        I --> J[Create Standard Derivation Injections]
+        I --> K[Create Custom Derivation Injections]
+        I --> L[Adjust Configurations / Rules]
+    end
+
+    J --> M[Execute dbt Workflow]
+    K --> M
+    L --> M
+
+    M --> N[Validation + CI/CD Checks]
+
+    N --> O[Standardized SDTM Outputs]
+
+    O --> P[Review / Iteration]
+```
+
+In this model, programmers remain responsible for study-specific derivations, business logic, and clinical edge cases. The difference is that much of the repetitive structural setup work surrounding those activities becomes standardized through reusable workflow layers, metadata-driven scaffolding, validation checkpoints, and execution pipelines.
+
 In many software domains, abstraction layers evolved because repeatedly rebuilding the same structural patterns became operationally inefficient. Frameworks, reusable modules, infrastructure-as-code, CI/CD pipelines, and platform engineering practices emerged to standardize workflow structure while allowing teams to focus on the logic unique to their problem space.
 
 I believe clinical data workflows are beginning to face many of the same pressures.
