@@ -36,7 +36,7 @@ For that reason, I do not think the primary bottleneck in clinical data moderniz
 
 Adding additional layers of automation or AI on top of inefficient workflow architecture risks increasing long-term technical debt.
 
-To me, the larger challenge is *operational design*.
+> To me, the larger challenge is *operational design*.
 
 This thought process has heavily influenced the direction of my [SDTM Blueprint-as-a-Service project](https://github.com/mlogan914/sdtm-blueprint-as-a-service). The project explores how metadata-driven architecture and reusable workflow structures can reduce repetitive structural work while preserving the study-specific logic and interpretation required for clinical programming.
 
