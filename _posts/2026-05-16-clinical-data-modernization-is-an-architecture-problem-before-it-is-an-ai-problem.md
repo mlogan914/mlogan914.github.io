@@ -11,7 +11,7 @@ layout: single
 # classes: wide
 
 header:
-  teaser: /assets/images/clinical-data-modernization-is-an-architecture-problem.png
+  teaser: /assets/images/clinical-data-modernization-is-an-architecture-problem2.png
 ---
 
 <div class="notice--info">
