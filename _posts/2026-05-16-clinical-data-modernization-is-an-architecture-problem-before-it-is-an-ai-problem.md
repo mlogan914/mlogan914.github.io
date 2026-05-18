@@ -61,7 +61,7 @@ flowchart TD
     B --> C[Generate Folder Structure]
     C --> D[Generate Base Config Files]
 
-    D --> E[Pull SDTM Metadata<br/>from CDISC API]
+    D --> E[Pull CDISC API Metadata]
 
     E --> F[ODM-XML / ODM-JSON Extraction]
 
@@ -71,7 +71,7 @@ flowchart TD
 
     H --> I[Programmer Reviews Scaffold + Specs]
 
-    subgraph Programmer_Contribution["Programmer Contribution Layer"]
+    subgraph Programmer["Programmer Layer"]
         I --> J[Create Standard Derivation Injections]
         I --> K[Create Custom Derivation Injections]
         I --> L[Adjust Configurations / Rules]
