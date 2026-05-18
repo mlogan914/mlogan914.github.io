@@ -18,7 +18,7 @@ header:
 This article explains why I believe clinical data modernization is currently more constrained by workflow architecture, reuse, and operational design than by a lack of AI capability, and how that thinking influenced the direction of my metadata-driven SDTM Blueprint-as-a-Service project.
 </div>
 
-<img src="/assets/images/clinical-data-modernization-is-an-architecture-problem.png" alt="clinical data modernization is an architecture problem"/>
+<img src="/assets/images/clinical-data-modernization-is-an-architecture-problem2.png" alt="clinical data modernization is an architecture problem"/>
 
 <p align="center">Image created by the author</p>
 
