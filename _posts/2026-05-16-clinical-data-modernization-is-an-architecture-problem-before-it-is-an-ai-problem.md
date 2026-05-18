@@ -8,7 +8,7 @@ categories:
 #   - 
 
 layout: single
-# classes: wide
+classes: wide
 
 header:
   teaser: /assets/images/clinical-data-modernization-is-an-architecture-problem2.png
