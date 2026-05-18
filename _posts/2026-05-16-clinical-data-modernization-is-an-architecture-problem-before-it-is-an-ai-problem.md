@@ -12,6 +12,7 @@ layout: single
 
 header:
   teaser: /assets/images/clinical-data-modernization-is-an-architecture-problem2.png
+  og_image: /assets/images/clinical-data-modernization-is-an-architecture-problem2.png
 image: /assets/images/clinical-data-modernization-is-an-architecture-problem2.png
 ---
 
